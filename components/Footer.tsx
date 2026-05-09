@@ -4,7 +4,7 @@ import { proceduri } from "@/lib/proceduri";
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-brand-navy)] text-white mt-28">
+    <footer className="bg-[var(--color-brand-navy)] text-white">
       <div className="container-wide pt-20 pb-24 lg:pt-24 lg:pb-28 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <div className="font-display text-xl mb-3 leading-tight">Dr. Diana Gheorghiță</div>
