@@ -51,7 +51,7 @@ export default function HomePage() {
       />
 
       {/* HERO */}
-      <section className="bg-[var(--color-brand-cream)] border-b border-zinc-200 overflow-hidden">
+      <section className="section-glow border-b border-zinc-200 overflow-hidden">
         <div className="container-wide pt-20 pb-16 lg:pt-28 lg:pb-24 grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           <div className="lg:col-span-7">
             <div className="eyebrow mb-4">ISAPS · 10+ ani · clinică privată acreditată</div>
@@ -120,7 +120,7 @@ export default function HomePage() {
             { icon: ShieldCheck, label: "Membră", value: "ISAPS" },
             { icon: Users, label: "Recenzii Google", value: `${SITE.trust.rating}/5` }
           ].map((s, idx) => (
-            <div key={idx} className="bg-white border border-zinc-200 rounded-xl p-5 text-center">
+            <div key={idx} className="card-premium p-6 text-center">
               <s.icon className="w-7 h-7 mx-auto text-[var(--color-brand-gold)] mb-2" />
               <div className="text-2xl font-display font-semibold text-[var(--color-brand-navy)]">{s.value}</div>
               <div className="text-xs uppercase tracking-wide text-zinc-500 mt-1">{s.label}</div>
@@ -148,7 +148,7 @@ export default function HomePage() {
       </section>
 
       {/* DE CE DR DIANA */}
-      <section className="bg-[var(--color-brand-cream)] border-y border-zinc-200">
+      <section className="section-glow border-y border-zinc-200">
         <div className="container-wide py-16">
           <h2 className="text-3xl font-display font-semibold text-center mb-10">De ce Dr. Diana</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -169,7 +169,7 @@ export default function HomePage() {
                 text: "Peste 1.000 de proceduri intime efectuate. Fiecare pagină include cifre reale și surse din reviste medicale internaționale (BJU, J Sex Med, AUA, EAU)."
               }
             ].map((c, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-xl border border-zinc-200">
+              <div key={idx} className="card-premium p-7">
                 <c.icon className="w-8 h-8 text-[var(--color-brand-gold)] mb-3" />
                 <h3 className="font-display text-xl font-semibold text-[var(--color-brand-navy)] mb-2">{c.title}</h3>
                 <p className="text-zinc-700">{c.text}</p>
@@ -186,7 +186,7 @@ export default function HomePage() {
           Fără adjective senzaționaliste. Doar cifre și surse din literatura medicală internațională.
         </p>
         <div className="grid md:grid-cols-2 gap-5">
-          <div className="bg-white border border-zinc-200 rounded-xl p-6">
+          <div className="card-premium p-7">
             <div className="text-xs uppercase tracking-wide text-zinc-500 mb-2">Lungime medie globală în erecție</div>
             <div className="text-4xl font-display font-semibold text-[var(--color-brand-navy)] mb-1">13,12 cm</div>
             <div className="text-sm text-zinc-600">±1,66 cm. Studiu pe n=15.521 bărbați.</div>
@@ -197,7 +197,7 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="bg-white border border-zinc-200 rounded-xl p-6">
+          <div className="card-premium p-7">
             <div className="text-xs uppercase tracking-wide text-zinc-500 mb-2">Succes Nesbit pe curburi &lt;60°</div>
             <div className="text-4xl font-display font-semibold text-[var(--color-brand-navy)] mb-1">80-100%</div>
             <div className="text-sm text-zinc-600">Cu pierdere de lungime 0,5-2 cm.</div>
@@ -253,7 +253,7 @@ export default function HomePage() {
               { age: "M, 52 ani", text: "Trei ani de Peyronie cu durere și curbură progresivă. După Nesbit am putut relua viața normală. Ca pierdere de lungime — exact cum a anticipat.", proc: "Tehnica Nesbit" },
               { age: "M, 28 ani", text: "Făcusem o greșeală cu kanamicina la 22 de ani. Dr. Diana a fost prima care mi-a spus în față că trebuie scoasă, fără să mă judece. Am refăcut lucrurile.", proc: "Extracție kanamicina + lipofilling" }
             ].map((t, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-xl border border-zinc-200">
+              <div key={idx} className="card-premium p-7">
                 <Quote className="w-6 h-6 text-[var(--color-brand-gold)] mb-3" />
                 <p className="text-zinc-700 italic mb-3">{t.text}</p>
                 <div className="text-xs text-zinc-500">
@@ -266,7 +266,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div className="container-wide">
+      <div className="container-wide py-12 lg:py-16">
         <CTABanner />
       </div>
     </>
