@@ -9,7 +9,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/proceduri`, lastModified: today, changeFrequency: "weekly", priority: 0.95 },
     { url: `${SITE.url}/despre`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE.url}/de-ce-medic-femeie`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
-    { url: `${SITE.url}/clinica-pogany`, lastModified: today, changeFrequency: "monthly", priority: 0.75 },
     { url: `${SITE.url}/discretie`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE.url}/programare`, lastModified: today, changeFrequency: "monthly", priority: 0.95 },
     { url: `${SITE.url}/preturi`, lastModified: today, changeFrequency: "weekly", priority: 0.9 },
