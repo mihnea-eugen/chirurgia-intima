@@ -2,7 +2,7 @@ import { SITE } from "./site";
 import type { Procedure } from "./proceduri";
 
 const PHYSICIAN_ID = `${SITE.url}/#physician-diana`;
-const CLINIC_ID = `${SITE.url}/#clinic-pogany`;
+const CLINIC_ID = `${SITE.url}/#clinic`;
 const ORG_ID = `${SITE.url}/#organization`;
 const WEBSITE_ID = `${SITE.url}/#website`;
 
