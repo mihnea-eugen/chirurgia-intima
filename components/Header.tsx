@@ -9,7 +9,7 @@ const navItems = [
   { href: "/proceduri", label: "Proceduri" },
   { href: "/despre", label: "Despre Dr. Diana" },
   { href: "/discretie", label: "Discreție" },
-  { href: "/preturi", label: "Preț" },
+  { href: "/preturi", label: "Prețuri" },
   { href: "/contact", label: "Contact" }
 ];
 
