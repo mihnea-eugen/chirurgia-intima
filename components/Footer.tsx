@@ -5,7 +5,7 @@ import { proceduri } from "@/lib/proceduri";
 export default function Footer() {
   return (
     <footer className="bg-[var(--color-brand-navy)] text-white mt-24">
-      <div className="container-wide py-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="container-wide pt-16 pb-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <div className="font-display text-xl mb-3 leading-tight">Dr. Diana Gheorghiță</div>
           <div className="eyebrow text-[var(--color-brand-gold-soft)] mb-3">Chirurgie intimă masculină</div>
@@ -34,7 +34,6 @@ export default function Footer() {
           <ul className="footer-list">
             <li><Link href="/despre">Despre Dr. Diana</Link></li>
             <li><Link href="/de-ce-medic-femeie">De ce medic femeie</Link></li>
-            <li><Link href="/clinica-pogany">Clinica Pogany</Link></li>
             <li><Link href="/discretie">Discreție și GDPR</Link></li>
             <li><Link href="/intrebari-frecvente">Întrebări frecvente</Link></li>
             <li><Link href="/dictionar-termeni">Dicționar termeni</Link></li>
@@ -47,7 +46,7 @@ export default function Footer() {
           <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--color-brand-gold-soft)] mb-4">Contact</div>
           <ul className="footer-list">
             <li className="text-white/85 text-sm leading-relaxed">
-              {SITE.clinic.name}<br />
+              Clinică privată acreditată<br />
               {SITE.clinic.streetAddress}<br />
               {SITE.clinic.addressLocality}, România
             </li>

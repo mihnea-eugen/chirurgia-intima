@@ -41,7 +41,6 @@ const procedureGroups: { heading: string; items: ProcedureLink[] }[] = [
 const aboutLinks = [
   { href: "/despre", label: "Despre Dr. Diana", meta: "Bio, ISAPS, Carol Davila" },
   { href: "/de-ce-medic-femeie", label: "De ce medic femeie", meta: "Diferențiator clinic" },
-  { href: "/clinica-pogany", label: "Clinica Pogany", meta: "Locație și echipă" },
   { href: "/discretie", label: "Discreție și GDPR", meta: "Protocol confidențialitate" }
 ];
 

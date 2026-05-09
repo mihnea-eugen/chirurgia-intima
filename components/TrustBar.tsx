@@ -15,7 +15,7 @@ export default function TrustBar() {
         <span className="opacity-40">·</span>
         <span>Membră ISAPS</span>
         <span className="opacity-40">·</span>
-        <span>Clinica Pogany</span>
+        <span>clinică privată acreditată</span>
       </div>
     </div>
   );
