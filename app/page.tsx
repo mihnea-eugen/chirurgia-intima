@@ -52,7 +52,7 @@ export default function HomePage() {
 
       {/* HERO */}
       <section className="section-glow border-b border-zinc-200 overflow-hidden">
-        <div className="container-wide pt-20 pb-16 lg:pt-28 lg:pb-24 grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div className="container-wide pt-[8rem] pb-[5rem] lg:pt-[10rem] lg:pb-[7rem] grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           <div className="lg:col-span-7">
             <div className="eyebrow mb-4">ISAPS · 10+ ani · clinică privată acreditată</div>
             <h1 className="font-display leading-[1.1] mb-5">
