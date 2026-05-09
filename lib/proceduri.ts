@@ -330,6 +330,103 @@ export const proceduri: Procedure[] = [
     ]
   },
   {
+    slug: "fimoza",
+    title: "Fimoza la adulți și copii",
+    h1: "Fimoza — cauze, simptome, tratament conservator și chirurgical",
+    category: "preput",
+    procedureType: "TherapeuticProcedure",
+    metaTitle: "Fimoza București, tratament adulți și copii | Cauze, simptome, operație | Dr. Diana",
+    metaDescription: "Fimoza la adulți și copii, ghid complet la Dr. Diana Gheorghiță, București. Cauze, simptome, tipuri (fiziologică, patologică, BXO/lichen scleros), tratament conservator cu unguente sau chirurgical (circumcizie, preputioplastie). Preț, recuperare.",
+    primaryKeyword: "fimoza",
+    searchVolume: "8.100/lună",
+    intent: "Informational+commercial",
+    bodyLocation: "preput peniann",
+    alternateName: ["preput strâns", "fimoză cicatricială", "BXO", "lichen scleros"],
+    shortDescription: "Imposibilitatea retragerii prepuțului peste gland. Fiziologică la sugari, patologică la adulți. Tratament: conservator (unguente cu corticosteroizi) sau chirurgical (circumcizie, preputioplastie).",
+    lead: "Fimoza este imposibilitatea sau dificultatea de a retrage prepuțul peste glandul penisului. La sugari și copii mici sub 5 ani este fiziologică (normală) și se rezolvă spontan în 90% din cazuri până la pubertate. La adulți și adolescenți după pubertate este patologică, fiind cauzată cel mai frecvent de balanită recurentă, lichen scleros (BXO) sau cicatrice post-decalotare forțată. Tratamentul depinde de cauză și severitate: conservator cu unguente cu corticosteroizi (mometazonă, betametazonă) timp de 4-8 săptămâni — eficient în 60-70% cazuri fără BXO — sau chirurgical (circumcizie completă pentru BXO și fimoză strânsă, preputioplastie pentru fimoză moderată cu prepuț estetic conservat). Dr. Diana Gheorghiță oferă consultație individualizată cu plan terapeutic adaptat cauzei.",
+    cost: "Consultație 350 RON, tratament chirurgical 1.500-2.500 EUR",
+    duration: "30-60 min (chirurgical)",
+    recovery: "5-7 zile (chirurgical), conservator fără recuperare",
+    anesthesia: "Locală sau regională",
+    hospitalStay: "Externare aceeași zi (chirurgical)",
+    sexualActivity: "Reluare după 4-6 săptămâni post-chirurgie",
+    whatIs: "Fimoza reprezintă îngustarea prepuțului care împiedică decalotarea (descoperirea) completă a glandului penian. Există două forme principale: fimoza fiziologică, prezentă natural la nou-născuți și sugari datorită aderențelor congenitale dintre prepuț și gland, și fimoza patologică, dobândită la adulți prin cicatrizare (BXO/lichen scleros), balanite repetate sau decalotare forțată traumatică. Diagnosticul este clinic, prin examinarea capacității de retragere a prepuțului în repaus și erecție.",
+    whenIndicated: [
+      "Imposibilitatea retragerii prepuțului peste gland la adulți și adolescenți",
+      "Durere la decalotare sau erecție",
+      "Balanită recurentă (>3 episoade/an)",
+      "Lichen scleros (BXO) confirmat clinic sau bioptic",
+      "Parafimoză recurentă",
+      "Probleme de igienă din cauza prepuțului strâns",
+      "Disconfort sau durere în timpul actului sexual"
+    ],
+    whenNotIndicated: [
+      "Fimoză fiziologică la copii sub 5 ani fără simptome (așteptare)",
+      "Aderențe ușoare prepuțiale fără îngustare adevărată",
+      "Hipospadias necorectat (necesită alt tratament)",
+      "Infecție acută activă (tratament infecție mai întâi)"
+    ],
+    procedureSteps: [
+      { title: "Consultație și diagnostic", description: "Examen clinic, evaluare grad fimoză (1-4), diferențiere fiziologic vs patologic, biopsie dacă suspiciune BXO." },
+      { title: "Tratament conservator (linia 1)", description: "Unguente cu corticosteroizi topici (mometazonă 0.1% sau betametazonă 0.05%) aplicate 2x/zi 4-8 săptămâni + decalotare progresivă blândă. Eficient 60-70% cazuri fără BXO." },
+      { title: "Tratament chirurgical conservator", description: "Preputioplastie: lărgire chirurgicală a prepuțului prin incizie longitudinală cu sutură transversală. Indicat fimoză moderată fără BXO, conservă prepuțul." },
+      { title: "Tratament chirurgical radical", description: "Circumcizie completă: excizie totală a prepuțului. Indicat fimoză strânsă cicatricială, BXO/lichen scleros confirmat, balanită recurentă severă." },
+      { title: "Recuperare și control", description: "Pansament steril, antibiotic profilactic, control la 7 zile, 1 lună, 3 luni." }
+    ],
+    facts: [
+      { label: "Prevalență fimoză patologică adulți", value: "1-2%", source: "European Association of Urology 2024" },
+      { label: "Fimoză fiziologică nou-născuți", value: "96%", source: "AAP 2012" },
+      { label: "Rezolvare spontană la copii până la 5 ani", value: "90%", source: "AAP 2012" },
+      { label: "Rezolvare spontană până la pubertate", value: "99%", source: "AAP 2012" },
+      { label: "Eficiență corticosteroizi topici", value: "60-70%", source: "Cochrane Review 2014" },
+      { label: "Cazuri BXO/lichen scleros la adulți cu fimoză", value: "30-40%", source: "BJU Int 2019" },
+      { label: "Recuperare post-circumcizie", value: "5-7 zile" },
+      { label: "Cost consultație Dr. Diana", value: "350 RON" }
+    ],
+    recovery_timeline: [
+      { period: "Tratament conservator", title: "4-8 săptămâni", description: "Aplicare unguent corticosteroid 2x/zi + decalotare progresivă blândă. Evaluare la 4 săptămâni, decizie chirurgicală dacă fără răspuns." },
+      { period: "Post-circumcizie zilele 1-3", title: "Disconfort moderat", description: "Paracetamol/ibuprofen, pansament steril, igienă locală." },
+      { period: "Post-circumcizie săpt. 1", title: "Cicatrizare incipientă", description: "Reluare activitate sedentară. Evitare efort fizic." },
+      { period: "Post-circumcizie săpt. 2-3", title: "Cicatrizare avansată", description: "Suturi resorbabile cad (14-28 zile). Control medical." },
+      { period: "Post-circumcizie săpt. 4-6", title: "Reluare activitate sexuală", description: "Permisă cu prudență după acordul medicului." }
+    ],
+    risks: [
+      { title: "Eșec tratament conservator", description: "30-40% cazuri necesită ulterior chirurgie." },
+      { title: "BXO/lichen scleros nedignosticat", description: "Risc transformare malignă <1% (carcinom scuamos penian). Necesită biopsie + circumcizie obligatorie." },
+      { title: "Recurență cicatricială", description: "Risc 5-10% după preputioplastie. Soluție: circumcizie." },
+      { title: "Parafimoză", description: "Urgență medicală — prepuț retractat blocat. Necesită reducere manuală sau incizie." }
+    ],
+    alternatives: [
+      { title: "Decalotare progresivă", description: "La sugari și copii sub 5 ani fără simptome — așteptare cu igienă blândă." },
+      { title: "Unguente cu corticosteroizi", description: "Linia 1 la adolescenți și adulți fără BXO. Eficient 60-70%." },
+      { title: "Preputioplastie", description: "Conservă prepuțul. Indicată fimoză moderată fără BXO." },
+      { title: "Circumcizie completă", description: "Standard pentru BXO, fimoză strânsă cicatricială, balanită recurentă." }
+    ],
+    faqs: [
+      { q: "Cum tratezi fimoza la adulți fără operație?", a: "Linia 1 este unguent cu corticosteroizi topici (mometazonă 0.1% sau betametazonă 0.05%) aplicat 2x/zi timp de 4-8 săptămâni, asociat cu decalotare progresivă blândă. Eficient în 60-70% din cazuri la adulți fără BXO/lichen scleros. Dacă nu răspunde, se recomandă chirurgie." },
+      { q: "Care sunt simptomele fimozei la adulți?", a: "Imposibilitatea retragerii prepuțului peste gland în repaus sau erecție, durere la decalotare, durere în timpul actului sexual, balanite recurente (inflamații glandului), pete albe pe prepuț (semn BXO), urinare cu jet îngustat, dificultăți de igienă." },
+      { q: "Ce este BXO sau lichen scleros pe penis?", a: "Balanita Xerotica Obliterans (BXO) sau lichen scleros peniann este o afecțiune dermatologică cronică inflamatorie care produce cicatrici albe pe prepuț și gland, ducând la fimoză strânsă progresivă. Apare la 30-40% din adulții cu fimoză. Risc transformare malignă <1%. Tratament: circumcizie completă obligatorie + biopsie dermatologică." },
+      { q: "Diferența între fimoză și parafimoză?", a: "Fimoza este imposibilitatea retragerii prepuțului peste gland. Parafimoza este situația când prepuțul retractat rămâne blocat în spatele coronei glandului, producând edem și durere severă. Parafimoza este urgență medicală — necesită reducere manuală imediată sau, în cazuri severe, incizie dorsală urmată de circumcizie programată." },
+      { q: "Cât costă operația de fimoză la adulți în București?", a: "Tratamentul conservator (unguente) costă 100-200 RON medicament + 350 RON consultație. Circumcizia chirurgicală costă 1.500-2.500 EUR la Dr. Diana Gheorghiță (anestezie locală, externare aceeași zi). Preputioplastie 1.200-2.000 EUR. Prețul include consultație, intervenție, anestezie, sutură, pansamente, controale post-op." },
+      { q: "Fimoza la copii — când e cazul de operație?", a: "Sub 5 ani: niciodată dacă nu există simptome (fimoza fiziologică se rezolvă spontan 90% până la 5 ani). Între 5-12 ani: doar dacă există balanite recurente, infecții urinare sau probleme de igienă. După pubertate (>14 ani): chirurgie indicată dacă persistă fimoză patologică. Niciodată decalotare forțată — produce cicatrici și fimoză cicatricială." },
+      { q: "Pot face sex normal după operație de fimoză?", a: "După circumcizie, reluarea activității sexuale e permisă după 4-6 săptămâni cu acordul medicului. Sensibilitatea glandului poate fi inițial modificată în primele 4-8 săptămâni, apoi se normalizează. Meta-analiza Tian et al 2013 (J Sex Med) pe peste 40.000 pacienți nu a găsit diferență semnificativă în satisfacția sexuală pre vs post-circumcizie." }
+    ],
+    citations: [
+      { text: "European Association of Urology — Phimosis Guidelines 2024.", url: "https://uroweb.org/guidelines/paediatric-urology/", source: "EAU 2024" },
+      { text: "Cochrane Review — Topical corticosteroids for phimosis.", url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008973.pub2/full", source: "Cochrane 2014" },
+      { text: "Tian Y et al. J Sex Med, 2013.", url: "https://pubmed.ncbi.nlm.nih.gov/24330469/", source: "J Sex Med 2013" },
+      { text: "AAP — Circumcision policy statement.", url: "https://publications.aap.org/pediatrics/article/130/3/585/30235/Male-Circumcision", source: "AAP 2012" }
+    ],
+    internalLinks: [
+      { slug: "circumcizie-adulti", label: "Circumcizie adulți" },
+      { slug: "extractie-kanamicina", label: "Extracție kanamicina" }
+    ],
+    speakablePassages: [
+      "Fimoza este imposibilitatea sau dificultatea de a retrage prepuțul peste glandul penisului. La sugari sub 5 ani este fiziologică și se rezolvă spontan în 90% din cazuri. La adulți este patologică, cauzată de balanită recurentă, lichen scleros sau cicatrice post-decalotare forțată.",
+      "Tratamentul fimozei la adulți depinde de cauză: conservator cu unguente corticosteroide topice timp de 4-8 săptămâni, eficient în 60-70% cazuri, sau chirurgical prin circumcizie completă pentru BXO și fimoză strânsă, sau preputioplastie pentru fimoză moderată cu prepuț estetic conservat."
+    ]
+  },
+  {
     slug: "circumcizie-adulti",
     title: "Circumcizie adulți",
     h1: "Circumcizie pentru adulți — tehnici, recuperare, beneficii",
