@@ -3,7 +3,7 @@ export const SITE = {
   shortName: "Chirurgie intimă",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://chirurgia-intima.com",
   description:
-    "Site dedicat chirurgiei intime masculine sub semnătura Dr. Diana Gheorghiță. Singurul medic femeie din România specializat sistematic în această nișă, ISAPS, peste 10 ani experiență, Clinica Pogany București.",
+    "Site dedicat chirurgiei intime masculine sub semnătura Dr. Diana Gheorghiță. Singurul medic femeie din România specializat sistematic în această nișă, ISAPS, peste 10 ani experiență, clinică privată acreditată din București.",
   phone: "+40775345931",
   whatsapp: "+40775345931",
   email: "contact@chirurgia-intima.com",
@@ -11,7 +11,7 @@ export const SITE = {
   ogImage: "/og-default.jpg",
   twitter: "@drdianagheorghita",
   clinic: {
-    name: "Clinica Pogany",
+    name: "Clinică privată acreditată",
     streetAddress: "Strada Cluceru Udricani 18",
     addressLocality: "București",
     addressRegion: "București",
