@@ -62,13 +62,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-zinc-200">
       <TrustBar />
-      <div className="container-wide flex items-center justify-between py-3 lg:py-4">
-        <Link href="/" className="no-underline">
+      <div className="container-wide flex items-center justify-between gap-6 py-4 lg:py-5">
+        <Link href="/" className="shrink-0">
           <div className="flex flex-col">
-            <span className="text-base sm:text-lg font-display font-medium text-[var(--color-brand-navy)] leading-tight tracking-tight">
+            <span className="text-lg sm:text-xl font-display font-medium text-[var(--color-brand-navy)] leading-[1.05] tracking-tight">
               Dr. Diana Gheorghiță
             </span>
-            <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.16em] text-[var(--color-brand-gold-deep)] leading-tight mt-0.5">
+            <span className="text-[10px] sm:text-[10.5px] uppercase tracking-[0.18em] text-[var(--color-brand-gold-deep)] leading-tight mt-1">
               Chirurgie intimă masculină
             </span>
           </div>
@@ -125,11 +125,11 @@ export default function Header() {
           <Link href="/contact" className="text-sm text-zinc-700 no-underline hover:text-[var(--color-brand-navy)]">Contact</Link>
         </nav>
 
-        <div className="hidden lg:flex items-center gap-3">
-          <a href={`tel:${SITE.phone}`} className="inline-flex items-center gap-1 text-sm text-zinc-700 no-underline">
+        <div className="hidden lg:flex items-center gap-4 shrink-0">
+          <a href={`tel:${SITE.phone}`} className="inline-flex items-center gap-1.5 text-sm text-zinc-700 hover:text-[var(--color-brand-navy)] tabular-nums">
             <Phone className="w-4 h-4" /> {SITE.phone}
           </a>
-          <Link href="/programare" className="btn btn-primary">
+          <Link href="/programare" className="btn btn-primary text-sm">
             Programare consultație
           </Link>
         </div>
