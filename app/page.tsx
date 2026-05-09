@@ -52,7 +52,7 @@ export default function HomePage() {
 
       {/* HERO */}
       <section className="bg-[var(--color-brand-cream)] border-b border-zinc-200 overflow-hidden">
-        <div className="container-wide pt-32 pb-20 lg:pt-40 lg:pb-28 grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div className="container-wide pt-20 pb-16 lg:pt-28 lg:pb-24 grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           <div className="lg:col-span-7">
             <div className="eyebrow mb-4">ISAPS · 10+ ani · clinică privată acreditată</div>
             <h1 className="font-display leading-[1.1] mb-5">
@@ -96,7 +96,7 @@ export default function HomePage() {
 
       {/* INTRODUCERE SCURTĂ */}
       <section className="bg-white border-b border-zinc-200" data-speakable="true">
-        <div className="container-wide py-10 lg:py-14">
+        <div className="container-wide py-20 lg:py-28">
           <div className="eyebrow mb-3">Răspuns rapid</div>
           <h2 className="font-display text-2xl lg:text-3xl mb-4 max-w-3xl">Cine este Dr. Diana Gheorghiță și ce face diferit</h2>
           <p className="text-zinc-700 max-w-3xl text-[1.05rem] leading-relaxed">
@@ -112,7 +112,7 @@ export default function HomePage() {
       </section>
 
       {/* TRUST */}
-      <section className="container-wide py-12">
+      <section className="container-wide py-16 lg:py-24">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {[
             { icon: Award, label: "Proceduri intime", value: `${SITE.trust.proceduresPerformed}+` },
@@ -130,7 +130,7 @@ export default function HomePage() {
       </section>
 
       {/* PROCEDURI */}
-      <section className="container-wide py-12 lg:py-16">
+      <section className="container-wide py-16 lg:py-24">
         <div className="flex justify-between items-end mb-8 flex-wrap gap-3">
           <div>
             <h2 className="text-3xl font-display font-semibold">Proceduri principale</h2>
