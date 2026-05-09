@@ -91,7 +91,7 @@ export default async function ProcedurePage({ params }: { params: Promise<{ slug
         ]}
       />
 
-      <div className="container-wide py-8 lg:py-12">
+      <div className="container-wide pt-12 pb-20 lg:pt-16 lg:pb-28">
         <Breadcrumbs items={breadcrumbs} />
         <div className="grid lg:grid-cols-3 gap-10">
           {/* ARTICLE */}
