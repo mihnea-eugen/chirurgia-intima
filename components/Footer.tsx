@@ -4,8 +4,8 @@ import { proceduri } from "@/lib/proceduri";
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-brand-navy)] text-white mt-24">
-      <div className="container-wide pt-16 pb-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <footer className="bg-[var(--color-brand-navy)] text-white mt-28">
+      <div className="container-wide pt-20 pb-24 lg:pt-24 lg:pb-28 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <div className="font-display text-xl mb-3 leading-tight">Dr. Diana Gheorghiță</div>
           <div className="eyebrow text-[var(--color-brand-gold-soft)] mb-3">Chirurgie intimă masculină</div>
@@ -58,7 +58,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="container-wide py-5 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-white/55">
+        <div className="container-wide py-8 lg:py-10 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-white/55">
           <span>© {new Date().getFullYear()} {SITE.name}. Toate drepturile rezervate.</span>
           <div className="flex items-center gap-5">
             <Link href="/gdpr" className="text-white/70 hover:text-white">GDPR</Link>
