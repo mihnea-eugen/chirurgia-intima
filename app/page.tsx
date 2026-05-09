@@ -51,38 +51,44 @@ export default function HomePage() {
       />
 
       {/* HERO */}
-      <section className="bg-[var(--color-brand-cream)] border-b border-zinc-200">
-        <div className="container-wide py-14 lg:py-20 grid lg:grid-cols-2 gap-10 items-center">
-          <div>
-            <span className="inline-block bg-[var(--color-brand-navy)] text-white text-xs px-3 py-1 rounded-full mb-4 tracking-wide">
-              ISAPS · 10+ ani · Clinica Pogany
-            </span>
-            <h1 className="text-4xl lg:text-5xl font-display font-semibold leading-tight mb-4">
-              Chirurgie intimă masculină. <br />
-              Cu profesionalism și discreție.
+      <section className="bg-[var(--color-brand-cream)] border-b border-zinc-200 overflow-hidden">
+        <div className="container-wide py-14 lg:py-20 grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          <div className="lg:col-span-7">
+            <div className="eyebrow mb-4">ISAPS · 10+ ani · Clinica Pogany</div>
+            <h1 className="font-display leading-[1.1] mb-5">
+              Chirurgie intimă masculină.
+              <br />
+              <span className="text-[var(--color-brand-gold-deep)]">Cu profesionalism și discreție.</span>
             </h1>
-            <p className="lead text-zinc-700 mb-6 max-w-xl">
-              Singurul medic femeie din România specializat sistematic în chirurgia intimă masculină. Faloplastie, circumcizie, boala Peyronie, extracție kanamicina, P-Shot — proceduri cu cifre verificate, citare științifică și protocol de discreție absolută.
+            <p className="lead text-zinc-700 mb-7 max-w-xl">
+              Singurul medic femeie din România specializat sistematic în chirurgia intimă masculină. Faloplastie, circumcizie, boala Peyronie, extracție corpi străini intrapenieni și P-Shot, sub semnătura Dr. Diana Gheorghiță. Proceduri cu cifre verificate, citare științifică și protocol de discreție absolută.
             </p>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 items-center">
               <Link href="/programare" className="btn btn-primary">
                 Programare consultație
               </Link>
-              <a href={`tel:${SITE.phone}`} className="btn btn-outline">
+              <a href={`tel:${SITE.phone}`} className="btn btn-outline tabular-nums">
                 <Phone className="w-4 h-4" /> {SITE.phone}
               </a>
             </div>
-            <div className="mt-6 text-sm text-zinc-500 italic max-w-xl">
+            <div className="mt-7 text-sm text-zinc-500 italic max-w-xl leading-relaxed">
               Sunați când sunteți pregătit. Nu există grabă. Toate consultațiile sunt confidențiale, conforme GDPR, cu facturare neutră.
             </div>
           </div>
-          <div className="relative aspect-[4/5] bg-gradient-to-br from-[var(--color-brand-navy)] to-[var(--color-brand-navy-dark)] rounded-xl overflow-hidden flex items-center justify-center">
-            <div className="text-white text-center px-6">
-              <Award className="w-12 h-12 mx-auto mb-3 text-[var(--color-brand-gold)]" />
-              <div className="font-display text-2xl font-semibold mb-1">Dr. Diana Gheorghiță</div>
-              <div className="text-sm opacity-85">Medic specialist Chirurgie Plastică, Estetică și Microchirurgie Reconstructivă</div>
-              <div className="text-xs opacity-70 mt-2">Membră ISAPS · UMF Carol Davila</div>
-              <div className="mt-6 text-xs opacity-60 italic">Foto profesională urmează</div>
+          <div className="lg:col-span-5">
+            <div className="relative bg-gradient-to-br from-[var(--color-brand-navy)] to-[var(--color-brand-navy-dark)] rounded-xl flex items-center justify-center px-8 py-12 lg:py-16 min-h-[360px]">
+              <div className="absolute inset-x-8 top-8 h-px bg-gradient-to-r from-transparent via-[var(--color-brand-gold)]/60 to-transparent" />
+              <div className="absolute inset-x-8 bottom-8 h-px bg-gradient-to-r from-transparent via-[var(--color-brand-gold)]/60 to-transparent" />
+              <div className="text-white text-center">
+                <Award className="w-10 h-10 mx-auto mb-4 text-[var(--color-brand-gold)]" />
+                <div className="font-display text-2xl font-medium mb-2 leading-tight">Dr. Diana Gheorghiță</div>
+                <div className="text-sm text-white/80 leading-relaxed max-w-[280px] mx-auto">
+                  Medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă
+                </div>
+                <div className="mt-4 text-[11px] uppercase tracking-[0.18em] text-[var(--color-brand-gold-soft)]">
+                  Membră ISAPS · UMF Carol Davila
+                </div>
+              </div>
             </div>
           </div>
         </div>
