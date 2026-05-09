@@ -14,7 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/programare`, lastModified: today, changeFrequency: "monthly", priority: 0.95 },
     { url: `${SITE.url}/preturi`, lastModified: today, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE.url}/contact`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
-    { url: `${SITE.url}/quiz-candidatura`, lastModified: today, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/intrebari-frecvente`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE.url}/dictionar-termeni`, lastModified: today, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/blog`, lastModified: today, changeFrequency: "weekly", priority: 0.6 }
