@@ -4,7 +4,7 @@ import { SITE } from "@/lib/site";
 
 export default function CTABanner({ title }: { title?: string }) {
   return (
-    <section className="card-glow rounded-2xl px-8 py-12 lg:px-14 lg:py-16 my-12">
+    <section className="card-glow rounded-2xl px-8 py-12 lg:px-14 lg:py-16 my-0">
       <h3 className="text-3xl lg:text-4xl font-display text-[var(--color-brand-navy)] mb-4 max-w-3xl">
         {title || "Programați o consultație confidențială"}
       </h3>
