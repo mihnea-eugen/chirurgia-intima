@@ -1,6 +1,6 @@
 export const SITE = {
-  name: "Chirurgie Intimă Masculină — Dr. Diana Gheorghiță",
-  shortName: "Chirurgia Intimă",
+  name: "Chirurgie intimă masculină, Dr. Diana Gheorghiță",
+  shortName: "Chirurgie intimă",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://chirurgia-intima.com",
   description:
     "Site dedicat chirurgiei intime masculine sub semnătura Dr. Diana Gheorghiță. Singurul medic femeie din România specializat sistematic în această nișă, ISAPS, peste 10 ani experiență, Clinica Pogany București.",
