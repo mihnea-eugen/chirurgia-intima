@@ -4,11 +4,12 @@ import { SITE } from "@/lib/site";
 
 export default function CTABanner({ title }: { title?: string }) {
   return (
-    <section className="bg-[var(--color-brand-cream)] border border-zinc-200 rounded-xl px-8 py-10 lg:px-12 lg:py-14 my-12">
-      <h3 className="text-2xl lg:text-3xl font-display text-[var(--color-brand-navy)] mb-3 max-w-3xl">
+    <section className="card-glow rounded-2xl px-8 py-12 lg:px-14 lg:py-16 my-12">
+      <h3 className="text-3xl lg:text-4xl font-display text-[var(--color-brand-navy)] mb-4 max-w-3xl">
         {title || "Programați o consultație confidențială"}
       </h3>
-      <p className="text-zinc-700 mb-7 max-w-3xl leading-relaxed">
+      <div className="gradient-divider mb-6 max-w-xs"></div>
+      <p className="text-zinc-700 mb-8 max-w-3xl leading-relaxed text-[1.05rem]">
         Discutați direct cu Dr. Diana Gheorghiță despre opțiunile chirurgicale, cifrele realiste și pașii următori. Toate consultațiile sunt private, conforme GDPR, cu facturare neutră.
       </p>
       <div className="flex flex-wrap gap-3">
