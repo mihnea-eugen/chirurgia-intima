@@ -899,4 +899,4 @@ export const proceduri: Procedure[] = [
 export const getProcedureBySlug = (slug: string): Procedure | undefined =>
   proceduri.find((p) => p.slug === slug);
 
-export const getAllProcedureSlugs: string[] = (): string[] => proceduri.map((p) => p.slug);
+export const getAllProcedureSlugs = (): string[] => proceduri.map((p) => p.slug);
