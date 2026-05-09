@@ -6,7 +6,7 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Despre Dr. Diana Gheorghiță, medic chirurgie plastică București",
   description:
-    "Dr. Diana Gheorghiță, medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă. Membră ISAPS, peste 10 ani experiență, peste 1000 de proceduri intime în portofoliu. Operează în Clinica Pogany, București.",
+    "Dr. Diana Gheorghiță, medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă. Membră ISAPS, peste 10 ani experiență, peste 1000 de proceduri intime în portofoliu. Operează în clinică privată acreditată din București.",
   alternates: { canonical: `${SITE.url}/despre` }
 };
 
@@ -47,15 +47,15 @@ export default function Page() {
 
         <h2>Filozofie de practică</h2>
         <p>
-          Tonul în consultație este direct, non-judgmental și profesional. Cifrele și sursele științifice sunt prioritare; adjectivele senzaționaliste sunt absente. Pentru fiecare procedură pacientul primește cifre realiste despre câștigul anatomic posibil, durata recuperării, riscurile statistice și rata de regrete documentată în literatura medicală.
+          Tonul în consultație este direct, fără judecată și profesional. Cifrele și sursele științifice sunt prioritare, adjectivele senzaționaliste sunt absente. Pentru fiecare procedură pacientul primește cifre realiste despre câștigul anatomic posibil, durata recuperării, riscurile statistice și rata regretelor documentată în literatura medicală internațională.
         </p>
         <p>
-          Consultația nu este gratuită, această decizie reduce no-show rate și asigură un timp de calitate cu pacienți motivați. Toate intervențiile chirurgicale sunt efectuate în Clinica Pogany, clinică privată acreditată, cu echipament modern de bloc operator și echipă de anestezie experimentată.
+          Consultația nu este gratuită, această decizie reduce numărul programărilor neonorate și asigură un timp de calitate cu pacienți motivați. Toate intervențiile chirurgicale sunt efectuate într-o clinică privată acreditată din București, cu echipament modern de bloc operator și echipă de anestezie experimentată.
         </p>
 
         <h2>Locație</h2>
         <p>
-          <strong>Clinica Pogany</strong>, Strada Cluceru Udricani 18, București.
+          Cabinetul Dr. Diana funcționează într-o clinică privată acreditată din București, Strada Cluceru Udricani 18.
         </p>
 
         <h2>Verificare credențiale</h2>
