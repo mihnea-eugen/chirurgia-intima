@@ -21,7 +21,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Dr. Diana Gheorghiță | Chirurgie intimă masculină București",
   description:
-    "Singurul medic femeie din România specializat sistematic în chirurgia intimă masculină. ISAPS, peste 10 ani experiență, Clinica Pogany. Faloplastie, circumcizie, Peyronie, extracție kanamicina."
+    "Singurul medic femeie din România specializat sistematic în chirurgia intimă masculină. ISAPS, peste 10 ani experiență, clinică privată acreditată. Faloplastie, circumcizie, Peyronie, extracție kanamicina."
 };
 
 const procedureBlurbs: Record<string, string> = {
@@ -54,7 +54,7 @@ export default function HomePage() {
       <section className="bg-[var(--color-brand-cream)] border-b border-zinc-200 overflow-hidden">
         <div className="container-wide py-14 lg:py-20 grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           <div className="lg:col-span-7">
-            <div className="eyebrow mb-4">ISAPS · 10+ ani · Clinica Pogany</div>
+            <div className="eyebrow mb-4">ISAPS · 10+ ani · clinică privată acreditată</div>
             <h1 className="font-display leading-[1.1] mb-5">
               Chirurgie intimă masculină.
               <br />
@@ -94,17 +94,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* RĂSPUNS RAPID, AI Overviews + Speakable */}
+      {/* INTRODUCERE SCURTĂ */}
       <section className="bg-white border-b border-zinc-200" data-speakable="true">
         <div className="container-wide py-10 lg:py-14">
           <div className="eyebrow mb-3">Răspuns rapid</div>
           <h2 className="font-display text-2xl lg:text-3xl mb-4 max-w-3xl">Cine este Dr. Diana Gheorghiță și ce face diferit</h2>
           <p className="text-zinc-700 max-w-3xl text-[1.05rem] leading-relaxed">
-            Dr. Diana Gheorghiță este medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă, membră ISAPS, cu peste {SITE.trust.proceduresPerformed}+ proceduri intime efectuate și {SITE.trust.yearsExperience}+ ani de practică. Operează în Clinica Pogany, București. Este singurul medic femeie din România specializat sistematic în chirurgia intimă masculină, cu opt proceduri pillar acoperite: alungire chirurgicală, îngroșare cu lipofilling, augmentare cu acid hialuronic, circumcizie adulți, boala Peyronie (Nesbit și ghid), P-Shot și extracție corpi străini intrapenieni (kanamicina, silicon, vaselină).
+            Dr. Diana Gheorghiță este medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă, membră ISAPS, cu peste {SITE.trust.proceduresPerformed}+ proceduri intime efectuate și {SITE.trust.yearsExperience}+ ani de practică. Operează în clinică privată acreditată din București. Este singurul medic femeie din România specializat sistematic în chirurgia intimă masculină, cu opt proceduri principale acoperite: alungire chirurgicală, îngroșare cu lipofilling, augmentare cu acid hialuronic, circumcizie adulți, boala Peyronie (Nesbit și ghid), P-Shot și extracție corpi străini intrapenieni (kanamicina, silicon, vaselină).
           </p>
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 mt-5 text-sm text-zinc-700 max-w-3xl">
             <li className="flex gap-2"><span className="text-[var(--color-brand-gold-deep)]">•</span> Citare științifică în fiecare pagină, surse PubMed, BJUI, AUA, EAU.</li>
-            <li className="flex gap-2"><span className="text-[var(--color-brand-gold-deep)]">•</span> Protocol GDPR strict, facturare neutră, no-photo policy.</li>
+            <li className="flex gap-2"><span className="text-[var(--color-brand-gold-deep)]">•</span> Protocol GDPR strict, facturare neutră, fără fotografii ale pacienților.</li>
             <li className="flex gap-2"><span className="text-[var(--color-brand-gold-deep)]">•</span> Rating 4,9/5 din 123 recenzii Google verificate.</li>
             <li className="flex gap-2"><span className="text-[var(--color-brand-gold-deep)]">•</span> Finanțare TBI Bank disponibilă, până la 36 de luni.</li>
           </ul>
@@ -118,7 +118,7 @@ export default function HomePage() {
             { icon: Award, label: "Proceduri intime", value: `${SITE.trust.proceduresPerformed}+` },
             { icon: GraduationCap, label: "Ani de experiență", value: `${SITE.trust.yearsExperience}+` },
             { icon: ShieldCheck, label: "Membră", value: "ISAPS" },
-            { icon: Users, label: "Clinică privată", value: "Pogany" }
+            { icon: Users, label: "Recenzii Google", value: `${SITE.trust.rating}/5` }
           ].map((s, idx) => (
             <div key={idx} className="bg-white border border-zinc-200 rounded-xl p-5 text-center">
               <s.icon className="w-7 h-7 mx-auto text-[var(--color-brand-gold)] mb-2" />
@@ -134,7 +134,7 @@ export default function HomePage() {
         <div className="flex justify-between items-end mb-8 flex-wrap gap-3">
           <div>
             <h2 className="text-3xl font-display font-semibold">Proceduri principale</h2>
-            <p className="text-zinc-600 mt-1">Pillar pages cu cifre verificate, citare științifică și schema markup E-E-A-T complet.</p>
+            <p className="text-zinc-600 mt-1">Opt proceduri principale, descrise complet, cu cifre verificate și surse din literatura medicală internațională.</p>
           </div>
           <Link href="/proceduri" className="text-sm text-[var(--color-brand-navy)] no-underline inline-flex items-center gap-1">
             Toate procedurile <ArrowRight className="w-4 h-4" />
@@ -160,13 +160,13 @@ export default function HomePage() {
               },
               {
                 icon: HeartHandshake,
-                title: "Empatie non-judgmental",
-                text: "Bărbații cu insecurități despre dimensiune sau patologie raportează nivel mai redus de jenă cu medic femeie cu profil profesional și empatic."
+                title: "Empatie, fără judecată",
+                text: "Bărbații cu nelămuriri despre dimensiune sau patologie raportează un nivel mai redus de jenă atunci când sunt consultați de un medic femeie cu profil profesional și empatic."
               },
               {
                 icon: GraduationCap,
-                title: "Expertiză cifrată",
-                text: "Peste 1.000 proceduri intime în portofoliu. Citare directă din literatura peer-reviewed (BJU, J Sex Med, AUA, EAU) în fiecare pagină."
+                title: "Expertiză demonstrabilă",
+                text: "Peste 1.000 de proceduri intime efectuate. Fiecare pagină include cifre reale și surse din reviste medicale internaționale (BJU, J Sex Med, AUA, EAU)."
               }
             ].map((c, idx) => (
               <div key={idx} className="bg-white p-6 rounded-xl border border-zinc-200">
@@ -183,7 +183,7 @@ export default function HomePage() {
       <section className="container-wide py-16">
         <h2 className="text-3xl font-display font-semibold text-center mb-3">Cifre verificate științific</h2>
         <p className="text-zinc-600 text-center max-w-2xl mx-auto mb-10">
-          Niciun adjectiv senzaționalist. Doar numere și surse din literatura medicală peer-reviewed.
+          Fără adjective senzaționaliste. Doar cifre și surse din literatura medicală internațională.
         </p>
         <div className="grid md:grid-cols-2 gap-5">
           <div className="bg-white border border-zinc-200 rounded-xl p-6">
@@ -241,8 +241,9 @@ export default function HomePage() {
 
       {/* TESTIMONIALE */}
       <section className="bg-zinc-50 border-y border-zinc-200">
-        <div className="container-wide py-16">
-          <h2 className="text-3xl font-display font-semibold text-center mb-10">Pacienți Dr. Diana</h2>
+        <div className="container-wide py-20 lg:py-24">
+          <div className="eyebrow mb-3 text-center">Mărturii pacienți</div>
+          <h2 className="text-3xl font-display text-center mb-3">Cuvinte de la pacienți</h2>
           <p className="text-center text-zinc-600 max-w-2xl mx-auto mb-10 text-sm">
             Toate testimonialele sunt anonimizate cu acordul pacienților, conforme GDPR. Numele și fotografia nu sunt afișate.
           </p>
