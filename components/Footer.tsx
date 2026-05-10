@@ -1,6 +1,19 @@
 import Link from "next/link";
 import { SITE } from "@/lib/site";
-import { proceduri } from "@/lib/proceduri";
+
+const footerMasculin = [
+  { slug: "alungire-penis", title: "Alungire chirurgicală" },
+  { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling" },
+  { slug: "fimoza", title: "Fimoza la adulți" },
+  { slug: "circumcizie-adulti", title: "Circumcizie adulți" }
+];
+
+const footerFeminin = [
+  { slug: "labioplastie", title: "Labioplastie" },
+  { slug: "vaginoplastie", title: "Vaginoplastie" },
+  { slug: "perineorafie", title: "Perineorafie" },
+  { slug: "augmentare-punct-g", title: "Augmentare punctul G" }
+];
 
 export default function Footer() {
   return (
@@ -11,7 +24,7 @@ export default function Footer() {
             <div className="font-display text-xl mb-3 leading-tight">Dr. Diana Gheorghiță</div>
             <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-soft)] mb-4">Chirurgie intimă</div>
             <p className="text-sm text-white/75 leading-relaxed">
-              Medic-femeie specializat sistematic în chirurgia intimă masculină și feminină. Membră ISAPS, peste {SITE.trust.proceduresPerformed}+ proceduri intime, {SITE.trust.yearsExperience}+ ani de practică.
+              Medic-femeie specializat sistematic în chirurgia intimă masculină și feminină. Membră ISAPS, peste {SITE.trust.proceduresPerformed}+ proceduri intime.
             </p>
             <div className="mt-6 flex flex-col gap-2 text-sm">
               <a href="https://www.isaps.org/" target="_blank" rel="noopener noreferrer" className="text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">Verifică ISAPS</a>
@@ -20,28 +33,38 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-gold-soft)] mb-5">Proceduri</div>
+            <div className="text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-gold-soft)] mb-5">Bărbați</div>
             <ul className="space-y-3">
-              {proceduri.slice(0, 8).map((p) => (
+              {footerMasculin.map((p) => (
                 <li key={p.slug}>
                   <Link href={`/proceduri/${p.slug}`} className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors leading-relaxed block">
                     {p.title}
                   </Link>
                 </li>
               ))}
+              <li className="pt-2">
+                <Link href="/proceduri" className="text-xs font-semibold text-[var(--color-brand-gold)] hover:text-white transition-colors">
+                  Vezi toate →
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
-            <div className="text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-gold-soft)] mb-5">Resurse</div>
+            <div className="text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-gold-soft)] mb-5">Femei</div>
             <ul className="space-y-3">
-              <li><Link href="/despre" className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">Despre Dr. Diana</Link></li>
-              <li><Link href="/de-ce-medic-femeie" className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">De ce medic femeie</Link></li>
-              <li><Link href="/discretie" className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">Discreție și GDPR</Link></li>
-              <li><Link href="/intrebari-frecvente" className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">Întrebări frecvente</Link></li>
-              <li><Link href="/dictionar-termeni" className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">Dicționar termeni</Link></li>
-              <li><Link href="/preturi" className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">Prețuri</Link></li>
-              <li><Link href="/blog" className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">Blog</Link></li>
+              {footerFeminin.map((p) => (
+                <li key={p.slug}>
+                  <Link href={`/proceduri/${p.slug}`} className="text-sm text-white/85 hover:text-[var(--color-brand-gold)] transition-colors leading-relaxed block">
+                    {p.title}
+                  </Link>
+                </li>
+              ))}
+              <li className="pt-2">
+                <Link href="/proceduri" className="text-xs font-semibold text-[var(--color-brand-gold)] hover:text-white transition-colors">
+                  Vezi toate →
+                </Link>
+              </li>
             </ul>
           </div>
 
