@@ -11,12 +11,12 @@ const masculin = [
   { slug: "ingrosare-acid-hialuronic", title: "Augmentare acid hialuronic", subtitle: "Reversibil 12-24 luni", icon: FlaskConical },
   { slug: "fimoza", title: "Fimoza la adulți", subtitle: "Tratament conservator + chirurgical", icon: Wrench },
   { slug: "circumcizie-adulti", title: "Circumcizie adulți", subtitle: "Anestezie locală, externare aceeași zi", icon: Scissors },
-  { slug: "p-shot-prp", title: "P-Shot (Priapus Shot)", subtitle: "PRP autolog regenerativ", icon: Activity },
+  { slug: "p-shot-prp", title: "P-Shot, plasmă proprie pentru penis", subtitle: "Tratament regenerativ cu plasmă", icon: Activity },
   { slug: "extractie-kanamicina", title: "Extracție corpi străini", subtitle: "Kanamicină, silicon, vaselină", icon: Wrench }
 ];
 
 const feminin = [
-  { slug: "labioplastie", title: "Labioplastie", subtitle: "Reducere labii mici, tehnica wedge", icon: Sparkles },
+  { slug: "labioplastie", title: "Labioplastie", subtitle: "Reducere labii mici prin rezecție în pană", icon: Sparkles },
   { slug: "vaginoplastie", title: "Vaginoplastie", subtitle: "Rejuvenare vaginală chirurgicală", icon: Activity },
   { slug: "perineorafie", title: "Perineorafie", subtitle: "Refacere perineu post-naștere", icon: Wrench },
   { slug: "himenoplastie", title: "Himenoplastie", subtitle: "Refacere himen, discreție GDPR", icon: Scissors },
@@ -115,7 +115,7 @@ export default function HomePage() {
                 <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-deep)] font-semibold mb-3">Pentru bărbați</div>
                 <h3 className="font-display text-3xl mb-4">Chirurgie intimă masculină</h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Faloplastie, circumcizie, fimoză, P-Shot și extracție corpi străini intrapenieni. 7 proceduri sub semnătura unui chirurg-femeie singular în România pe această nișă.
+                  Faloplastie, circumcizie, fimoză, P-Shot (plasmă proprie) și extracție corpi străini intrapenieni. 7 proceduri sub semnătura unui chirurg-femeie singular în România pe această nișă.
                 </p>
               </div>
               <div className="space-y-4">
@@ -142,7 +142,7 @@ export default function HomePage() {
                 <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-deep)] font-semibold mb-3">Pentru femei</div>
                 <h3 className="font-display text-3xl mb-4">Chirurgie intimă feminină</h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Labioplastie wedge, vaginoplastie post-naștere, perineorafie, himenoplastie și G-Shot. 5 proceduri pentru sănătate intimă, încredere și plăcere sexuală — cu protocol GDPR strict.
+                  Labioplastie prin rezecție în pană, vaginoplastie post-naștere, perineorafie, himenoplastie și G-Shot. 5 proceduri pentru sănătate intimă, încredere și plăcere sexuală — cu protocol GDPR strict.
                 </p>
               </div>
               <div className="space-y-4">
