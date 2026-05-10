@@ -52,7 +52,7 @@ export default function HomePage() {
 
       {/* HERO */}
       <section className="section-glow border-b border-zinc-200 overflow-hidden">
-        <div className="container-wide pt-[8rem] pb-[5rem] lg:pt-[10rem] lg:pb-[7rem] grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div className="container-wide grid lg:grid-cols-12 gap-10 lg:gap-12 items-start" style={{paddingTop:"10rem",paddingBottom:"7rem"}}">
           <div className="lg:col-span-7">
             <div className="eyebrow mb-4">ISAPS · 10+ ani · clinică privată acreditată</div>
             <h1 className="font-display leading-[1.1] mb-5">
@@ -120,7 +120,7 @@ export default function HomePage() {
             { icon: ShieldCheck, label: "Membră", value: "ISAPS" },
             { icon: Users, label: "Recenzii Google", value: `${SITE.trust.rating}/5` }
           ].map((s, idx) => (
-            <div key={idx} className="card-premium p-6 text-center">
+            <div key={idx} className="card-premium p-9 text-center">
               <s.icon className="w-7 h-7 mx-auto text-[var(--color-brand-gold)] mb-2" />
               <div className="text-2xl font-display font-semibold text-[var(--color-brand-navy)]">{s.value}</div>
               <div className="text-xs uppercase tracking-wide text-zinc-500 mt-1">{s.label}</div>
@@ -169,7 +169,7 @@ export default function HomePage() {
                 text: "Peste 1.000 de proceduri intime efectuate. Fiecare pagină include cifre reale și surse din reviste medicale internaționale (BJU, J Sex Med, AUA, EAU)."
               }
             ].map((c, idx) => (
-              <div key={idx} className="card-premium p-7">
+              <div key={idx} className="card-premium p-10">
                 <c.icon className="w-8 h-8 text-[var(--color-brand-gold)] mb-3" />
                 <h3 className="font-display text-xl font-semibold text-[var(--color-brand-navy)] mb-2">{c.title}</h3>
                 <p className="text-zinc-700">{c.text}</p>
@@ -186,7 +186,7 @@ export default function HomePage() {
           Fără adjective senzaționaliste. Doar cifre și surse din literatura medicală internațională.
         </p>
         <div className="grid md:grid-cols-2 gap-5">
-          <div className="card-premium p-7">
+          <div className="card-premium p-10">
             <div className="text-xs uppercase tracking-wide text-zinc-500 mb-2">Lungime medie globală în erecție</div>
             <div className="text-4xl font-display font-semibold text-[var(--color-brand-navy)] mb-1">13,12 cm</div>
             <div className="text-sm text-zinc-600">±1,66 cm. Studiu pe n=15.521 bărbați.</div>
@@ -197,7 +197,7 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="card-premium p-7">
+          <div className="card-premium p-10">
             <div className="text-xs uppercase tracking-wide text-zinc-500 mb-2">Succes Nesbit pe curburi &lt;60°</div>
             <div className="text-4xl font-display font-semibold text-[var(--color-brand-navy)] mb-1">80-100%</div>
             <div className="text-sm text-zinc-600">Cu pierdere de lungime 0,5-2 cm.</div>
@@ -253,7 +253,7 @@ export default function HomePage() {
               { age: "M, 52 ani", text: "Trei ani de Peyronie cu durere și curbură progresivă. După Nesbit am putut relua viața normală. Ca pierdere de lungime — exact cum a anticipat.", proc: "Tehnica Nesbit" },
               { age: "M, 28 ani", text: "Făcusem o greșeală cu kanamicina la 22 de ani. Dr. Diana a fost prima care mi-a spus în față că trebuie scoasă, fără să mă judece. Am refăcut lucrurile.", proc: "Extracție kanamicina + lipofilling" }
             ].map((t, idx) => (
-              <div key={idx} className="card-premium p-7">
+              <div key={idx} className="card-premium p-10">
                 <Quote className="w-6 h-6 text-[var(--color-brand-gold)] mb-3" />
                 <p className="text-zinc-700 italic mb-3">{t.text}</p>
                 <div className="text-xs text-zinc-500">
