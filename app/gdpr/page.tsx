@@ -1,12 +1,23 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 export const metadata: Metadata = { title: "Politica de protecție a datelor (GDPR)", description: "Politica GDPR pentru chirurgia-intima.com. Drepturi pacient, stocare date, cookies." };
 
 export default function Page() {
   return (
-    <div className="container-narrow py-12 prose-custom">
+    <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24 prose-custom">
       <Breadcrumbs items={[{name:"Acasă", url:"/"},{name:"GDPR", url:"/gdpr"}]} />
+
+      <div className="mt-8 mb-12 lg:mb-16 not-prose">
+        <ImagePlaceholder
+          label="Hero — Politica GDPR"
+          hint="Sugestie: ilustrație concept cu lacăt + scut + reguli scrise, paletă navy/gold. Sau icon GDPR official + scut."
+          ratio="21/9"
+          variant="navy"
+        />
+      </div>
+
       <h1 className="font-display">Politica de protecție a datelor (GDPR)</h1>
       <p>Ultima actualizare: 9 mai 2026.</p>
       <h2>Operator de date</h2>
