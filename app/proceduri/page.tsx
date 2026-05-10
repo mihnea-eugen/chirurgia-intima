@@ -8,7 +8,7 @@ import { ArrowRight, Activity, Sparkles, FlaskConical, Wrench, Scissors } from "
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Proceduri intime — bărbați și femei | Dr. Diana Gheorghiță",
+  title: "Proceduri intime, bărbați și femei | Dr. Diana Gheorghiță",
   description: "12 proceduri de chirurgie intimă: 7 pentru bărbați (faloplastie, lipofilling, fimoză, circumcizie, P-Shot, extracție corpi străini) și 5 pentru femei (labioplastie, vaginoplastie, perineorafie, himenoplastie, G-Shot).",
   alternates: { canonical: `${SITE.url}/proceduri` }
 };
