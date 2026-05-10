@@ -16,7 +16,7 @@ const faqs = [
   { q: "Cât timp durează recuperarea completă?", a: "Variabilă: 5-7 zile pentru lipofilling, 14-21 zile pentru Peyronie Nesbit, 4-8 săptămâni pentru extracție kanamicina + reabilitare 6-12 luni." },
   { q: "Ce anestezie folosiți?", a: "Locala cu sedare în 60-80% cazuri. Rahidiană sau generală pentru cazuri complexe (Peyronie, extracții, faloplastii combinate)." },
   { q: "Pot vedea galeria înainte/după?", a: "Da, în consultație. Galeriile cu rezultate sunt complet anonimizate și prezentate doar pacienților în evaluare." },
-  { q: "Cât aștept de la consultație până la procedură?", a: "Tipic 2-4 săptămâni — timp pentru analize și pregătire psihologică. Cazuri urgente (parafimoză, infecții) operație în 24-48h." },
+  { q: "Cât aștept de la consultație până la procedură?", a: "Tipic 2-4 săptămâni, timp pentru analize și pregătire psihologică. Cazuri urgente (parafimoză, infecții) operație în 24-48h." },
   { q: "Pacienți din afara Bucureștiului?", a: "Da, acceptăm. Telemedicina pre-consultație disponibilă. Cazare parteneră la solicitare." },
   { q: "Cum scoatem firele post-op?", a: "Sutură resorbabilă în 90% cazuri (se desprinde singură în 14-28 zile). Pentru sutură nerezorbabilă, control medical la săptămâna 2-3." }
 ];
@@ -29,7 +29,7 @@ export default function Page() {
 
       <div className="mt-8 mb-12 lg:mb-16">
         <ImagePlaceholder
-          label="Hero — Întrebări frecvente"
+          label="Hero: Întrebări frecvente"
           hint="Sugestie: ilustrație conceptuală cu semn de întrebare + bula dialog, paletă navy/gold. Sau foto editorial cu pacient + medic în consultație (anonim)."
           ratio="21/9"
           variant="navy"
