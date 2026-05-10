@@ -71,6 +71,9 @@ export default function HomePage() {
                 <Phone className="w-4 h-4" /> {SITE.phone}
               </a>
             </div>
+            <div className="mt-7 text-sm text-zinc-500 italic max-w-xl leading-relaxed">
+              Sunați când sunteți pregătit. Nu există grabă. Toate consultațiile sunt confidențiale, conforme GDPR, cu facturare neutră.
+            </div>
           </div>
           <div className="lg:col-span-5">
             <div className="relative bg-gradient-to-br from-[var(--color-brand-navy)] to-[var(--color-brand-navy-dark)] rounded-xl flex items-center justify-center px-8 py-12 lg:py-16 min-h-[360px]">
@@ -94,7 +97,7 @@ export default function HomePage() {
       {/* INTRODUCERE SCURTĂ */}
       <section className="bg-white border-b border-zinc-200" data-speakable="true">
         <div className="container-wide py-20 lg:py-28">
-          <div className="eyebrow mb-3">Răspuns rapid</div>
+          
           <h2 className="font-display text-2xl lg:text-3xl mb-4 max-w-3xl">Cine este Dr. Diana Gheorghiță și ce face diferit</h2>
           <p className="text-zinc-700 max-w-3xl text-[1.05rem] leading-relaxed">
             Dr. Diana Gheorghiță este medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă, membră ISAPS, cu peste {SITE.trust.proceduresPerformed}+ proceduri intime efectuate și {SITE.trust.yearsExperience}+ ani de practică. Operează în clinică privată acreditată din București. Este singurul medic femeie din România specializat sistematic în chirurgia intimă masculină, cu opt proceduri principale acoperite: alungire chirurgicală, îngroșare cu lipofilling, augmentare cu acid hialuronic, circumcizie adulți, boala Peyronie (Nesbit și ghid), P-Shot și extracție corpi străini intrapenieni (kanamicina, silicon, vaselină).
@@ -210,7 +213,7 @@ export default function HomePage() {
 
       {/* GHID DECIZIE PROCEDURĂ */}
       <section className="container-wide py-16">
-        <div className="eyebrow mb-2 text-center">Ghid de decizie clinic</div>
+        
         <h2 className="text-3xl font-display text-center mb-3">Care procedură vi se potrivește</h2>
         <p className="text-zinc-600 text-center max-w-2xl mx-auto mb-10">
           Selecție pe baza simptomatologiei și obiectivului. Decizia finală se ia în consultație, cu examen clinic și anamneză completă.
@@ -239,7 +242,7 @@ export default function HomePage() {
       {/* TESTIMONIALE */}
       <section className="bg-zinc-50 border-y border-zinc-200">
         <div className="container-wide py-20 lg:py-24">
-          <div className="eyebrow mb-3 text-center">Mărturii pacienți</div>
+          
           <h2 className="text-3xl font-display text-center mb-3">Cuvinte de la pacienți</h2>
           <p className="text-center text-zinc-600 max-w-2xl mx-auto mb-10 text-sm">
             Toate testimonialele sunt anonimizate cu acordul pacienților, conforme GDPR. Numele și fotografia nu sunt afișate.
