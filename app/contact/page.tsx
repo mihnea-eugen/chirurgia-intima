@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { SITE } from "@/lib/site";
 import { Phone, Mail, MessageCircle, MapPin, Clock } from "lucide-react";
 
@@ -11,8 +12,18 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="container-narrow py-12">
+    <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
       <Breadcrumbs items={[{ name: "Acasă", url: "/" }, { name: "Contact", url: "/contact" }]} />
+
+      <div className="mt-8 mb-12 lg:mb-16">
+        <ImagePlaceholder
+          label="Hero — Contact și locație"
+          hint="Sugestie: foto fațadă clinică sau plan recepție cabinet, lumină naturală. Sau ilustrație conceptuală cu telefon + WhatsApp + email + hartă."
+          ratio="21/9"
+          variant="navy"
+        />
+      </div>
+
       <h1 className="font-display">Contact</h1>
       <p className="lead">
         Toate canalele de contact pentru pacienți și pacienți internaționali. Confidențialitate garantată în orice canal.
@@ -49,6 +60,15 @@ export default function ContactPage() {
           {SITE.clinic.streetAddress}<br />
           {SITE.clinic.addressLocality}, {SITE.clinic.postalCode}
         </div>
+      </div>
+
+      <div className="my-6">
+        <ImagePlaceholder
+          label="Foto fațadă clinică + indicator intrare"
+          hint="Sugestie: 2 fotografii cu fațada clădirii și indicatorul către cabinet. Lumină de zi, fără pacienți, fără personal identificabil."
+          ratio="16/9"
+          variant="cream"
+        />
       </div>
 
       <div className="mt-4 aspect-video w-full bg-zinc-100 rounded-xl border border-zinc-200 overflow-hidden">
