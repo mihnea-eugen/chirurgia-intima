@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTABanner from "@/components/CTABanner";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 export const metadata: Metadata = { title: "Dicționar termeni medicali", description: "Glosar termeni în chirurgia intimă masculină: faloplastie, fimoză, Peyronie, lipofilling, granulom și altele." };
 
@@ -29,8 +30,18 @@ const termeni = [
 
 export default function Page() {
   return (
-    <div className="container-narrow py-12">
+    <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
       <Breadcrumbs items={[{name:"Acasă", url:"/"},{name:"Dicționar termeni", url:"/dictionar-termeni"}]} />
+
+      <div className="mt-8 mb-12 lg:mb-16">
+        <ImagePlaceholder
+          label="Hero — Dicționar termeni medicali"
+          hint="Sugestie: ilustrație conceptuală cu carte deschisă + lupă peste termeni medicali. Sau foto editorial cu dicționar tipărit + carnet de notițe."
+          ratio="21/9"
+          variant="navy"
+        />
+      </div>
+
       <h1 className="font-display">Dicționar termeni medicali</h1>
       <p className="lead text-zinc-700 mt-2">Glosar de 20+ termeni utilizați în chirurgia intimă masculină, explicați pe înțelesul tuturor.</p>
       <dl className="mt-8 space-y-4">
