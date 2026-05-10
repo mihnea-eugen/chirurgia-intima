@@ -13,7 +13,7 @@ export default function Page() {
 
       <div className="mt-8 mb-12 lg:mb-16">
         <ImagePlaceholder
-          label="Hero — Prețuri transparente"
+          label="Hero: Prețuri transparente"
           hint="Sugestie: ilustrație concept cu balanță + monedă + transparență, paletă navy/gold. Sau foto editorial cu mâini + ofertă scrisă pe masă neutră."
           ratio="21/9"
           variant="navy"
