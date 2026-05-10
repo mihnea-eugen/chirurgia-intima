@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTABanner from "@/components/CTABanner";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { SITE } from "@/lib/site";
 import { Lock, EyeOff, FileWarning, MessageSquareOff, ShieldCheck, FileX } from "lucide-react";
 
@@ -22,8 +23,18 @@ const cards = [
 
 export default function Page() {
   return (
-    <div className="container-narrow py-12">
+    <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
       <Breadcrumbs items={[{ name: "Acasă", url: "/" }, { name: "Discreție", url: "/discretie" }]} />
+
+      <div className="mt-8 mb-12 lg:mb-16">
+        <ImagePlaceholder
+          label="Hero — Discreție și confidențialitate"
+          hint="Sugestie: ilustrație conceptuală cu lacăt + scut + GDPR, paletă navy/cream/gold. Sau foto editorial cu mâini ținând dosar medical sigilat."
+          ratio="21/9"
+          variant="navy"
+        />
+      </div>
+
       <h1 className="font-display">Discreție și confidențialitate</h1>
       <p className="lead">
         Pentru pacienții de chirurgie intimă masculină, discreția nu este un bonus, este o condiție. Aplicăm un protocol explicit care acoperă comunicarea, facturarea, datele personale și prelevarea de imagini. Niciun competitor din România nu operează cu acest nivel de transparență privind confidențialitatea.
@@ -37,6 +48,15 @@ export default function Page() {
             <p className="text-sm text-zinc-700 mt-1.5 leading-relaxed">{c.d}</p>
           </div>
         ))}
+      </div>
+
+      <div className="my-10">
+        <ImagePlaceholder
+          label="Diagrama protocolului GDPR — flux date pacient"
+          hint="Sugestie: schemă tehnică cu 4-5 pași: colectare → criptare → server RO/UE → acces limitat → ștergere la cerere. Stil minimal, monocrom navy."
+          ratio="16/9"
+          variant="cream"
+        />
       </div>
 
       <div className="prose-custom">
