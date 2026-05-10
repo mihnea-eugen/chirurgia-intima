@@ -11,7 +11,7 @@ export default function Page() {
 
       <div className="mt-8 mb-12 lg:mb-16 not-prose">
         <ImagePlaceholder
-          label="Hero — Politica GDPR"
+          label="Hero: Politica GDPR"
           hint="Sugestie: ilustrație concept cu lacăt + scut + reguli scrise, paletă navy/gold. Sau icon GDPR official + scut."
           ratio="21/9"
           variant="navy"
@@ -25,7 +25,7 @@ export default function Page() {
       <h2>Date colectate</h2>
       <ul><li>Date personale (nume, telefon, email) furnizate la programare</li><li>Date medicale (în consultație, sub strictă confidențialitate medical-pacient)</li><li>Date tehnice (cookies tehnice, IP) pentru funcționarea site-ului</li></ul>
       <h2>Drepturi pacient</h2>
-      <ul><li>Dreptul la acces — puteți solicita oricând informațiile stocate</li><li>Dreptul la ștergere ("dreptul de a fi uitat")</li><li>Dreptul la rectificare</li><li>Dreptul la portabilitate</li><li>Dreptul de opoziție</li></ul>
+      <ul><li>Dreptul la acces: puteți solicita oricând informațiile stocate</li><li>Dreptul la ștergere ("dreptul de a fi uitat")</li><li>Dreptul la rectificare</li><li>Dreptul la portabilitate</li><li>Dreptul de opoziție</li></ul>
       <h2>Stocare</h2>
       <p>Date stocate exclusiv pe servere România/UE conforme GDPR. Acces restrictionat la personalul medical implicat în tratament.</p>
       <h2>Cookies</h2>
