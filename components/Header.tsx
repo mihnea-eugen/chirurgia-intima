@@ -13,7 +13,7 @@ const masculin: ProcedureLink[] = [
   { slug: "ingrosare-acid-hialuronic", title: "Augmentare acid hialuronic", tag: "Reversibil" },
   { slug: "fimoza", title: "Fimoza la adulți", tag: "Conservator + chirurgical" },
   { slug: "circumcizie-adulti", title: "Circumcizie adulți", tag: "Anestezie locală" },
-  { slug: "p-shot-prp", title: "P-Shot (Priapus Shot)", tag: "PRP autolog" },
+  { slug: "p-shot-prp", title: "P-Shot, plasmă proprie", tag: "Tratament regenerativ" },
   { slug: "extractie-kanamicina", title: "Extracție corpi străini", tag: "Kanamicină, silicon" }
 ];
 
@@ -22,7 +22,7 @@ const feminin: ProcedureLink[] = [
   { slug: "vaginoplastie", title: "Vaginoplastie", tag: "Rejuvenare chirurgicală" },
   { slug: "perineorafie", title: "Perineorafie", tag: "Refacere perineu" },
   { slug: "himenoplastie", title: "Himenoplastie", tag: "Refacere himen, GDPR" },
-  { slug: "augmentare-punct-g", title: "Augmentare punctul G", tag: "G-Shot HA / lipofilling" }
+  { slug: "augmentare-punct-g", title: "Augmentare punctul G", tag: "Acid hialuronic sau grăsime proprie" }
 ];
 
 const aboutLinks = [
@@ -48,15 +48,16 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-zinc-200">
       <TrustBar />
       <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between gap-6 py-4 lg:py-5">
-        <Link href="/" className="shrink-0 no-underline">
-          <div className="flex flex-col">
-            <span className="text-lg sm:text-xl font-display font-medium text-[var(--color-brand-navy)] leading-tight tracking-tight">
-              Dr. Diana Gheorghiță
-            </span>
-            <span className="text-[10px] sm:text-[10.5px] uppercase tracking-widest text-[var(--color-brand-gold-deep)] leading-tight mt-1">
-              Chirurgie intimă
-            </span>
-          </div>
+        <Link href="/" className="shrink-0 no-underline" aria-label="Dr. Diana Gheorghiță, chirurgie intimă, mergi la pagina principală">
+          <img
+            src="/logo-drdiana.png"
+            alt="Dr. Diana Gheorghiță, chirurgie intimă"
+            width={240}
+            height={57}
+            className="h-9 sm:h-12 w-auto block"
+            loading="eager"
+            decoding="sync"
+          />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8">
