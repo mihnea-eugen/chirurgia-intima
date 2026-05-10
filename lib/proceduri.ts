@@ -151,17 +151,17 @@ export const proceduri: Procedure[] = [
     primaryKeyword: "îngroșare penis lipofilling",
     searchVolume: "900-1.300/lună",
     intent: "Commercial-investigational",
-    bodyLocation: "penis — corp peniann (țesut subcutan)",
+    bodyLocation: "penis — corp penian (țesut subcutan)",
     alternateName: ["augmentare cu grăsime proprie", "fat grafting penis", "lipotransfer"],
     shortDescription: "Câștig de 1-3 cm circumferință cu grăsime proprie, permanent după stabilizarea la 6 luni. Recuperare 5-7 zile.",
-    lead: "Lipofillingul peniann transferă 30-80 ml de grăsime proprie procesată Coleman către corpul penian, oferind 1-3 cm câștig de circumferință permanent după resorbția stabilizată la 6 luni. Procedura durează 2 ore, externarea este în aceeași zi, iar grăsimea proprie elimină complet riscul de respingere imunologică.",
+    lead: "Lipofillingul penian transferă 30-80 ml de grăsime proprie procesată Coleman către corpul penian, oferind 1-3 cm câștig de circumferință permanent după resorbția stabilizată la 6 luni. Procedura durează 2 ore, externarea este în aceeași zi, iar grăsimea proprie elimină complet riscul de respingere imunologică.",
     cost: "3.000-4.000 EUR",
     duration: "2 ore",
     recovery: "5-7 zile activitate normală",
     anesthesia: "Locală cu sedare sau generală scurtă",
     hospitalStay: "Externare aceeași zi",
     sexualActivity: "Reluare după 3-4 săptămâni",
-    whatIs: "Lipofillingul peniann (augmentare cu grăsime proprie) este o procedură de medicină regenerativă prin care se recoltează grăsime de pe abdomen sau coapse, se procesează prin tehnica Coleman, și se injectează în țesutul subcutan al penisului pentru a crește circumferința. Spre deosebire de filler-uri sintetice, grăsimea proprie nu produce respingere imunologică.",
+    whatIs: "Lipofillingul penian (augmentare cu grăsime proprie) este o procedură de medicină regenerativă prin care se recoltează grăsime de pe abdomen sau coapse, se procesează prin tehnica Coleman, și se injectează în țesutul subcutan al penisului pentru a crește circumferința. Spre deosebire de filler-uri sintetice, grăsimea proprie nu produce respingere imunologică.",
     whenIndicated: [
       "Pacient nemulțumit de circumferința peniană",
       "Combinație cu alungire (faloplastie combinată)",
@@ -219,7 +219,7 @@ export const proceduri: Procedure[] = [
       { q: "Rezultatul este permanent?", a: "După 6-12 luni de stabilizare, ce rămâne este permanent. Volumul resorbit (30-50%) dispare în primele luni. Restul rămâne ca țesut adipos viu, integrat în corpul penian." },
       { q: "Câți pacienți a făcut Dr. Diana?", a: "Peste 1.000 proceduri intime totale. Lipofilling penis specific: minim 200 cazuri pe an." },
       { q: "Ce se întâmplă dacă slăbesc?", a: "Grăsima injectată se comportă ca grăsimea de pe restul corpului — la slăbire >10 kg volumul poate scădea ușor." },
-      { q: "Pot combina cu acid hialuronic?", a: "Nerecomandat în prima intenție. Dacă HA-ul există deja, așteptăm reabsorbția completă (12-24 luni) înainte de lipofilling." }
+      { q: "Pot combina cu acid hialuronic?", a: "Nerecomandat în prima intenție. Dacă Acidul hialuronic există deja, așteptăm reabsorbția completă (12-24 luni) înainte de lipofilling." }
     ],
     citations: [
       { text: "Coleman SR. Structural fat grafting.", url: "https://pubmed.ncbi.nlm.nih.gov/20978424/", source: "PRS / Coleman" },
@@ -232,7 +232,7 @@ export const proceduri: Procedure[] = [
       { slug: "extractie-kanamicina", label: "Extracție kanamicina" }
     ],
     speakablePassages: [
-      "Lipofillingul peniann transferă 30-80 ml grăsime proprie pentru 1-3 cm câștig de circumferință permanent. Recuperarea durează 5-7 zile, iar activitatea sexuală se reia după 3-4 săptămâni.",
+      "Lipofillingul penian transferă 30-80 ml grăsime proprie pentru 1-3 cm câștig de circumferință permanent. Recuperarea durează 5-7 zile, iar activitatea sexuală se reia după 3-4 săptămâni.",
       "Grăsimea proprie elimină riscul de respingere imunologică. La Dr. Diana se efectuează minim 200 proceduri lipofilling penian pe an."
     ]
   },
@@ -248,8 +248,8 @@ export const proceduri: Procedure[] = [
     searchVolume: "600-900/lună",
     intent: "Commercial",
     bodyLocation: "penis — țesut subcutan",
-    alternateName: ["filler peniann", "augmentare cu HA", "Hyacorp penis"],
-    shortDescription: "Câștig 1-3 cm circumferință cu HA reticulat, reversibil, recuperare 24-48 ore, durata 12-24 luni.",
+    alternateName: ["filler penian", "augmentare cu acid hialuronic", "Hyacorp penis"],
+    shortDescription: "Câștig 1-3 cm circumferință cu acid hialuronic reticulat, reversibil, recuperare 24-48 ore, durata 12-24 luni.",
     lead: "Augmentarea cu acid hialuronic reticulat de înaltă densitate (Hyacorp MLF1/MLF2, Genefill, Princess Volume) oferă 1-3 cm câștig de circumferință în 30-45 minute, fără chirurgie. RCT 2021 publicat în Journal of Sexual Medicine raportează augmentare medie 22,74 mm cu complicații minore sub 1,5%. Procedura este 100% reversibilă cu hialuronidază.",
     cost: "600-1.500 EUR / sesiune",
     duration: "30-45 min",
@@ -257,7 +257,7 @@ export const proceduri: Procedure[] = [
     anesthesia: "Topică + bloc dorsal",
     hospitalStay: "Procedură ambulatorie",
     sexualActivity: "Reluare după 7-10 zile",
-    whatIs: "Augmentarea peniană cu acid hialuronic este o procedură non-chirurgicală în care un filler dermal pe bază de HA reticulat de înaltă densitate este injectat în țesutul subcutan al corpului penian. Spre deosebire de lipofilling, procedura nu necesită incizie și este complet reversibilă prin injectare de hialuronidază.",
+    whatIs: "Augmentarea peniană cu acid hialuronic este o procedură non-chirurgicală în care un filler dermal pe bază de acid hialuronic reticulat de înaltă densitate este injectat în țesutul subcutan al corpului penian. Spre deosebire de lipofilling, procedura nu necesită incizie și este complet reversibilă prin injectare de hialuronidază.",
     whenIndicated: [
       "Pacient care preferă procedură non-chirurgicală",
       "Test pre-lipofilling — pacientul evaluează rezultatul",
@@ -268,19 +268,19 @@ export const proceduri: Procedure[] = [
       "Pacient cu kanamicina/silicon injectat — necesită extracție mai întâi",
       "Infecție activă genitală sau dermatologică",
       "Tulburări de coagulare",
-      "Alergie la HA sau hialuronidază",
-      "Așteptare permanentă a rezultatului (HA durează 12-24 luni)"
+      "Alergie la acid hialuronic sau hialuronidază",
+      "Așteptare permanentă a rezultatului (acid hialuronic durează 12-24 luni)"
     ],
     procedureSteps: [
       { title: "Anestezie", description: "Cremă anestezică topică (Emla) cu 30 minute înainte + bloc dorsal cu lidocaină." },
-      { title: "Marcarea zonei", description: "Marcare pentru distribuție uniformă a HA." },
+      { title: "Marcarea zonei", description: "Marcare pentru distribuție uniformă a acidului hialuronic." },
       { title: "Injectare cu canulă", description: "Injectare cu canulă boantă (22-25G) pe planul subcutan, evitare vase. Tehnica retrograde-fan." },
       { title: "Modelare manuală", description: "Modelare imediată pentru contur uniform." },
       { title: "Pansament", description: "Compresă rece 10-15 minute. Externare imediată." }
     ],
     facts: [
       { label: "Câștig circumferință (10 ml)", value: "1-2 cm" },
-      { label: "Câștig (20 ml HA reticulat dens)", value: "2-3 cm" },
+      { label: "Câștig (20 ml acid hialuronic reticulat dens)", value: "2-3 cm" },
       { label: "Durata efectului", value: "12-24 luni" },
       { label: "Augmentare medie (RCT 2021)", value: "22,74 mm", source: "J Sex Med 2021" },
       { label: "Complicații minore", value: "<1,5%", source: "J Sex Med 2021" },
@@ -292,13 +292,13 @@ export const proceduri: Procedure[] = [
       { period: "Zilele 1-2", title: "Edem ușor", description: "Sensibilitate locală, posibil echimoze mici." },
       { period: "Ziua 3-7", title: "Resorbție edem", description: "Volum vizibil aproape de rezultatul final." },
       { period: "Săpt. 2", title: "Reluare activitate sexuală", description: "După 7-10 zile, cu prudență." },
-      { period: "Lună 3-6", title: "Stabilizare", description: "HA-ul integrat în țesut. Volumul rămâne stabil 12-24 luni." },
+      { period: "Lună 3-6", title: "Stabilizare", description: "Acidul hialuronic integrat în țesut. Volumul rămâne stabil 12-24 luni." },
       { period: "Lună 18-24", title: "Resorbție progresivă", description: "Decizie reumplere sau lipofilling permanent." }
     ],
     risks: [
       { title: "Echimoze și edem", description: "Frecvente, dispar în 5-7 zile." },
       { title: "Asimetrie sau noduli", description: "Reduse prin tehnică retrograde-fan. Reversibil cu hialuronidază." },
-      { title: "Infecție", description: "<1% cu protocol steril și HA branded." },
+      { title: "Infecție", description: "<1% cu protocol steril și acid hialuronic branded." },
       { title: "Granulom", description: "<1% în studii recente." },
       { title: "Reacție vasculară", description: "Foarte rar (<0,1%) cu canulă boantă." }
     ],
@@ -309,9 +309,9 @@ export const proceduri: Procedure[] = [
     faqs: [
       { q: "Cât durează în realitate efectul?", a: "În medie 18 luni la pacienți activi sexual. La pacienții cu activitate sexuală foarte intensă durata poate fi 12-14 luni; la cei mai puțin activi 20-24 luni." },
       { q: "Pot face injectare repetat?", a: "Da. Re-injectarea este tipic la 14-18 luni." },
-      { q: "E mai rău decât lipofillingul?", a: "Nu mai rău, doar reversibil și temporar. HA este alegere bună pentru pacient care vrea să testeze rezultatul înainte de lipofilling." },
-      { q: "Există risc de granulom?", a: "Studii recente: <1%. La Dr. Diana folosim exclusiv HA branded, care reduce riscul sub 0,5%." },
-      { q: "Pot face HA dacă am avut kanamicina?", a: "NU. Kanamicina sau orice corp străin trebuie extras chirurgical mai întâi, urmat de 6 luni reabilitare." },
+      { q: "E mai rău decât lipofillingul?", a: "Nu mai rău, doar reversibil și temporar. Acid hialuronic este alegere bună pentru pacient care vrea să testeze rezultatul înainte de lipofilling." },
+      { q: "Există risc de granulom?", a: "Studii recente: <1%. La Dr. Diana folosim exclusiv acid hialuronic branded, care reduce riscul sub 0,5%." },
+      { q: "Pot face acid hialuronic dacă am avut kanamicina?", a: "NU. Kanamicina sau orice corp străin trebuie extras chirurgical mai întâi, urmat de 6 luni reabilitare." },
       { q: "E dureros?", a: "Anestezia topică + blocul dorsal fac procedura tolerabilă." }
     ],
     citations: [
@@ -336,21 +336,21 @@ export const proceduri: Procedure[] = [
     category: "preput",
     procedureType: "TherapeuticProcedure",
     metaTitle: "Fimoza București, tratament adulți și copii | Cauze, simptome, operație | Dr. Diana",
-    metaDescription: "Fimoza la adulți și copii, ghid complet la Dr. Diana Gheorghiță, București. Cauze, simptome, tipuri (fiziologică, patologică, BXO/lichen scleros), tratament conservator cu unguente sau chirurgical (circumcizie, preputioplastie). Preț, recuperare.",
+    metaDescription: "Fimoza la adulți și copii, ghid complet la Dr. Diana Gheorghiță, București. Cauze, simptome, tipuri (fiziologică, patologică, lichen scleros), tratament conservator cu unguente sau chirurgical (circumcizie, preputioplastie). Preț, recuperare.",
     primaryKeyword: "fimoza",
     searchVolume: "8.100/lună",
     intent: "Informational+commercial",
-    bodyLocation: "preput peniann",
+    bodyLocation: "preput penian",
     alternateName: ["preput strâns", "fimoză cicatricială", "BXO", "lichen scleros"],
     shortDescription: "Imposibilitatea retragerii prepuțului peste gland. Fiziologică la sugari, patologică la adulți. Tratament: conservator (unguente cu corticosteroizi) sau chirurgical (circumcizie, preputioplastie).",
-    lead: "Fimoza este imposibilitatea sau dificultatea de a retrage prepuțul peste glandul penisului. La sugari și copii mici sub 5 ani este fiziologică (normală) și se rezolvă spontan în 90% din cazuri până la pubertate. La adulți și adolescenți după pubertate este patologică, fiind cauzată cel mai frecvent de balanită recurentă, lichen scleros (BXO) sau cicatrice post-decalotare forțată. Tratamentul depinde de cauză și severitate: conservator cu unguente cu corticosteroizi (mometazonă, betametazonă) timp de 4-8 săptămâni — eficient în 60-70% cazuri fără BXO — sau chirurgical (circumcizie completă pentru BXO și fimoză strânsă, preputioplastie pentru fimoză moderată cu prepuț estetic conservat). Dr. Diana Gheorghiță oferă consultație individualizată cu plan terapeutic adaptat cauzei.",
+    lead: "Fimoza este imposibilitatea sau dificultatea de a retrage prepuțul peste glandul penisului. La sugari și copii mici sub 5 ani este fiziologică (normală) și se rezolvă spontan în 90% din cazuri până la pubertate. La adulți și adolescenți după pubertate este patologică, fiind cauzată cel mai frecvent de balanită recurentă, lichen scleros (BXO) sau cicatrice post-decalotare forțată. Tratamentul depinde de cauză și severitate: conservator cu unguente cu corticosteroizi (mometazonă, betametazonă) timp de 4-8 săptămâni — eficient în 60-70% cazuri fără lichen scleros — sau chirurgical (circumcizie completă pentru lichen scleros și fimoză strânsă, preputioplastie pentru fimoză moderată cu prepuț estetic conservat). Dr. Diana Gheorghiță oferă consultație individualizată cu plan terapeutic adaptat cauzei.",
     cost: "Consultație 350 RON, tratament chirurgical 1.500-2.500 EUR",
     duration: "30-60 min (chirurgical)",
     recovery: "5-7 zile (chirurgical), conservator fără recuperare",
     anesthesia: "Locală sau regională",
     hospitalStay: "Externare aceeași zi (chirurgical)",
     sexualActivity: "Reluare după 4-6 săptămâni post-chirurgie",
-    whatIs: "Fimoza reprezintă îngustarea prepuțului care împiedică decalotarea (descoperirea) completă a glandului penian. Există două forme principale: fimoza fiziologică, prezentă natural la nou-născuți și sugari datorită aderențelor congenitale dintre prepuț și gland, și fimoza patologică, dobândită la adulți prin cicatrizare (BXO/lichen scleros), balanite repetate sau decalotare forțată traumatică. Diagnosticul este clinic, prin examinarea capacității de retragere a prepuțului în repaus și erecție.",
+    whatIs: "Fimoza reprezintă îngustarea prepuțului care împiedică decalotarea (descoperirea) completă a glandului penian. Există două forme principale: fimoza fiziologică, prezentă natural la nou-născuți și sugari datorită aderențelor congenitale dintre prepuț și gland, și fimoza patologică, dobândită la adulți prin cicatrizare (lichen scleros), balanite repetate sau decalotare forțată traumatică. Diagnosticul este clinic, prin examinarea capacității de retragere a prepuțului în repaus și erecție.",
     whenIndicated: [
       "Imposibilitatea retragerii prepuțului peste gland la adulți și adolescenți",
       "Durere la decalotare sau erecție",
@@ -367,10 +367,10 @@ export const proceduri: Procedure[] = [
       "Infecție acută activă (tratament infecție mai întâi)"
     ],
     procedureSteps: [
-      { title: "Consultație și diagnostic", description: "Examen clinic, evaluare grad fimoză (1-4), diferențiere fiziologic vs patologic, biopsie dacă suspiciune BXO." },
-      { title: "Tratament conservator (linia 1)", description: "Unguente cu corticosteroizi topici (mometazonă 0.1% sau betametazonă 0.05%) aplicate 2x/zi 4-8 săptămâni + decalotare progresivă blândă. Eficient 60-70% cazuri fără BXO." },
-      { title: "Tratament chirurgical conservator", description: "Preputioplastie: lărgire chirurgicală a prepuțului prin incizie longitudinală cu sutură transversală. Indicat fimoză moderată fără BXO, conservă prepuțul." },
-      { title: "Tratament chirurgical radical", description: "Circumcizie completă: excizie totală a prepuțului. Indicat fimoză strânsă cicatricială, BXO/lichen scleros confirmat, balanită recurentă severă." },
+      { title: "Consultație și diagnostic", description: "Examen clinic, evaluare grad fimoză (1-4), diferențiere fiziologic vs patologic, biopsie dacă suspiciune lichen scleros." },
+      { title: "Tratament conservator (linia 1)", description: "Unguente cu corticosteroizi topici (mometazonă 0.1% sau betametazonă 0.05%) aplicate 2x/zi 4-8 săptămâni + decalotare progresivă blândă. Eficient 60-70% cazuri fără lichen scleros." },
+      { title: "Tratament chirurgical conservator", description: "Preputioplastie: lărgire chirurgicală a prepuțului prin incizie longitudinală cu sutură transversală. Indicat fimoză moderată fără lichen scleros, conservă prepuțul." },
+      { title: "Tratament chirurgical radical", description: "Circumcizie completă: excizie totală a prepuțului. Indicat fimoză strânsă cicatricială, lichen scleros confirmat, balanită recurentă severă." },
       { title: "Recuperare și control", description: "Pansament steril, antibiotic profilactic, control la 7 zile, 1 lună, 3 luni." }
     ],
     facts: [
@@ -379,7 +379,7 @@ export const proceduri: Procedure[] = [
       { label: "Rezolvare spontană la copii până la 5 ani", value: "90%", source: "AAP 2012" },
       { label: "Rezolvare spontană până la pubertate", value: "99%", source: "AAP 2012" },
       { label: "Eficiență corticosteroizi topici", value: "60-70%", source: "Cochrane Review 2014" },
-      { label: "Cazuri BXO/lichen scleros la adulți cu fimoză", value: "30-40%", source: "BJU Int 2019" },
+      { label: "Cazuri lichen scleros la adulți cu fimoză", value: "30-40%", source: "BJU Int 2019" },
       { label: "Recuperare post-circumcizie", value: "5-7 zile" },
       { label: "Cost consultație Dr. Diana", value: "350 RON" }
     ],
@@ -392,20 +392,20 @@ export const proceduri: Procedure[] = [
     ],
     risks: [
       { title: "Eșec tratament conservator", description: "30-40% cazuri necesită ulterior chirurgie." },
-      { title: "BXO/lichen scleros nedignosticat", description: "Risc transformare malignă <1% (carcinom scuamos penian). Necesită biopsie + circumcizie obligatorie." },
+      { title: "lichen scleros nedignosticat", description: "Risc transformare malignă <1% (carcinom scuamos penian). Necesită biopsie + circumcizie obligatorie." },
       { title: "Recurență cicatricială", description: "Risc 5-10% după preputioplastie. Soluție: circumcizie." },
       { title: "Parafimoză", description: "Urgență medicală — prepuț retractat blocat. Necesită reducere manuală sau incizie." }
     ],
     alternatives: [
       { title: "Decalotare progresivă", description: "La sugari și copii sub 5 ani fără simptome — așteptare cu igienă blândă." },
-      { title: "Unguente cu corticosteroizi", description: "Linia 1 la adolescenți și adulți fără BXO. Eficient 60-70%." },
-      { title: "Preputioplastie", description: "Conservă prepuțul. Indicată fimoză moderată fără BXO." },
-      { title: "Circumcizie completă", description: "Standard pentru BXO, fimoză strânsă cicatricială, balanită recurentă." }
+      { title: "Unguente cu corticosteroizi", description: "Linia 1 la adolescenți și adulți fără lichen scleros. Eficient 60-70%." },
+      { title: "Preputioplastie", description: "Conservă prepuțul. Indicată fimoză moderată fără lichen scleros." },
+      { title: "Circumcizie completă", description: "Standard pentru lichen scleros, fimoză strânsă cicatricială, balanită recurentă." }
     ],
     faqs: [
-      { q: "Cum tratezi fimoza la adulți fără operație?", a: "Linia 1 este unguent cu corticosteroizi topici (mometazonă 0.1% sau betametazonă 0.05%) aplicat 2x/zi timp de 4-8 săptămâni, asociat cu decalotare progresivă blândă. Eficient în 60-70% din cazuri la adulți fără BXO/lichen scleros. Dacă nu răspunde, se recomandă chirurgie." },
-      { q: "Care sunt simptomele fimozei la adulți?", a: "Imposibilitatea retragerii prepuțului peste gland în repaus sau erecție, durere la decalotare, durere în timpul actului sexual, balanite recurente (inflamații glandului), pete albe pe prepuț (semn BXO), urinare cu jet îngustat, dificultăți de igienă." },
-      { q: "Ce este BXO sau lichen scleros pe penis?", a: "Balanita Xerotica Obliterans (BXO) sau lichen scleros peniann este o afecțiune dermatologică cronică inflamatorie care produce cicatrici albe pe prepuț și gland, ducând la fimoză strânsă progresivă. Apare la 30-40% din adulții cu fimoză. Risc transformare malignă <1%. Tratament: circumcizie completă obligatorie + biopsie dermatologică." },
+      { q: "Cum tratezi fimoza la adulți fără operație?", a: "Linia 1 este unguent cu corticosteroizi topici (mometazonă 0.1% sau betametazonă 0.05%) aplicat 2x/zi timp de 4-8 săptămâni, asociat cu decalotare progresivă blândă. Eficient în 60-70% din cazuri la adulți fără lichen scleros. Dacă nu răspunde, se recomandă chirurgie." },
+      { q: "Care sunt simptomele fimozei la adulți?", a: "Imposibilitatea retragerii prepuțului peste gland în repaus sau erecție, durere la decalotare, durere în timpul actului sexual, balanite recurente (inflamații glandului), pete albe pe prepuț (semn lichen scleros), urinare cu jet îngustat, dificultăți de igienă." },
+      { q: "Ce este BXO sau lichen scleros pe penis?", a: "Balanita Xerotica Obliterans (BXO) sau lichen scleros penian este o afecțiune dermatologică cronică inflamatorie care produce cicatrici albe pe prepuț și gland, ducând la fimoză strânsă progresivă. Apare la 30-40% din adulții cu fimoză. Risc transformare malignă <1%. Tratament: circumcizie completă obligatorie + biopsie dermatologică." },
       { q: "Diferența între fimoză și parafimoză?", a: "Fimoza este imposibilitatea retragerii prepuțului peste gland. Parafimoza este situația când prepuțul retractat rămâne blocat în spatele coronei glandului, producând edem și durere severă. Parafimoza este urgență medicală — necesită reducere manuală imediată sau, în cazuri severe, incizie dorsală urmată de circumcizie programată." },
       { q: "Cât costă operația de fimoză la adulți în București?", a: "Tratamentul conservator (unguente) costă 100-200 RON medicament + 350 RON consultație. Circumcizia chirurgicală costă 1.500-2.500 EUR la Dr. Diana Gheorghiță (anestezie locală, externare aceeași zi). Preputioplastie 1.200-2.000 EUR. Prețul include consultație, intervenție, anestezie, sutură, pansamente, controale post-op." },
       { q: "Fimoza la copii — când e cazul de operație?", a: "Sub 5 ani: niciodată dacă nu există simptome (fimoza fiziologică se rezolvă spontan 90% până la 5 ani). Între 5-12 ani: doar dacă există balanite recurente, infecții urinare sau probleme de igienă. După pubertate (>14 ani): chirurgie indicată dacă persistă fimoză patologică. Niciodată decalotare forțată — produce cicatrici și fimoză cicatricială." },
@@ -423,7 +423,7 @@ export const proceduri: Procedure[] = [
     ],
     speakablePassages: [
       "Fimoza este imposibilitatea sau dificultatea de a retrage prepuțul peste glandul penisului. La sugari sub 5 ani este fiziologică și se rezolvă spontan în 90% din cazuri. La adulți este patologică, cauzată de balanită recurentă, lichen scleros sau cicatrice post-decalotare forțată.",
-      "Tratamentul fimozei la adulți depinde de cauză: conservator cu unguente corticosteroide topice timp de 4-8 săptămâni, eficient în 60-70% cazuri, sau chirurgical prin circumcizie completă pentru BXO și fimoză strânsă, sau preputioplastie pentru fimoză moderată cu prepuț estetic conservat."
+      "Tratamentul fimozei la adulți depinde de cauză: conservator cu unguente corticosteroide topice timp de 4-8 săptămâni, eficient în 60-70% cazuri, sau chirurgical prin circumcizie completă pentru lichen scleros și fimoză strânsă, sau preputioplastie pentru fimoză moderată cu prepuț estetic conservat."
     ]
   },
   {
@@ -437,19 +437,19 @@ export const proceduri: Procedure[] = [
     primaryKeyword: "circumcizie adulti",
     searchVolume: "1.000-1.400/lună",
     intent: "Commercial-investigational",
-    bodyLocation: "preput peniann",
+    bodyLocation: "preput penian",
     alternateName: ["tăiere prepuț", "circumcision"],
     shortDescription: "Excizie chirurgicală a prepuțului. Anestezie locală, durata 30-60 min, externare aceeași zi.",
-    lead: "Circumcizia la adulți este excizia chirurgicală completă a prepuțului, indicată cel mai frecvent pentru fimoză cicatricială (BXO/lichen scleros), balanită recurentă sau preferință personală/religioasă. OMS validează reducerea riscului de transmitere HIV cu 50-60% (Auvert PLoS Med 2005). Procedura durează 30-60 minute sub anestezie locală în 80% din cazuri, cu externare aceeași zi.",
+    lead: "Circumcizia la adulți este excizia chirurgicală completă a prepuțului, indicată cel mai frecvent pentru fimoză cicatricială (lichen scleros), balanită recurentă sau preferință personală/religioasă. OMS validează reducerea riscului de transmitere HIV cu 50-60% (Auvert PLoS Med 2005). Procedura durează 30-60 minute sub anestezie locală în 80% din cazuri, cu externare aceeași zi.",
     cost: "1.500-2.500 EUR",
     duration: "30-60 min",
     recovery: "5-7 zile activitate normală",
     anesthesia: "Locală (80% cazuri) sau regională",
     hospitalStay: "Externare aceeași zi (99%)",
     sexualActivity: "Reluare după 4-6 săptămâni",
-    whatIs: "Circumcizia este intervenția chirurgicală prin care se excizează complet prepuțul — pliul de piele care acoperă glandul. Procedura poate fi efectuată din indicație medicală (fimoză strânsă, balanită recurentă, BXO/lichen scleros, parafimoza) sau din preferință personală sau religioasă.",
+    whatIs: "Circumcizia este intervenția chirurgicală prin care se excizează complet prepuțul — pliul de piele care acoperă glandul. Procedura poate fi efectuată din indicație medicală (fimoză strânsă, balanită recurentă, lichen scleros, parafimoza) sau din preferință personală sau religioasă.",
     whenIndicated: [
-      "Fimoză strânsă cicatricială (BXO/lichen scleros)",
+      "Fimoză strânsă cicatricială (lichen scleros)",
       "Balanită recurentă (>3 episoade/an)",
       "Parafimoza recurentă",
       "Frenul scurt asociat cu durere la erecție",
@@ -471,7 +471,7 @@ export const proceduri: Procedure[] = [
       { title: "Externare", description: "Externare aceeași zi, ghid scris recuperare." }
     ],
     facts: [
-      { label: "Indicație medicală cea mai frecventă", value: "Fimoză cicatricială (BXO)" },
+      { label: "Indicație medicală cea mai frecventă", value: "Fimoză cicatricială (lichen scleros)" },
       { label: "Reducere risc HIV transmisie heterosexuală", value: "50-60%", source: "Auvert PLoS Med 2005, OMS" },
       { label: "Reducere risc HPV transmisie cuplu", value: "30-40%" },
       { label: "Reducere risc cancer penian (pe viață)", value: "60-70%" },
@@ -498,8 +498,8 @@ export const proceduri: Procedure[] = [
       { title: "Excizie prea mare/mică", description: "<2% la chirurgi experimentați." }
     ],
     alternatives: [
-      { title: "Preputioplastie", description: "Conservarea prepuțului prin lărgire chirurgicală. Indicat fimoză moderată fără BXO." },
-      { title: "Decalotare progresivă + corticosteroizi topici", description: "Eficient în 60-70% cazuri fără BXO." },
+      { title: "Preputioplastie", description: "Conservarea prepuțului prin lărgire chirurgicală. Indicat fimoză moderată fără lichen scleros." },
+      { title: "Decalotare progresivă + corticosteroizi topici", description: "Eficient în 60-70% cazuri fără lichen scleros." },
       { title: "Frenuloplastie", description: "Pentru fren scurt izolat fără fimoză." }
     ],
     faqs: [
@@ -537,7 +537,7 @@ export const proceduri: Procedure[] = [
     primaryKeyword: "p-shot priapus shot",
     searchVolume: "200-400/lună",
     intent: "Commercial-investigational",
-    bodyLocation: "corp peniann",
+    bodyLocation: "corp penian",
     alternateName: ["Priapus Shot", "PRP penis", "platelet-rich plasma penis"],
     shortDescription: "Injectare PRP autolog în penis pentru funcție erectilă. Adjuvant pentru DE ușoară-moderată.",
     lead: "P-Shot (Priapus Shot) constă în injectarea de plasmă proprie îmbogățită cu trombocite (PRP) în corpii cavernoși și în gland, pentru stimularea revascularizării și regenerării țesutului. RCT 2021 (Poulios et al, J Sex Med) a demonstrat îmbunătățire IIEF-EF la 6 luni statistic semnificativă, cu mărimea efectului mică. Cleveland Clinic 2024 califică P-Shot ca având cercetare insuficientă pentru recomandare standard.",
@@ -594,7 +594,7 @@ export const proceduri: Procedure[] = [
       { title: "PDE5i (sildenafil, tadalafil)", description: "Standardul pentru DE. Eficient 70-80% pacienți." },
       { title: "Vacuum / Pump", description: "Pentru DE moderată." },
       { title: "Shockwave terapie", description: "Eficient ED de cauză vasculogenă." },
-      { title: "Implant peniann", description: "Pentru DE severă rezistentă la altele." }
+      { title: "Implant penian", description: "Pentru DE severă rezistentă la altele." }
     ],
     faqs: [
       { q: "Funcționează garantat?", a: "Nu. Aproximativ 50-60% pacienți raportează îmbunătățire subiectivă a erecției. Răspunsul depinde de cauza DE." },
@@ -602,7 +602,7 @@ export const proceduri: Procedure[] = [
       { q: "Înlocuiește sildenafilul?", a: "Nu. PRP este adjuvant pentru DE ușoară-moderată. PDE5i rămâne standardul." },
       { q: "Crește dimensiunea?", a: "NU. Marketingul în acest sens este înșelător. P-Shot nu crește lungimea sau circumferința." },
       { q: "E sigur?", a: "Da. PRP este autolog (sânge propriu) — risc zero de respingere." },
-      { q: "Pot combina cu lipofilling sau HA?", a: "Da, în sesiuni separate." }
+      { q: "Pot combina cu lipofilling sau acid hialuronic?", a: "Da, în sesiuni separate." }
     ],
     citations: [
       { text: "Poulios E et al. J Sex Med, 2021.", url: "https://pubmed.ncbi.nlm.nih.gov/33906807/", source: "J Sex Med 2021" },
@@ -640,7 +640,7 @@ export const proceduri: Procedure[] = [
     whatIs: "Extracția chirurgicală a corpilor străini injectați în penis (kanamicina, silicon lichid, vaselină, parafină) este intervenția pentru pacienții care au făcut greșeala de a-și injecta substanțe artizanale. Aceste substanțe produc granulom, fibroză, deformare permanentă și nu pot fi îndepărtate decât prin excizie chirurgicală.",
     whenIndicated: [
       "Orice pacient cu kanamicina, silicon, vaselină sau parafină injectate",
-      "Granulom peniann simptomatic",
+      "Granulom penian simptomatic",
       "Deformare progresivă",
       "Infecție recurentă pe zona de injectare",
       "Necroză tegumentară",
@@ -703,7 +703,7 @@ export const proceduri: Procedure[] = [
       { q: "Cum garantați discreția?", a: "Protocol GDPR strict, raportare publică zero, facturare neutră Cabinet Medical Diana Gheorghiță, discuție privată în consultație." }
     ],
     citations: [
-      { text: "Beedasy A — Granulom peniann indus de kanamicina injectabilă (studiu RO).", url: "https://dramit.ro/serviciu/granulom-penian-indus-de-kanamicina-injectabila/", source: "Studiu RO" },
+      { text: "Beedasy A — Granulom penian indus de kanamicina injectabilă (studiu RO).", url: "https://dramit.ro/serviciu/granulom-penian-indus-de-kanamicina-injectabila/", source: "Studiu RO" },
       { text: "Cascardo C et al. J Sex Med, 2019.", url: "https://pubmed.ncbi.nlm.nih.gov/31104836/", source: "J Sex Med 2019" },
       { text: "EAU — Penile foreign body management.", url: "https://uroweb.org/guidelines/sexual-and-reproductive-health/", source: "EAU" }
     ],
@@ -729,15 +729,15 @@ export const proceduri: Procedure[] = [
     intent: "Commercial-investigational",
     bodyLocation: "vulvă (labii mici)",
     alternateName: ["reducere labii mici", "nymphoplasty", "labia minora reduction"],
-    shortDescription: "Reducere chirurgicală a labiilor mici prin tehnica wedge sau marginal trim, intervenție 60-90 min, recuperare 2-3 săptămâni.",
-    lead: "Labioplastia (reducerea labiilor mici) este una din cele mai cerute proceduri de chirurgie intimă feminină. Studii publicate în Aesthetic Plastic Surgery raportează 91-97% satisfacție post-operatorie. La Dr. Diana folosim predominant tehnica wedge (rezecție centrală în pană) care păstrează marginea naturală pigmentată și terminațiile nervoase, oferind rezultat estetic superior față de marginal trim. Intervenția durează 60-90 minute, sub anestezie locală cu sedare, iar pacienta se externează în aceeași zi.",
+    shortDescription: "Reducere chirurgicală a labiilor mici prin tehnica wedge sau rezecție marginală liniară, intervenție 60-90 min, recuperare 2-3 săptămâni.",
+    lead: "Labioplastia (reducerea labiilor mici) este una din cele mai cerute proceduri de chirurgie intimă feminină. Studii publicate în Aesthetic Plastic Surgery raportează 91-97% satisfacție post-operatorie. La Dr. Diana folosim predominant tehnica wedge (rezecție centrală în pană) care păstrează marginea naturală pigmentată și terminațiile nervoase, oferind rezultat estetic superior față de rezecție marginală liniară. Intervenția durează 60-90 minute, sub anestezie locală cu sedare, iar pacienta se externează în aceeași zi.",
     cost: "1.500-2.800 EUR",
     duration: "60-90 min",
     recovery: "2-3 săptămâni activitate normală",
     anesthesia: "Locală cu sedare",
     hospitalStay: "Externare aceeași zi",
     sexualActivity: "Reluare după 6 săptămâni",
-    whatIs: "Labioplastia este intervenția chirurgicală prin care se reduc dimensiunile labiilor mici (labia minora) atunci când acestea depășesc nivelul labiilor mari sau cauzează disconfort funcțional, estetic ori psihologic. La Dr. Diana se folosește tehnica wedge (rezecție în pană) ca standard, care îndepărtează un segment central al labiei și suturează marginile naturale, păstrând culoarea, textura și sensibilitatea originală. Tehnica marginal trim este rezervată cazurilor specifice.",
+    whatIs: "Labioplastia este intervenția chirurgicală prin care se reduc dimensiunile labiilor mici (labia minora) atunci când acestea depășesc nivelul labiilor mari sau cauzează disconfort funcțional, estetic ori psihologic. La Dr. Diana se folosește tehnica wedge (rezecție în pană) ca standard, care îndepărtează un segment central al labiei și suturează marginile naturale, păstrând culoarea, textura și sensibilitatea originală. Tehnica rezecție marginală liniară este rezervată cazurilor specifice.",
     whenIndicated: [
       "Hipertrofie labii mici cu disconfort la activități fizice (sport, ciclism)",
       "Disconfort la actul sexual sau iritații recurente",
@@ -788,17 +788,17 @@ export const proceduri: Procedure[] = [
       { title: "Infecție", description: "<1% cu antibioterapie profilactică și igienă corectă." }
     ],
     alternatives: [
-      { title: "Marginal trim (tehnica liniară)", description: "Alternativă la wedge, dar pierde marginea pigmentată naturală. Indicat cazuri specifice." },
+      { title: "Rezecție marginală liniară", description: "Alternativă la wedge, dar pierde marginea pigmentată naturală. Indicat cazuri specifice." },
       { title: "Tratament conservator", description: "Pentru cazuri ușoare: lubrifianți, ajustare îmbrăcăminte, evitare iritanți. Nu rezolvă hipertrofia adevărată." },
       { title: "Reducere prin laser", description: "Tehnologie nouă cu rezultate inferioare chirurgiei clasice. Risc cicatrici termice." }
     ],
     faqs: [
-      { q: "Ce diferență e între tehnica wedge și marginal trim?", a: "Wedge îndepărtează un segment central în formă de pană, păstrând marginea naturală pigmentată și terminațiile nervoase. Marginal trim taie marginea labială liniar, pierzând culoarea și textura naturală. Wedge oferă rezultat estetic superior în 91-97% din cazuri (Sharp 2021), de aceea o folosim ca standard." },
+      { q: "Ce diferență e între tehnica wedge și rezecție marginală liniară?", a: "Wedge îndepărtează un segment central în formă de pană, păstrând marginea naturală pigmentată și terminațiile nervoase. Rezecția marginală liniară taie marginea labială liniar, pierzând culoarea și textura naturală. Wedge oferă rezultat estetic superior în 91-97% din cazuri (Sharp 2021), de aceea o folosim ca standard." },
       { q: "Voi pierde sensibilitatea?", a: "Tehnica wedge păstrează marea majoritate a terminațiilor nervoase. Pierdere senzitivă tranzitorie apare la 10-15% din paciente, dar recuperarea completă se produce în 3-6 luni la majoritatea. Sensibilitate permanent diminuată — sub 2%." },
       { q: "Când pot relua sexul?", a: "Activitatea sexuală se reia după 6 săptămâni, sub aprobare medicală la control. În primele săptămâni e necesar lubrifiant. Rapoarte sexuale înainte de 6 săptămâni risc dehiscență de sutură." },
       { q: "Cicatricile vor fi vizibile?", a: "Cicatricile sunt în zona internă a labiei, ascunse natural. La 3 luni majoritatea sunt fine albite și invizibile vizual la examinare clinică obișnuită. Folosim fire fine 5-0 resorbabile pentru cicatrici minime." },
       { q: "Procedura este dureroasă?", a: "Sub anestezie locală cu sedare nu există durere intra-operator. Post-op, disconfort moderat zile 1-3, controlat cu paracetamol/ibuprofen. Majoritatea pacientelor descriu disconfortul ca tolerabil." },
-      { q: "Pot face și augmentare punct G în aceeași intervenție?", a: "Da. Combinația labioplastie + G-Shot HA este frecvent solicitată. Sub aceeași sedare, durată totală 90-120 min." }
+      { q: "Pot face și augmentare punct G în aceeași intervenție?", a: "Da. Combinația labioplastie + G-Shot acid hialuronic este frecvent solicitată. Sub aceeași sedare, durată totală 90-120 min." }
     ],
     citations: [
       { text: "Sharp G et al. Patient-reported outcomes after labiaplasty: systematic review (n=4.738). Aesthetic Plastic Surgery, 2021.", url: "https://pubmed.ncbi.nlm.nih.gov/33409688/", source: "Aesthetic Plast Surg 2021" },
@@ -1118,25 +1118,25 @@ export const proceduri: Procedure[] = [
     category: "feminin-vagin",
     procedureType: "NonSurgicalProcedure",
     metaTitle: "G-Shot București, augmentare punct G | Preț, durată | Dr. Diana",
-    metaDescription: "G-Shot București cu Dr. Diana Gheorghiță, augmentare punctul G cu acid hialuronic sau lipofilling. Procedură 30 min, recuperare 24h, durată 6-12 luni HA.",
+    metaDescription: "G-Shot București cu Dr. Diana Gheorghiță, augmentare punctul G cu acid hialuronic sau lipofilling. Procedură 30 min, recuperare 24h, durată 6-12 luni acid hialuronic.",
     primaryKeyword: "g-shot punct g",
     searchVolume: "210-320/lună",
     intent: "Commercial-investigational",
     bodyLocation: "vagin (peretele anterior, zona Gräfenberg)",
     alternateName: ["G-Shot", "augmentare punct G", "G-spot amplification"],
-    shortDescription: "Augmentare punctul G prin injectare de acid hialuronic sau lipofilling, procedură 30 min, fără chirurgie, durată 6-12 luni HA / permanent lipo.",
-    lead: "G-Shot-ul este o procedură non-chirurgicală prin care se injectează 1-3 ml de acid hialuronic retictat sau grăsime proprie (lipofilling) în peretele anterior al vaginului, în zona Gräfenberg, pentru a amplifica senzația în timpul actului sexual. Studii publicate raportează 87% îmbunătățire subiectivă a plăcerii sexuale (Matlock 2002, n=87). Procedura durează 30 minute sub anestezie locală topică, recuperarea este în 24h. La Dr. Diana folosim HA Hyacorp MLF1 sau lipofilling pentru rezultat permanent.",
+    shortDescription: "Augmentare punctul G prin injectare de acid hialuronic sau lipofilling, procedură 30 min, fără chirurgie, durată 6-12 luni acid hialuronic / permanent lipo.",
+    lead: "G-Shot-ul este o procedură non-chirurgicală prin care se injectează 1-3 ml de acid hialuronic retictat sau grăsime proprie (lipofilling) în peretele anterior al vaginului, în zona Gräfenberg, pentru a amplifica senzația în timpul actului sexual. Studii publicate raportează 87% îmbunătățire subiectivă a plăcerii sexuale (Matlock 2002, n=87). Procedura durează 30 minute sub anestezie locală topică, recuperarea este în 24h. La Dr. Diana folosim acid hialuronic Hyacorp MLF1 sau lipofilling pentru rezultat permanent.",
     cost: "600-1.500 EUR",
     duration: "30 min",
     recovery: "24 ore",
     anesthesia: "Topică (cremă) + bloc anterior",
     hospitalStay: "Procedură ambulatorie",
     sexualActivity: "Reluare după 5-7 zile",
-    whatIs: "G-Shot-ul (augmentarea punctului G) este o procedură de medicină regenerativă prin care se injectează acid hialuronic retictat sau grăsime proprie în peretele anterior al vaginului, în zona Gräfenberg (la 4-5 cm de intrare). Scopul este creșterea volumului local pentru amplificarea senzației la stimulare. Procedura este non-chirurgicală, fără incizie, complet reversibilă (HA) sau permanentă (lipofilling).",
+    whatIs: "G-Shot-ul (augmentarea punctului G) este o procedură de medicină regenerativă prin care se injectează acid hialuronic retictat sau grăsime proprie în peretele anterior al vaginului, în zona Gräfenberg (la 4-5 cm de intrare). Scopul este creșterea volumului local pentru amplificarea senzației la stimulare. Procedura este non-chirurgicală, fără incizie, complet reversibilă (acid hialuronic) sau permanentă (lipofilling).",
     whenIndicated: [
       "Pacientă cu activitate sexuală activă, dorind amplificare senzație",
       "Diminuare senzitivă vaginală post-naștere",
-      "Pacientă curioasă despre senzație nouă (test cu HA înainte de lipofilling)",
+      "Pacientă curioasă despre senzație nouă (test cu acid hialuronic înainte de lipofilling)",
       "Combinație cu labioplastie sau alte proceduri intime"
     ],
     whenNotIndicated: [
@@ -1147,10 +1147,10 @@ export const proceduri: Procedure[] = [
       "Așteptare „orgasme automate\" — G-Shot amplifică, nu creează"
     ],
     procedureSteps: [
-      { title: "Consultația", description: "Discuție așteptări, alegere produs (HA vs lipofilling), examen ginecologic, consimțământ informat." },
+      { title: "Consultația", description: "Discuție așteptări, alegere produs (acid hialuronic vs lipofilling), examen ginecologic, consimțământ informat." },
       { title: "Anestezia topică", description: "Cremă anestezică EMLA aplicată local 20-30 min înainte. Bloc anterior cu lidocaină pentru confort total." },
       { title: "Localizare punct G", description: "Identificare clinică zona Gräfenberg (4-5 cm de intrare, perete anterior). Marcaj." },
-      { title: "Injectare HA sau lipofilling", description: "Pentru HA: injectare 1-3 ml acid hialuronic Hyacorp MLF1 cu canulă fină. Pentru lipofilling: recoltare grăsime din abdomen + injectare 5-10 ml după procesare Coleman." },
+      { title: "Injectare acid hialuronic sau lipofilling", description: "Pentru acid hialuronic: injectare 1-3 ml acid hialuronic Hyacorp MLF1 cu canulă fină. Pentru lipofilling: recoltare grăsime din abdomen + injectare 5-10 ml după procesare Coleman." },
       { title: "Externare", description: "Externare imediată cu ghid scris. Activitate normală din ziua următoare." }
     ],
     facts: [
@@ -1159,19 +1159,19 @@ export const proceduri: Procedure[] = [
       { label: "Anestezie", value: "Topică + bloc anterior" },
       { label: "Recuperare", value: "24 ore" },
       { label: "Reluare activitate sexuală", value: "5-7 zile" },
-      { label: "Durabilitate HA", value: "6-12 luni" },
+      { label: "Durabilitate acid hialuronic", value: "6-12 luni" },
       { label: "Durabilitate lipofilling", value: "Permanent (după 6 luni stabilizare)" },
-      { label: "Volum HA injectat", value: "1-3 ml" },
+      { label: "Volum acid hialuronic injectat", value: "1-3 ml" },
       { label: "Volum lipofilling", value: "5-10 ml grăsime procesată" },
       { label: "Rata complicații majore", value: "<1,5%" }
     ],
     recovery_timeline: [
       { period: "Ziua 0", title: "Procedură", description: "Procedură ambulatorie 30 min. Externare imediat." },
       { period: "Zilele 1-2", title: "Disconfort minim", description: "Sensibilitate ușoară, edem minor. Activitate normală posibilă imediat." },
-      { period: "Ziua 3-7", title: "Stabilizare", description: "HA se integrează în țesut. Edem dispare complet." },
+      { period: "Ziua 3-7", title: "Stabilizare", description: "Acid hialuronic se integrează în țesut. Edem dispare complet." },
       { period: "Săpt. 1", title: "Reluare activitate sexuală", description: "Permisă după 5-7 zile. Senzație amplificată perceptibilă." },
-      { period: "Luna 1-3 (HA)", title: "Efect maxim", description: "HA stabilizat, senzație amplificată constantă." },
-      { period: "Luna 6-12 (HA)", title: "Resorbție progresivă", description: "HA se resoarbe gradat. Necesită touch-up la 6-12 luni pentru menținere." },
+      { period: "Luna 1-3 (acid hialuronic)", title: "Efect maxim", description: "Acid hialuronic stabilizat, senzație amplificată constantă." },
+      { period: "Luna 6-12 (acid hialuronic)", title: "Resorbție progresivă", description: "Acid hialuronic se resoarbe gradat. Necesită touch-up la 6-12 luni pentru menținere." },
       { period: "Luna 6 (lipofilling)", title: "Volum stabil permanent", description: "30-50% grăsime resorbită în primele 6 luni. Restul rămâne permanent." }
     ],
     risks: [
@@ -1179,21 +1179,21 @@ export const proceduri: Procedure[] = [
       { title: "Sensibilitate ușoară", description: "Frecvent 2-3 zile." },
       { title: "Asimetrie minoră", description: "<3%, corectabilă cu touch-up." },
       { title: "Infecție", description: "<1% cu igienă corectă." },
-      { title: "Reacție alergică HA", description: "Foarte rar (<0,1%). Tratabilă cu hialuronidază." },
-      { title: "Resorbție rapidă HA", description: "Variabil. Unele paciente resorb mai rapid (4-6 luni)." },
+      { title: "Reacție alergică acid hialuronic", description: "Foarte rar (<0,1%). Tratabilă cu hialuronidază." },
+      { title: "Resorbție rapidă acid hialuronic", description: "Variabil. Unele paciente resorb mai rapid (4-6 luni)." },
       { title: "Lipsă efect", description: "<5% — pacienta nu percepe diferența. Posibil reinjectare." }
     ],
     alternatives: [
-      { title: "Lipofilling permanent", description: "Alternativă la HA pentru rezultat permanent. Necesită recoltare grăsime + procesare Coleman." },
+      { title: "Lipofilling permanent", description: "Alternativă la acid hialuronic pentru rezultat permanent. Necesită recoltare grăsime + procesare Coleman." },
       { title: "Exerciții Kegel + biofeedback", description: "Non-invaziv, antrenare musculatură pelvienă. Efecte modeste." },
       { title: "PRP (P-Shot feminin)", description: "Plasmă bogată în trombocite, efect regenerativ. Studii limitate." }
     ],
     faqs: [
-      { q: "Senzația va fi imediat amplificată?", a: "Da, la primul raport sexual la 5-7 zile post-procedură puteți percepe senzația amplificată. Studiul Matlock 2002 raportează 87% îmbunătățire subiectivă. Efectul maxim la 1 lună după stabilizare HA." },
-      { q: "Care diferență între HA și lipofilling?", a: "HA durează 6-12 luni, este reversibil cu hialuronidază, nu necesită recoltare. Lipofilling durează permanent (după 6 luni stabilizare), necesită lipoaspirație + Coleman din abdomen, dar elimină nevoia de touch-up. Recomandare: începeți cu HA pentru a testa rezultatul, treceți la lipofilling după dacă vă place." },
+      { q: "Senzația va fi imediat amplificată?", a: "Da, la primul raport sexual la 5-7 zile post-procedură puteți percepe senzația amplificată. Studiul Matlock 2002 raportează 87% îmbunătățire subiectivă. Efectul maxim la 1 lună după stabilizare acid hialuronic." },
+      { q: "Care diferență între acid hialuronic și lipofilling?", a: "acid hialuronic durează 6-12 luni, este reversibil cu hialuronidază, nu necesită recoltare. Lipofilling durează permanent (după 6 luni stabilizare), necesită lipoaspirație + Coleman din abdomen, dar elimină nevoia de touch-up. Recomandare: începeți cu acid hialuronic pentru a testa rezultatul, treceți la lipofilling după dacă vă place." },
       { q: "Procedura e dureroasă?", a: "Sub anestezie topică + bloc anterior nu există durere semnificativă. Pacientele descriu maxim o presiune ușoară. Disconfort post-op minimal." },
       { q: "Voi simți ceva diferit la sex?", a: "G-Shot amplifică senzația existentă, nu o creează. Dacă aveți deja activitate sexuală cu plăcere, veți percepe senzație mai intensă în zona Gräfenberg. Dacă există probleme de cuplu sau medicale necunoscute, G-Shot nu rezolvă acele probleme." },
-      { q: "Cât rezistă efectul?", a: "HA: 6-12 luni cu variabilitate individuală. Lipofilling: permanent după 6 luni stabilizare (30-50% grăsime se resoarbe inițial, restul rămâne)." },
+      { q: "Cât rezistă efectul?", a: "acid hialuronic: 6-12 luni cu variabilitate individuală. Lipofilling: permanent după 6 luni stabilizare (30-50% grăsime se resoarbe inițial, restul rămâne)." },
       { q: "Pot combina cu labioplastie sau vaginoplastie?", a: "Da, frecvent combinat. Sub aceeași anestezie, durată totală 90-150 min." }
     ],
     citations: [
