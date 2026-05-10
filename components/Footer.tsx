@@ -8,9 +8,9 @@ export default function Footer() {
       <div className="container-wide pt-[6rem] pb-[5rem] lg:pt-[9rem] lg:pb-[6rem] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <div className="font-display text-xl mb-3 leading-tight">Dr. Diana Gheorghiță</div>
-          <div className="eyebrow text-[var(--color-brand-gold-soft)] mb-3">Chirurgie intimă masculină</div>
+          <div className="eyebrow text-[var(--color-brand-gold-soft)] mb-3">Chirurgie intimă</div>
           <p className="text-sm text-white/75 leading-relaxed">
-            Singurul medic femeie din România specializat sistematic în chirurgia intimă masculină. Membră ISAPS, peste {SITE.trust.proceduresPerformed}+ proceduri intime, {SITE.trust.yearsExperience}+ ani de practică.
+            Medic-femeie specializat sistematic în chirurgia intimă masculină și feminină. Membră ISAPS, peste {SITE.trust.proceduresPerformed}+ proceduri intime, {SITE.trust.yearsExperience}+ ani de practică.
           </p>
           <div className="mt-5 flex flex-col gap-1.5 text-sm">
             <a href="https://www.isaps.org/" target="_blank" rel="noopener noreferrer" className="text-white/85 hover:text-[var(--color-brand-gold)]">Verifică ISAPS</a>
