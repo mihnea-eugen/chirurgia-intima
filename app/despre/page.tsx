@@ -14,7 +14,6 @@ export default function Page() {
   return (
     <div className="container-narrow py-12">
       <Breadcrumbs items={[{ name: "Acasă", url: "/" }, { name: "Despre Dr. Diana", url: "/despre" }]} />
-      <div className="eyebrow mb-2">Bio profesională</div>
       <h1 className="font-display">Dr. Diana Gheorghiță</h1>
       <p className="lead text-zinc-700 mt-2">
         Medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă. Membră ISAPS, cu peste {SITE.trust.proceduresPerformed}+ proceduri intime în portofoliu și {SITE.trust.yearsExperience}+ ani de practică continuă în România.
