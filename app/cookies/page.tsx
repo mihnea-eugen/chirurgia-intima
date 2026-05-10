@@ -1,12 +1,23 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 export const metadata: Metadata = { title: "Politica cookies", description: "Cookies utilizate pe chirurgia-intima.com." };
 
 export default function Page() {
   return (
-    <div className="container-narrow py-12 prose-custom">
+    <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24 prose-custom">
       <Breadcrumbs items={[{name:"Acasă", url:"/"},{name:"Cookies", url:"/cookies"}]} />
+
+      <div className="mt-8 mb-12 lg:mb-16 not-prose">
+        <ImagePlaceholder
+          label="Hero — Politica cookies"
+          hint="Sugestie: ilustrație concept cu cookie + checkbox consimțământ. Stil minimal monocrom navy/gold."
+          ratio="21/9"
+          variant="navy"
+        />
+      </div>
+
       <h1 className="font-display">Politica cookies</h1>
       <h2>Ce sunt cookies-urile</h2>
       <p>Fișiere mici stocate în browser care permit recunoașterea unui utilizator la vizite ulterioare și funcționarea normală a site-ului.</p>
