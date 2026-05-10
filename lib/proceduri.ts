@@ -42,7 +42,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "alungire-penis",
     title: "Alungire penis chirurgicală (faloplastie dorsală)",
-    h1: "Alungire chirurgicală a penisului — faloplastie dorsală",
+    h1: "Alungire chirurgicală a penisului, faloplastie dorsală",
     category: "augmentare",
     procedureType: "SurgicalProcedure",
     metaTitle: "Faloplastie București, alungire penis chirurgicală | Preț, poze, recuperare | Dr. Diana",
@@ -60,7 +60,7 @@ export const proceduri: Procedure[] = [
     anesthesia: "Locală cu sedare sau rahidiană",
     hospitalStay: "Externare aceeași zi (90% cazuri)",
     sexualActivity: "Reluare după 4-6 săptămâni",
-    whatIs: "Alungirea chirurgicală a penisului (faloplastie dorsală sau ligamentoliză) este intervenția prin care se secționează parțial ligamentul suspensor — structura fibroasă care fixează rădăcina penisului de osul pubian. După secționare, o porțiune din penisul intracorporal devine vizibilă în exterior, ceea ce produce un câștig de lungime aparent în stare flască.",
+    whatIs: "Alungirea chirurgicală a penisului (faloplastie dorsală sau ligamentoliză) este intervenția prin care se secționează parțial ligamentul suspensor, structura fibroasă care fixează rădăcina penisului de osul pubian. După secționare, o porțiune din penisul intracorporal devine vizibilă în exterior, ceea ce produce un câștig de lungime aparent în stare flască.",
     whenIndicated: [
       "Micropenis (lungime erectilă <7,5 cm la adulți, conform criteriilor ISSM)",
       "Hipospadias corectat sau alte anomalii anatomice",
@@ -71,7 +71,7 @@ export const proceduri: Procedure[] = [
     whenNotIndicated: [
       "Curbură peniană semnificativă neoperată (patologie peniană activă)",
       "Fumat activ sau diabet decompensat (risc de cicatrizare)",
-      "Așteptări nerealiste — pacient care speră creștere intra-erectilă",
+      "Așteptări nerealiste, pacient care speră creștere intra-erectilă",
       "Tulburare dismorfică corporală netratată (PDD/BDD)",
       "Lipsă de acord cu interdicția de 4-6 săptămâni de la sex"
     ],
@@ -115,7 +115,7 @@ export const proceduri: Procedure[] = [
       { title: "Augmentare cu acid hialuronic", description: "Non-chirurgical, dar adresează grosimea, nu lungimea. Combinabil." },
       { title: "Lipofilling combinat", description: "Pentru câștig de circumferință în aceeași intervenție." },
       { title: "Liposucție suprapubiană", description: "Expune 1-3 cm aparenți gratuit la pacienții cu acumulare de grăsime pubiană." },
-      { title: "Tracțiune mecanică", description: "Dispozitive penile extender — câștig 1-2 cm dacă purtate 4-6h/zi, 6 luni. Rezultate variabile." }
+      { title: "Tracțiune mecanică", description: "Dispozitive penile extender, câștig 1-2 cm dacă purtate 4-6h/zi, 6 luni. Rezultate variabile." }
     ],
     faqs: [
       { q: "Pot reveni la 7 cm dacă am 12?", a: "Nu funcționează așa. Penisul nu este alungit prin operație, este expus. Erecția rămâne aceeași intern. Vizibil veți câștiga 2-5 cm flasc și 1-3 cm în erecție prin expunerea segmentului intracorporal." },
@@ -129,7 +129,7 @@ export const proceduri: Procedure[] = [
       { text: "Veale D et al. Am I normal? Penis length nomograms (n=15.521). BJU International, 2015.", url: "https://bjui-journals.onlinelibrary.wiley.com/doi/10.1111/bju.13010", source: "BJU International 2015" },
       { text: "Marra G et al. Worldwide Temporal Trends in Penile Length: meta-analysis (n=55.761). World Journal of Men's Health, 2023.", url: "https://www.wjmh.org/DOIx.php?id=10.5534%2Fwjmh.220203", source: "WJMH 2023" },
       { text: "Marquez-Algaba E et al. Augmentation Phalloplasty Systematic Review. Aesthet Plast Surg, 2020.", url: "https://pubmed.ncbi.nlm.nih.gov/31831387/", source: "Aesthet Plast Surg 2020" },
-      { text: "ISAPS — International Society of Aesthetic Plastic Surgery.", url: "https://www.isaps.org/", source: "ISAPS" }
+      { text: "ISAPS, International Society of Aesthetic Plastic Surgery.", url: "https://www.isaps.org/", source: "ISAPS" }
     ],
     internalLinks: [
       { slug: "ingrosare-lipofilling", label: "Îngroșare cu lipofilling" },
@@ -143,7 +143,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "ingrosare-lipofilling",
     title: "Îngroșare penis cu grăsime proprie (lipofilling)",
-    h1: "Îngroșare penis cu grăsime proprie — lipofilling",
+    h1: "Îngroșare penis cu grăsime proprie, lipofilling",
     category: "augmentare",
     procedureType: "SurgicalProcedure",
     metaTitle: "Îngroșare penis cu lipofilling, grăsime proprie București | Preț, poze | Dr. Diana",
@@ -151,7 +151,7 @@ export const proceduri: Procedure[] = [
     primaryKeyword: "îngroșare penis lipofilling",
     searchVolume: "900-1.300/lună",
     intent: "Commercial-investigational",
-    bodyLocation: "penis — corp penian (țesut subcutan)",
+    bodyLocation: "penis, corp penian (țesut subcutan)",
     alternateName: ["augmentare cu grăsime proprie", "fat grafting penis", "lipotransfer"],
     shortDescription: "Câștig de 1-3 cm circumferință cu grăsime proprie, permanent după stabilizarea la 6 luni. Recuperare 5-7 zile.",
     lead: "Lipofillingul penian transferă 30-80 ml de grăsime proprie procesată Coleman către corpul penian, oferind 1-3 cm câștig de circumferință permanent după resorbția stabilizată la 6 luni. Procedura durează 2 ore, externarea este în aceeași zi, iar grăsimea proprie elimină complet riscul de respingere imunologică.",
@@ -211,14 +211,14 @@ export const proceduri: Procedure[] = [
     ],
     alternatives: [
       { title: "Acid hialuronic", description: "Non-chirurgical, reversibil, dar temporar (12-24 luni)." },
-      { title: "Augmentare combinată cu alungire", description: "Faloplastie combinată — alungire + lipofilling în aceeași intervenție." }
+      { title: "Augmentare combinată cu alungire", description: "Faloplastie combinată, alungire + lipofilling în aceeași intervenție." }
     ],
     faqs: [
-      { q: "De ce nu silicon, vaselină sau kanamicina?", a: "Silicon, vaselină și kanamicina au fost interzise — produc granuloame, fibroză și deformări permanente în 80% din cazuri. La Dr. Diana facem și extracție chirurgicală pentru pacienți care au făcut greșeala să își injecteze aceste substanțe." },
-      { q: "Pot face și alungire în aceeași intervenție?", a: "Da. La Dr. Diana practicăm faloplastie combinată în 80% din cazurile cu cerere duală — alungire + îngroșare în aceeași intervenție, sub aceeași anestezie." },
+      { q: "De ce nu silicon, vaselină sau kanamicina?", a: "Silicon, vaselină și kanamicina au fost interzise, produc granuloame, fibroză și deformări permanente în 80% din cazuri. La Dr. Diana facem și extracție chirurgicală pentru pacienți care au făcut greșeala să își injecteze aceste substanțe." },
+      { q: "Pot face și alungire în aceeași intervenție?", a: "Da. La Dr. Diana practicăm faloplastie combinată în 80% din cazurile cu cerere duală, alungire + îngroșare în aceeași intervenție, sub aceeași anestezie." },
       { q: "Rezultatul este permanent?", a: "După 6-12 luni de stabilizare, ce rămâne este permanent. Volumul resorbit (30-50%) dispare în primele luni. Restul rămâne ca țesut adipos viu, integrat în corpul penian." },
       { q: "Câți pacienți a făcut Dr. Diana?", a: "Peste 1.000 proceduri intime totale. Lipofilling penis specific: minim 200 cazuri pe an." },
-      { q: "Ce se întâmplă dacă slăbesc?", a: "Grăsima injectată se comportă ca grăsimea de pe restul corpului — la slăbire >10 kg volumul poate scădea ușor." },
+      { q: "Ce se întâmplă dacă slăbesc?", a: "Grăsima injectată se comportă ca grăsimea de pe restul corpului, la slăbire >10 kg volumul poate scădea ușor." },
       { q: "Pot combina cu acid hialuronic?", a: "Nerecomandat în prima intenție. Dacă Acidul hialuronic există deja, așteptăm reabsorbția completă (12-24 luni) înainte de lipofilling." }
     ],
     citations: [
@@ -239,7 +239,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "ingrosare-acid-hialuronic",
     title: "Augmentare penis cu acid hialuronic",
-    h1: "Augmentare penis cu acid hialuronic — non-chirurgical",
+    h1: "Augmentare penis cu acid hialuronic, non-chirurgical",
     category: "augmentare",
     procedureType: "NonSurgicalProcedure",
     metaTitle: "Mărire penis cu acid hialuronic București, fără operație | Preț | Dr. Diana",
@@ -247,7 +247,7 @@ export const proceduri: Procedure[] = [
     primaryKeyword: "augmentare penis acid hialuronic",
     searchVolume: "600-900/lună",
     intent: "Commercial",
-    bodyLocation: "penis — țesut subcutan",
+    bodyLocation: "penis, țesut subcutan",
     alternateName: ["filler penian", "augmentare cu acid hialuronic", "Hyacorp penis"],
     shortDescription: "Câștig 1-3 cm circumferință cu acid hialuronic reticulat, reversibil, recuperare 24-48 ore, durata 12-24 luni.",
     lead: "Augmentarea cu acid hialuronic reticulat de înaltă densitate (Hyacorp MLF1/MLF2, Genefill, Princess Volume) oferă 1-3 cm câștig de circumferință în 30-45 minute, fără chirurgie. RCT 2021 publicat în Journal of Sexual Medicine raportează augmentare medie 22,74 mm cu complicații minore sub 1,5%. Procedura este 100% reversibilă cu hialuronidază.",
@@ -260,12 +260,12 @@ export const proceduri: Procedure[] = [
     whatIs: "Augmentarea peniană cu acid hialuronic este o procedură non-chirurgicală în care un filler dermal pe bază de acid hialuronic reticulat de înaltă densitate este injectat în țesutul subcutan al corpului penian. Spre deosebire de lipofilling, procedura nu necesită incizie și este complet reversibilă prin injectare de hialuronidază.",
     whenIndicated: [
       "Pacient care preferă procedură non-chirurgicală",
-      "Test pre-lipofilling — pacientul evaluează rezultatul",
+      "Test pre-lipofilling, pacientul evaluează rezultatul",
       "Indicație estetică pentru circumferință",
       "Pacient cu intoleranță la chirurgie sau anestezie generală"
     ],
     whenNotIndicated: [
-      "Pacient cu kanamicina/silicon injectat — necesită extracție mai întâi",
+      "Pacient cu kanamicina/silicon injectat, necesită extracție mai întâi",
       "Infecție activă genitală sau dermatologică",
       "Tulburări de coagulare",
       "Alergie la acid hialuronic sau hialuronidază",
@@ -332,7 +332,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "fimoza",
     title: "Fimoza la adulți și copii",
-    h1: "Fimoza — cauze, simptome, tratament conservator și chirurgical",
+    h1: "Fimoza, cauze, simptome, tratament conservator și chirurgical",
     category: "preput",
     procedureType: "TherapeuticProcedure",
     metaTitle: "Fimoza București, tratament adulți și copii | Cauze, simptome, operație | Dr. Diana",
@@ -343,7 +343,7 @@ export const proceduri: Procedure[] = [
     bodyLocation: "preput penian",
     alternateName: ["preput strâns", "fimoză cicatricială", "BXO", "lichen scleros"],
     shortDescription: "Imposibilitatea retragerii prepuțului peste gland. Fiziologică la sugari, patologică la adulți. Tratament: conservator (unguente cu corticosteroizi) sau chirurgical (circumcizie, preputioplastie).",
-    lead: "Fimoza este imposibilitatea sau dificultatea de a retrage prepuțul peste glandul penisului. La sugari și copii mici sub 5 ani este fiziologică (normală) și se rezolvă spontan în 90% din cazuri până la pubertate. La adulți și adolescenți după pubertate este patologică, fiind cauzată cel mai frecvent de balanită recurentă, lichen scleros (BXO) sau cicatrice post-decalotare forțată. Tratamentul depinde de cauză și severitate: conservator cu unguente cu corticosteroizi (mometazonă, betametazonă) timp de 4-8 săptămâni — eficient în 60-70% cazuri fără lichen scleros — sau chirurgical (circumcizie completă pentru lichen scleros și fimoză strânsă, preputioplastie pentru fimoză moderată cu prepuț estetic conservat). Dr. Diana Gheorghiță oferă consultație individualizată cu plan terapeutic adaptat cauzei.",
+    lead: "Fimoza este imposibilitatea sau dificultatea de a retrage prepuțul peste glandul penisului. La sugari și copii mici sub 5 ani este fiziologică (normală) și se rezolvă spontan în 90% din cazuri până la pubertate. La adulți și adolescenți după pubertate este patologică, fiind cauzată cel mai frecvent de balanită recurentă, lichen scleros (BXO) sau cicatrice post-decalotare forțată. Tratamentul depinde de cauză și severitate: conservator cu unguente cu corticosteroizi (mometazonă, betametazonă) timp de 4-8 săptămâni, eficient în 60-70% cazuri fără lichen scleros, sau chirurgical (circumcizie completă pentru lichen scleros și fimoză strânsă, preputioplastie pentru fimoză moderată cu prepuț estetic conservat). Dr. Diana Gheorghiță oferă consultație individualizată cu plan terapeutic adaptat cauzei.",
     cost: "Consultație 350 RON, tratament chirurgical 1.500-2.500 EUR",
     duration: "30-60 min (chirurgical)",
     recovery: "5-7 zile (chirurgical), conservator fără recuperare",
@@ -394,10 +394,10 @@ export const proceduri: Procedure[] = [
       { title: "Eșec tratament conservator", description: "30-40% cazuri necesită ulterior chirurgie." },
       { title: "lichen scleros nedignosticat", description: "Risc transformare malignă <1% (carcinom scuamos penian). Necesită biopsie + circumcizie obligatorie." },
       { title: "Recurență cicatricială", description: "Risc 5-10% după preputioplastie. Soluție: circumcizie." },
-      { title: "Parafimoză", description: "Urgență medicală — prepuț retractat blocat. Necesită reducere manuală sau incizie." }
+      { title: "Parafimoză", description: "Urgență medicală, prepuț retractat blocat. Necesită reducere manuală sau incizie." }
     ],
     alternatives: [
-      { title: "Decalotare progresivă", description: "La sugari și copii sub 5 ani fără simptome — așteptare cu igienă blândă." },
+      { title: "Decalotare progresivă", description: "La sugari și copii sub 5 ani fără simptome, așteptare cu igienă blândă." },
       { title: "Unguente cu corticosteroizi", description: "Linia 1 la adolescenți și adulți fără lichen scleros. Eficient 60-70%." },
       { title: "Preputioplastie", description: "Conservă prepuțul. Indicată fimoză moderată fără lichen scleros." },
       { title: "Circumcizie completă", description: "Standard pentru lichen scleros, fimoză strânsă cicatricială, balanită recurentă." }
@@ -406,16 +406,16 @@ export const proceduri: Procedure[] = [
       { q: "Cum tratezi fimoza la adulți fără operație?", a: "Linia 1 este unguent cu corticosteroizi topici (mometazonă 0.1% sau betametazonă 0.05%) aplicat 2x/zi timp de 4-8 săptămâni, asociat cu decalotare progresivă blândă. Eficient în 60-70% din cazuri la adulți fără lichen scleros. Dacă nu răspunde, se recomandă chirurgie." },
       { q: "Care sunt simptomele fimozei la adulți?", a: "Imposibilitatea retragerii prepuțului peste gland în repaus sau erecție, durere la decalotare, durere în timpul actului sexual, balanite recurente (inflamații glandului), pete albe pe prepuț (semn lichen scleros), urinare cu jet îngustat, dificultăți de igienă." },
       { q: "Ce este BXO sau lichen scleros pe penis?", a: "Balanita Xerotica Obliterans (BXO) sau lichen scleros penian este o afecțiune dermatologică cronică inflamatorie care produce cicatrici albe pe prepuț și gland, ducând la fimoză strânsă progresivă. Apare la 30-40% din adulții cu fimoză. Risc transformare malignă <1%. Tratament: circumcizie completă obligatorie + biopsie dermatologică." },
-      { q: "Diferența între fimoză și parafimoză?", a: "Fimoza este imposibilitatea retragerii prepuțului peste gland. Parafimoza este situația când prepuțul retractat rămâne blocat în spatele coronei glandului, producând edem și durere severă. Parafimoza este urgență medicală — necesită reducere manuală imediată sau, în cazuri severe, incizie dorsală urmată de circumcizie programată." },
+      { q: "Diferența între fimoză și parafimoză?", a: "Fimoza este imposibilitatea retragerii prepuțului peste gland. Parafimoza este situația când prepuțul retractat rămâne blocat în spatele coronei glandului, producând edem și durere severă. Parafimoza este urgență medicală, necesită reducere manuală imediată sau, în cazuri severe, incizie dorsală urmată de circumcizie programată." },
       { q: "Cât costă operația de fimoză la adulți în București?", a: "Tratamentul conservator (unguente) costă 100-200 RON medicament + 350 RON consultație. Circumcizia chirurgicală costă 1.500-2.500 EUR la Dr. Diana Gheorghiță (anestezie locală, externare aceeași zi). Preputioplastie 1.200-2.000 EUR. Prețul include consultație, intervenție, anestezie, sutură, pansamente, controale post-op." },
-      { q: "Fimoza la copii — când e cazul de operație?", a: "Sub 5 ani: niciodată dacă nu există simptome (fimoza fiziologică se rezolvă spontan 90% până la 5 ani). Între 5-12 ani: doar dacă există balanite recurente, infecții urinare sau probleme de igienă. După pubertate (>14 ani): chirurgie indicată dacă persistă fimoză patologică. Niciodată decalotare forțată — produce cicatrici și fimoză cicatricială." },
+      { q: "Fimoza la copii, când e cazul de operație?", a: "Sub 5 ani: niciodată dacă nu există simptome (fimoza fiziologică se rezolvă spontan 90% până la 5 ani). Între 5-12 ani: doar dacă există balanite recurente, infecții urinare sau probleme de igienă. După pubertate (>14 ani): chirurgie indicată dacă persistă fimoză patologică. Niciodată decalotare forțată, produce cicatrici și fimoză cicatricială." },
       { q: "Pot face sex normal după operație de fimoză?", a: "După circumcizie, reluarea activității sexuale e permisă după 4-6 săptămâni cu acordul medicului. Sensibilitatea glandului poate fi inițial modificată în primele 4-8 săptămâni, apoi se normalizează. Meta-analiza Tian et al 2013 (J Sex Med) pe peste 40.000 pacienți nu a găsit diferență semnificativă în satisfacția sexuală pre vs post-circumcizie." }
     ],
     citations: [
-      { text: "European Association of Urology — Phimosis Guidelines 2024.", url: "https://uroweb.org/guidelines/paediatric-urology/", source: "EAU 2024" },
-      { text: "Cochrane Review — Topical corticosteroids for phimosis.", url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008973.pub2/full", source: "Cochrane 2014" },
+      { text: "European Association of Urology, Phimosis Guidelines 2024.", url: "https://uroweb.org/guidelines/paediatric-urology/", source: "EAU 2024" },
+      { text: "Cochrane Review, Topical corticosteroids for phimosis.", url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008973.pub2/full", source: "Cochrane 2014" },
       { text: "Tian Y et al. J Sex Med, 2013.", url: "https://pubmed.ncbi.nlm.nih.gov/24330469/", source: "J Sex Med 2013" },
-      { text: "AAP — Circumcision policy statement.", url: "https://publications.aap.org/pediatrics/article/130/3/585/30235/Male-Circumcision", source: "AAP 2012" }
+      { text: "AAP, Circumcision policy statement.", url: "https://publications.aap.org/pediatrics/article/130/3/585/30235/Male-Circumcision", source: "AAP 2012" }
     ],
     internalLinks: [
       { slug: "circumcizie-adulti", label: "Circumcizie adulți" },
@@ -429,7 +429,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "circumcizie-adulti",
     title: "Circumcizie adulți",
-    h1: "Circumcizie pentru adulți — tehnici, recuperare, beneficii",
+    h1: "Circumcizie pentru adulți, tehnici, recuperare, beneficii",
     category: "preput",
     procedureType: "SurgicalProcedure",
     metaTitle: "Circumcizie adulți București, operație fimoză bărbați | Preț, recuperare | Dr. Diana",
@@ -447,7 +447,7 @@ export const proceduri: Procedure[] = [
     anesthesia: "Locală (80% cazuri) sau regională",
     hospitalStay: "Externare aceeași zi (99%)",
     sexualActivity: "Reluare după 4-6 săptămâni",
-    whatIs: "Circumcizia este intervenția chirurgicală prin care se excizează complet prepuțul — pliul de piele care acoperă glandul. Procedura poate fi efectuată din indicație medicală (fimoză strânsă, balanită recurentă, lichen scleros, parafimoza) sau din preferință personală sau religioasă.",
+    whatIs: "Circumcizia este intervenția chirurgicală prin care se excizează complet prepuțul, pliul de piele care acoperă glandul. Procedura poate fi efectuată din indicație medicală (fimoză strânsă, balanită recurentă, lichen scleros, parafimoza) sau din preferință personală sau religioasă.",
     whenIndicated: [
       "Fimoză strânsă cicatricială (lichen scleros)",
       "Balanită recurentă (>3 episoade/an)",
@@ -512,10 +512,10 @@ export const proceduri: Procedure[] = [
       { q: "E acoperită de asigurare?", a: "Doar dacă există indicație medicală documentată." }
     ],
     citations: [
-      { text: "WHO/UNAIDS — Male circumcision for HIV prevention.", url: "https://www.who.int/health-topics/male-circumcision", source: "WHO" },
+      { text: "WHO/UNAIDS, Male circumcision for HIV prevention.", url: "https://www.who.int/health-topics/male-circumcision", source: "WHO" },
       { text: "Auvert B et al. PLoS Med, 2005.", url: "https://pubmed.ncbi.nlm.nih.gov/16231970/", source: "PLoS Med 2005" },
       { text: "Tian Y et al. J Sex Med, 2013.", url: "https://pubmed.ncbi.nlm.nih.gov/24330469/", source: "J Sex Med 2013" },
-      { text: "Mayo Clinic — Circumcision.", url: "https://www.mayoclinic.org/tests-procedures/circumcision/about/pac-20393550", source: "Mayo Clinic" }
+      { text: "Mayo Clinic, Circumcision.", url: "https://www.mayoclinic.org/tests-procedures/circumcision/about/pac-20393550", source: "Mayo Clinic" }
     ],
     internalLinks: [
       { slug: "alungire-penis", label: "Alungire penis" },
@@ -551,7 +551,7 @@ export const proceduri: Procedure[] = [
     whenIndicated: [
       "Disfuncție erectilă ușoară-moderată",
       "Pacient care vrea adjuvant la sildenafil/tadalafil",
-      "Boala patologie peniană stadiu acut — adjuvant",
+      "Boala patologie peniană stadiu acut, adjuvant",
       "Pacient care preferă tratament autolog (zero corp străin)"
     ],
     whenNotIndicated: [
@@ -601,7 +601,7 @@ export const proceduri: Procedure[] = [
       { q: "Câte sesiuni am nevoie?", a: "Standardul actual este 3 sesiuni la 4-6 săptămâni interval." },
       { q: "Înlocuiește sildenafilul?", a: "Nu. PRP este adjuvant pentru DE ușoară-moderată. PDE5i rămâne standardul." },
       { q: "Crește dimensiunea?", a: "NU. Marketingul în acest sens este înșelător. P-Shot nu crește lungimea sau circumferința." },
-      { q: "E sigur?", a: "Da. PRP este autolog (sânge propriu) — risc zero de respingere." },
+      { q: "E sigur?", a: "Da. PRP este autolog (sânge propriu), risc zero de respingere." },
       { q: "Pot combina cu lipofilling sau acid hialuronic?", a: "Da, în sesiuni separate." }
     ],
     citations: [
@@ -630,7 +630,7 @@ export const proceduri: Procedure[] = [
     bodyLocation: "țesut subcutan penis",
     alternateName: ["extracție silicon penis", "îndepărtare vaselină penis", "extracție corpi străini"],
     shortDescription: "Excizie chirurgicală a kanamicinei, siliconului, vaselinei sau parafinei injectate. Confidențialitate absolută.",
-    lead: "Estimăm 5.000-15.000 cazuri active de autoinjectare cu kanamicina, silicon, vaselină sau parafină în România. Studiu românesc 2018-2022 (Beedasy A) raportează 100% pacienți autoinjectați dezvoltă complicații serioase, iar peste 70% necesită extracție chirurgicală. Kanamicina nu poate fi aspirată — trebuie excizată chirurgical. Procedura durează 1-3 ore, spitalizare 1-2 nopți, reabilitare totală 6-12 luni.",
+    lead: "Estimăm 5.000-15.000 cazuri active de autoinjectare cu kanamicina, silicon, vaselină sau parafină în România. Studiu românesc 2018-2022 (Beedasy A) raportează 100% pacienți autoinjectați dezvoltă complicații serioase, iar peste 70% necesită extracție chirurgicală. Kanamicina nu poate fi aspirată, trebuie excizată chirurgical. Procedura durează 1-3 ore, spitalizare 1-2 nopți, reabilitare totală 6-12 luni.",
     cost: "1.800-3.500 EUR",
     duration: "1-3 ore",
     recovery: "14-21 zile activitate normală",
@@ -648,12 +648,12 @@ export const proceduri: Procedure[] = [
     ],
     whenNotIndicated: [
       "Tulburări de coagulare severe necontrolate",
-      "Infecție activă acută — necesită antibioterapie 2-4 săptămâni mai întâi",
+      "Infecție activă acută, necesită antibioterapie 2-4 săptămâni mai întâi",
       "Pacient care nu acceptă posibilitatea reconstrucției ulterioare în 2 timpi"
     ],
     procedureSteps: [
       { title: "Imagistică pre-op", description: "Ecografie peniană + RMN pentru cartografierea exactă a depozitelor." },
-      { title: "Anestezie", description: "Generală sau rahidiană — durata și complexitatea exclud anestezia locală." },
+      { title: "Anestezie", description: "Generală sau rahidiană, durata și complexitatea exclud anestezia locală." },
       { title: "Incizie", description: "Incizie circumferențială sub coroană sau longitudinală." },
       { title: "Excizie radicală țesut afectat", description: "Excizie completă a granulomului și țesutului fibrotic." },
       { title: "Lavaj abundent", description: "Lavaj cu ser fiziologic și soluție antiseptică." },
@@ -696,16 +696,16 @@ export const proceduri: Procedure[] = [
     ],
     faqs: [
       { q: "Pot rezolva fără operație?", a: "Nu. Niciun tratament conservator nu îndepărtează kanamicina, silicon solidificat, vaselina sau parafina din țesut. Excizia chirurgicală este singurul tratament definitiv." },
-      { q: "Cât pierd din lungime/grosime?", a: "Variabil — 0,5 până la 3 cm, în funcție de extensia leziunii." },
+      { q: "Cât pierd din lungime/grosime?", a: "Variabil, 0,5 până la 3 cm, în funcție de extensia leziunii." },
       { q: "Va arăta ca înainte de injectare?", a: "Estetic, da în 70-80% cazuri." },
       { q: "Pot face apoi faloplastie?", a: "Da, după 6-12 luni de stabilizare." },
-      { q: "Ce risc dacă las kanamicina în corp?", a: "Granulom cronic, infecție recurentă, deformare progresivă, necroză tegumentară. Riscul este unidirecțional — situația se înrăutățește în timp." },
+      { q: "Ce risc dacă las kanamicina în corp?", a: "Granulom cronic, infecție recurentă, deformare progresivă, necroză tegumentară. Riscul este unidirecțional, situația se înrăutățește în timp." },
       { q: "Cum garantați discreția?", a: "Protocol GDPR strict, raportare publică zero, facturare neutră Cabinet Medical Diana Gheorghiță, discuție privată în consultație." }
     ],
     citations: [
-      { text: "Beedasy A — Granulom penian indus de kanamicina injectabilă (studiu RO).", url: "https://dramit.ro/serviciu/granulom-penian-indus-de-kanamicina-injectabila/", source: "Studiu RO" },
+      { text: "Beedasy A, Granulom penian indus de kanamicina injectabilă (studiu RO).", url: "https://dramit.ro/serviciu/granulom-penian-indus-de-kanamicina-injectabila/", source: "Studiu RO" },
       { text: "Cascardo C et al. J Sex Med, 2019.", url: "https://pubmed.ncbi.nlm.nih.gov/31104836/", source: "J Sex Med 2019" },
-      { text: "EAU — Penile foreign body management.", url: "https://uroweb.org/guidelines/sexual-and-reproductive-health/", source: "EAU" }
+      { text: "EAU, Penile foreign body management.", url: "https://uroweb.org/guidelines/sexual-and-reproductive-health/", source: "EAU" }
     ],
     internalLinks: [
       { slug: "alungire-penis", label: "Faloplastie ulterioară" },
@@ -749,7 +749,7 @@ export const proceduri: Procedure[] = [
       "Sarcină sau alăptare în curs",
       "Infecții genitale active (necesită tratament prealabil)",
       "Tulburări de coagulare necontrolate",
-      "Așteptări nerealiste — pacientă cu dismorfofobie corporală netratată",
+      "Așteptări nerealiste, pacientă cu dismorfofobie corporală netratată",
       "Vârstă sub 18 ani fără indicație funcțională clară"
     ],
     procedureSteps: [
@@ -794,7 +794,7 @@ export const proceduri: Procedure[] = [
     ],
     faqs: [
       { q: "Ce diferență este între rezecția în pană și rezecția marginală liniară?", a: "Rezecția în pană îndepărtează un segment central în formă de pană, păstrând marginea naturală pigmentată și terminațiile nervoase. Rezecția marginală liniară taie marginea labială liniar, pierzând culoarea și textura naturală. Rezecția în pană oferă rezultat estetic superior în 91-97% din cazuri (Sharp 2021), de aceea o folosim ca standard." },
-      { q: "Voi pierde sensibilitatea?", a: "Rezecția în pană păstrează marea majoritate a terminațiilor nervoase. Pierdere senzitivă tranzitorie apare la 10-15% din paciente, dar recuperarea completă se produce în 3-6 luni la majoritatea. Sensibilitate permanent diminuată — sub 2%." },
+      { q: "Voi pierde sensibilitatea?", a: "Rezecția în pană păstrează marea majoritate a terminațiilor nervoase. Pierdere senzitivă tranzitorie apare la 10-15% din paciente, dar recuperarea completă se produce în 3-6 luni la majoritatea. Sensibilitate permanent diminuată, sub 2%." },
       { q: "Când pot relua sexul?", a: "Activitatea sexuală se reia după 6 săptămâni, sub aprobare medicală la control. În primele săptămâni e necesar lubrifiant. Rapoarte sexuale înainte de 6 săptămâni risc dehiscență de sutură." },
       { q: "Cicatricile vor fi vizibile?", a: "Cicatricile sunt în zona internă a labiei, ascunse natural. La 3 luni majoritatea sunt fine albite și invizibile vizual la examinare clinică obișnuită. Folosim fire fine 5-0 resorbabile pentru cicatrici minime." },
       { q: "Procedura este dureroasă?", a: "Sub anestezie locală cu sedare nu există durere intra-operator. Post-op, disconfort moderat zile 1-3, controlat cu paracetamol/ibuprofen. Majoritatea pacientelor descriu disconfortul ca tolerabil." },
@@ -804,7 +804,7 @@ export const proceduri: Procedure[] = [
       { text: "Sharp G et al. Patient-reported outcomes after labiaplasty: systematic review (n=4.738). Aesthetic Plastic Surgery, 2021.", url: "https://pubmed.ncbi.nlm.nih.gov/33409688/", source: "Aesthetic Plast Surg 2021" },
       { text: "Goodman MP et al. Labiaplasty: indications, surgical techniques, complications. J Sex Med, 2016.", url: "https://pubmed.ncbi.nlm.nih.gov/27986235/", source: "J Sex Med 2016" },
       { text: "Cochrane review on female genital cosmetic surgery, 2021.", url: "https://www.cochranelibrary.com/", source: "Cochrane 2021" },
-      { text: "ISAPS — International Society of Aesthetic Plastic Surgery Global Survey 2023.", url: "https://www.isaps.org/", source: "ISAPS 2023" }
+      { text: "ISAPS, International Society of Aesthetic Plastic Surgery Global Survey 2023.", url: "https://www.isaps.org/", source: "ISAPS 2023" }
     ],
     internalLinks: [
       { slug: "vaginoplastie", label: "Vaginoplastie" },
@@ -819,7 +819,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "vaginoplastie",
     title: "Vaginoplastie București (rejuvenare vaginală chirurgicală)",
-    h1: "Vaginoplastie — rejuvenare vaginală chirurgicală",
+    h1: "Vaginoplastie, rejuvenare vaginală chirurgicală",
     category: "feminin-vagin",
     procedureType: "SurgicalProcedure",
     metaTitle: "Vaginoplastie București, rejuvenare vaginală | Preț, recuperare | Dr. Diana",
@@ -848,7 +848,7 @@ export const proceduri: Procedure[] = [
     whenNotIndicated: [
       "Sarcină sau planificare sarcină în următorii 2 ani",
       "Infecții genitale active sau prolaps uterin major (necesită alt tip de intervenție)",
-      "Așteptări nerealiste — vaginoplastia nu rezolvă probleme de cuplu",
+      "Așteptări nerealiste, vaginoplastia nu rezolvă probleme de cuplu",
       "Pacientă cu dispareunie de cauze multiple netratate",
       "Tulburări de coagulare necontrolate"
     ],
@@ -892,7 +892,7 @@ export const proceduri: Procedure[] = [
       { title: "Rejuvenare laser (CO2 fracționat)", description: "Non-chirurgical, dar efect limitat și temporar (12-18 luni). Rezultate inferioare la pacientele cu distensie majoră." },
       { title: "Radiofrecvență (ThermiVa, Viveve)", description: "Non-chirurgical, sesiuni multiple. Strâmtare modestă, rezultat tranzitoriu." },
       { title: "Exerciții Kegel intensive", description: "Eficient pentru distensie ușoară. Insuficient pentru distensie post-naștere severă." },
-      { title: "Vaginoplastie + perineorafie combinate", description: "Recomandat când există atât distensie vaginală, cât și perineu rupt — refacere completă." }
+      { title: "Vaginoplastie + perineorafie combinate", description: "Recomandat când există atât distensie vaginală, cât și perineu rupt, refacere completă." }
     ],
     faqs: [
       { q: "Voi mai putea naște după vaginoplastie?", a: "Tehnic da, dar nașterea vaginală subsecventă va anula complet rezultatul. Recomandăm să nu rămâneți însărcinată cel puțin 2 ani după procedură. Cezariana este alternativa pentru păstrarea rezultatului." },
@@ -921,7 +921,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "perineorafie",
     title: "Perineorafie București (refacere perineu post-naștere)",
-    h1: "Perineorafie — refacere perineu post-naștere",
+    h1: "Perineorafie, refacere perineu post-naștere",
     category: "feminin-vagin",
     procedureType: "SurgicalProcedure",
     metaTitle: "Perineorafie București, refacere perineu | Preț, recuperare | Dr. Diana",
@@ -1005,7 +1005,7 @@ export const proceduri: Procedure[] = [
     ],
     citations: [
       { text: "Marsh F et al. Reconstructive perineal surgery: outcomes (n=180). BJOG, 2011.", url: "https://obgyn.onlinelibrary.wiley.com/", source: "BJOG 2011" },
-      { text: "RCOG Green-top Guideline 29 — Management of Third- and Fourth-Degree Perineal Tears, 2015.", url: "https://www.rcog.org.uk/", source: "RCOG 2015" },
+      { text: "RCOG Green-top Guideline 29, Management of Third- and Fourth-Degree Perineal Tears, 2015.", url: "https://www.rcog.org.uk/", source: "RCOG 2015" },
       { text: "Cochrane review on perineal repair techniques, 2021.", url: "https://www.cochranelibrary.com/", source: "Cochrane 2021" },
       { text: "Goodman MP et al. J Sex Med 2016.", url: "https://pubmed.ncbi.nlm.nih.gov/27986235/", source: "J Sex Med 2016" }
     ],
@@ -1021,7 +1021,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "himenoplastie",
     title: "Himenoplastie București (refacere himen)",
-    h1: "Himenoplastie — refacere himen, discreție absolută",
+    h1: "Himenoplastie, refacere himen, discreție absolută",
     category: "feminin-himen",
     procedureType: "SurgicalProcedure",
     metaTitle: "Himenoplastie București, refacere himen | Preț, GDPR | Dr. Diana",
@@ -1080,8 +1080,8 @@ export const proceduri: Procedure[] = [
       { title: "Edem și sensibilitate", description: "Minimal, 3-7 zile." },
       { title: "Sângerare minoră", description: "Rar, în primele 24h." },
       { title: "Infecție", description: "<1% cu antibioterapie profilactică." },
-      { title: "Dehiscență prematură", description: "<5% — sutura cedează înainte de timpul planificat." },
-      { title: "Sutură rezistentă neașteptat", description: "Rar — necesită ajustare." },
+      { title: "Dehiscență prematură", description: "<5%, sutura cedează înainte de timpul planificat." },
+      { title: "Sutură rezistentă neașteptat", description: "Rar, necesită ajustare." },
       { title: "Asimetrie reziduală", description: "Cosmetic, rar funcțional." }
     ],
     alternatives: [
@@ -1099,7 +1099,7 @@ export const proceduri: Procedure[] = [
     citations: [
       { text: "Goodman MP et al. Female genital cosmetic surgery: a critical analysis. J Sex Med, 2016.", url: "https://pubmed.ncbi.nlm.nih.gov/27986235/", source: "J Sex Med 2016" },
       { text: "ACOG Committee Opinion 795: Elective female genital cosmetic surgery, 2020.", url: "https://www.acog.org/", source: "ACOG 2020" },
-      { text: "GDPR Regulation EU 2016/679 — Special protection for sensitive medical data.", url: "https://gdpr.eu/", source: "GDPR EU 2016/679" },
+      { text: "GDPR Regulation EU 2016/679, Special protection for sensitive medical data.", url: "https://gdpr.eu/", source: "GDPR EU 2016/679" },
       { text: "ISAPS Global Survey 2023.", url: "https://www.isaps.org/", source: "ISAPS 2023" }
     ],
     internalLinks: [
@@ -1114,7 +1114,7 @@ export const proceduri: Procedure[] = [
   {
     slug: "augmentare-punct-g",
     title: "Augmentare punctul G București (G-Shot)",
-    h1: "Augmentare punctul G — G-Shot acid hialuronic sau lipofilling",
+    h1: "Augmentare punctul G, G-Shot acid hialuronic sau lipofilling",
     category: "feminin-vagin",
     procedureType: "NonSurgicalProcedure",
     metaTitle: "G-Shot București, augmentare punct G | Preț, durată | Dr. Diana",
@@ -1144,7 +1144,7 @@ export const proceduri: Procedure[] = [
       "Infecții vaginale active",
       "Anomalii anatomice ale peretelui vaginal anterior",
       "Tulburări de coagulare necontrolate",
-      "Așteptare „orgasme automate\" — G-Shot amplifică, nu creează"
+      "Așteptare „orgasme automate\", G-Shot amplifică, nu creează"
     ],
     procedureSteps: [
       { title: "Consultația", description: "Discuție așteptări, alegere produs (acid hialuronic vs lipofilling), examen ginecologic, consimțământ informat." },
@@ -1181,7 +1181,7 @@ export const proceduri: Procedure[] = [
       { title: "Infecție", description: "<1% cu igienă corectă." },
       { title: "Reacție alergică acid hialuronic", description: "Foarte rar (<0,1%). Tratabilă cu hialuronidază." },
       { title: "Resorbție rapidă acid hialuronic", description: "Variabil. Unele paciente resorb mai rapid (4-6 luni)." },
-      { title: "Lipsă efect", description: "<5% — pacienta nu percepe diferența. Posibil reinjectare." }
+      { title: "Lipsă efect", description: "<5%, pacienta nu percepe diferența. Posibil reinjectare." }
     ],
     alternatives: [
       { title: "Lipofilling permanent", description: "Alternativă la acid hialuronic pentru rezultat permanent. Necesită recoltare grăsime + procesare Coleman." },
