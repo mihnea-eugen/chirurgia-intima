@@ -28,7 +28,7 @@ export default function Page() {
 
       <div className="mt-8 mb-12 lg:mb-16">
         <ImagePlaceholder
-          label="Hero — Discreție și confidențialitate"
+          label="Hero: Discreție și confidențialitate"
           hint="Sugestie: ilustrație conceptuală cu lacăt + scut + GDPR, paletă navy/cream/gold. Sau foto editorial cu mâini ținând dosar medical sigilat."
           ratio="21/9"
           variant="navy"
@@ -52,7 +52,7 @@ export default function Page() {
 
       <div className="my-10">
         <ImagePlaceholder
-          label="Diagrama protocolului GDPR — flux date pacient"
+          label="Diagrama protocolului GDPR, flux date pacient"
           hint="Sugestie: schemă tehnică cu 4-5 pași: colectare → criptare → server RO/UE → acces limitat → ștergere la cerere. Stil minimal, monocrom navy."
           ratio="16/9"
           variant="cream"
