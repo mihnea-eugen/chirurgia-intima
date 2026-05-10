@@ -19,13 +19,13 @@ const termeni = [
   { t: "Kanamicina", d: "Antibiotic interzis pentru injectare subcutanată genitală. Produce granulom și fibroză." },
   { t: "Granulom penian", d: "Reacție inflamatorie cronică față de corp străin injectat (kanamicina, silicon, vaselină)." },
   { t: "Frenuloplastie", d: "Secționarea sau plastia frenului prepuțial scurt." },
-  { t: "Preputioplastie", d: "Lărgire chirurgicală a prepuțului — alternativă conservativă la circumcizie." },
-  { t: "Parafimoză", d: "Strangulare a glandului de prepuțul retras — urgență medicală." },
+  { t: "Preputioplastie", d: "Lărgire chirurgicală a prepuțului, alternativă conservativă la circumcizie." },
+  { t: "Parafimoză", d: "Strangulare a glandului de prepuțul retras, urgență medicală." },
   { t: "Liposucție suprapubiană", d: "Îndepărtarea grăsimii pubiene pentru descoperirea vizuală a penisului." },
   { t: "Penis ascuns", d: "Penis ascuns sub piele pubiană (cunoscut și ca sindromul hidden penis), corectabil prin liposucție și faloplastie." },
   { t: "Tunica albuginee", d: "Înveliș fibros al corpilor cavernoși implicat în mecanismul erectil." },
   { t: "Corpii cavernoși", d: "Structuri vasculare ce se umplu cu sânge în erecție." },
-  { t: "ISAPS", d: "International Society of Aesthetic Plastic Surgery — organizația profesională globală a chirurgilor estetici." }
+  { t: "ISAPS", d: "International Society of Aesthetic Plastic Surgery, organizația profesională globală a chirurgilor estetici." }
 ];
 
 export default function Page() {
@@ -35,7 +35,7 @@ export default function Page() {
 
       <div className="mt-8 mb-12 lg:mb-16">
         <ImagePlaceholder
-          label="Hero — Dicționar termeni medicali"
+          label="Hero: Dicționar termeni medicali"
           hint="Sugestie: ilustrație conceptuală cu carte deschisă + lupă peste termeni medicali. Sau foto editorial cu dicționar tipărit + carnet de notițe."
           ratio="21/9"
           variant="navy"
