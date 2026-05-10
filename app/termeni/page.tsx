@@ -15,7 +15,7 @@ export default function TermeniPage() {
 
       <div className="mt-8 mb-12 lg:mb-16 not-prose">
         <ImagePlaceholder
-          label="Hero — Termeni și condiții"
+          label="Hero: Termeni și condiții"
           hint="Sugestie: ilustrație conceptuală cu document semnat + ștampilă + balanță. Stil minimal monocrom navy."
           ratio="21/9"
           variant="navy"
