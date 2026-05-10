@@ -96,7 +96,7 @@ export default async function ProcedurePage({ params }: { params: Promise<{ slug
         <Breadcrumbs items={breadcrumbs} />
         <div className="mt-8 mb-12 lg:mb-16">
           <ImagePlaceholder
-            label={`Hero — ${p.title}`}
+            label={`Hero: ${p.title}`}
             hint={`Sugestie: foto cabinet anonimizată sau grafic concept pentru ${p.primaryKeyword}. Fără pacienți, fără informații care identifică persoane.`}
             ratio="21/9"
             variant="navy"
@@ -106,7 +106,7 @@ export default async function ProcedurePage({ params }: { params: Promise<{ slug
           {/* ARTICLE */}
           <article className="lg:col-span-2 prose-custom">
             <div className="mb-2 inline-block bg-zinc-100 text-zinc-700 text-xs px-2 py-1 rounded uppercase tracking-wide">
-              {p.category === "augmentare" ? "Augmentare" : p.category === "preput" ? "Prepuț, igienă" : p.category === "reparator" ? "Reparator" : p.category === "regenerativ" ? "Regenerativ" : p.category === "feminin-labii" ? "Femei — Labii" : p.category === "feminin-vagin" ? "Femei — Vagin și perineu" : "Femei — Reconstrucție"}
+              {p.category === "augmentare" ? "Augmentare" : p.category === "preput" ? "Prepuț, igienă" : p.category === "reparator" ? "Reparator" : p.category === "regenerativ" ? "Regenerativ" : p.category === "feminin-labii" ? "Femei: Labii" : p.category === "feminin-vagin" ? "Femei: Vagin și perineu" : "Femei: Reconstrucție"}
             </div>
             <h1 className="font-display">{p.h1}</h1>
             <p className="lead">{p.lead}</p>
