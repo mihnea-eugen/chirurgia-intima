@@ -3,7 +3,7 @@ export const SITE = {
   shortName: "Chirurgie intimă",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://chirurgia-intima.com",
   description:
-    "Site dedicat chirurgiei intime masculine și feminine sub semnătura Dr. Diana Gheorghiță. Medic-femeie specializat sistematic în chirurgia intimă pentru ambele sexe — faloplastie, circumcizie, fimoză, P-Shot, labioplastie, vaginoplastie, perineorafie, himenoplastie. ISAPS, peste 10 ani experiență, clinică privată acreditată din București.",
+    "Site dedicat chirurgiei intime masculine și feminine sub semnătura Dr. Diana Gheorghiță. Medic specialist femeie în chirurgia intimă pentru ambele sexe (faloplastie, circumcizie, fimoză, P-Shot, labioplastie, vaginoplastie, perineorafie, himenoplastie). Membră ISAPS, peste 10 ani experiență, clinică privată acreditată din București.",
   phone: "+40775345931",
   whatsapp: "+40775345931",
   email: "contact@chirurgia-intima.com",
@@ -40,7 +40,7 @@ export const SITE = {
       "Circumcizie adulți",
       "Fimoză",
       "Frenuloplastie",
-      "P-Shot PRP",
+      "P-Shot, plasmă proprie penis",
       "Extracție kanamicina",
       "Granulom penian",
       "Labioplastie",
