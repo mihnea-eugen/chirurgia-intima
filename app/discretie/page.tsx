@@ -24,7 +24,6 @@ export default function Page() {
   return (
     <div className="container-narrow py-12">
       <Breadcrumbs items={[{ name: "Acasă", url: "/" }, { name: "Discreție", url: "/discretie" }]} />
-      <div className="eyebrow mb-2">Diferențiator clinic</div>
       <h1 className="font-display">Discreție și confidențialitate</h1>
       <p className="lead">
         Pentru pacienții de chirurgie intimă masculină, discreția nu este un bonus, este o condiție. Aplicăm un protocol explicit care acoperă comunicarea, facturarea, datele personale și prelevarea de imagini. Niciun competitor din România nu operează cu acest nivel de transparență privind confidențialitatea.
