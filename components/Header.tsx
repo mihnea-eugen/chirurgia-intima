@@ -9,31 +9,45 @@ type ProcedureLink = { slug: string; title: string; tag: string };
 
 const procedureGroups: { heading: string; items: ProcedureLink[] }[] = [
   {
-    heading: "Augmentare",
+    heading: "Bărbați — Augmentare",
     items: [
-      { slug: "alungire-penis", title: "Alungire chirurgicală", tag: "2-5 cm" },
-      { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling", tag: "Permanent" },
-      { slug: "ingrosare-acid-hialuronic", title: "Augmentare cu acid hialuronic", tag: "Reversibil" }
+      { slug: "alungire-penis", title: "Alungire chirurgicală", tag: "Faloplastie 2-5 cm" },
+      { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling", tag: "Grăsime proprie" },
+      { slug: "ingrosare-acid-hialuronic", title: "Augmentare acid hialuronic", tag: "Reversibil" }
     ]
   },
   {
-    heading: "Prepuț, glandulară",
+    heading: "Bărbați — Prepuț, glandular",
     items: [
+      { slug: "fimoza", title: "Fimoza la adulți și copii", tag: "Conservator + chirurgical" },
       { slug: "circumcizie-adulti", title: "Circumcizie adulți", tag: "Anestezie locală" }
     ]
   },
   {
-    heading: "Curbură peniană",
+    heading: "Bărbați — Reparator + regenerativ",
     items: [
-      { slug: "peyronie-nesbit", title: "Boala Peyronie, tehnică Nesbit", tag: "Curburi <60°" },
-      { slug: "peyronie", title: "Boala Peyronie, ghid complet", tag: "Diagnostic + tratament" }
+      { slug: "extractie-kanamicina", title: "Extracție kanamicina, silicon", tag: "Reabilitare anatomie" },
+      { slug: "p-shot-prp", title: "P-Shot (Priapus Shot)", tag: "PRP autolog" }
     ]
   },
   {
-    heading: "Reparator și regenerativ",
+    heading: "Femei — Labii",
     items: [
-      { slug: "extractie-kanamicina", title: "Extracție kanamicina, silicon", tag: "Reabilitare" },
-      { slug: "p-shot-prp", title: "P-Shot, Priapus Shot", tag: "PRP autolog" }
+      { slug: "labioplastie", title: "Labioplastie", tag: "Reducere labii mici" }
+    ]
+  },
+  {
+    heading: "Femei — Vagin și perineu",
+    items: [
+      { slug: "vaginoplastie", title: "Vaginoplastie", tag: "Rejuvenare chirurgicală" },
+      { slug: "perineorafie", title: "Perineorafie", tag: "Refacere post-naștere" },
+      { slug: "augmentare-punct-g", title: "Augmentare punctul G", tag: "G-Shot HA / lipofilling" }
+    ]
+  },
+  {
+    heading: "Femei — Reconstrucție",
+    items: [
+      { slug: "himenoplastie", title: "Himenoplastie", tag: "Refacere himen, GDPR" }
     ]
   }
 ];
@@ -68,7 +82,7 @@ export default function Header() {
               Dr. Diana Gheorghiță
             </span>
             <span className="text-[10px] sm:text-[10.5px] uppercase tracking-[0.18em] text-[var(--color-brand-gold-deep)] leading-tight mt-1">
-              Chirurgie intimă masculină
+              Chirurgie intimă
             </span>
           </div>
         </Link>
@@ -81,8 +95,8 @@ export default function Header() {
             >
               Proceduri <ChevronDown className="w-3.5 h-3.5" />
             </button>
-            <div className={`nav-dropdown ${openMenu === "proc" ? "open" : ""}`} style={{ minWidth: 720 }}>
-              <div className="grid grid-cols-2 gap-x-8 gap-y-1">
+            <div className={`nav-dropdown ${openMenu === "proc" ? "open" : ""}`} style={{ minWidth: 880 }}>
+              <div className="grid grid-cols-3 gap-x-7 gap-y-1">
                 {procedureGroups.map((g) => (
                   <div key={g.heading} className="mb-3">
                     <div className="eyebrow mb-1.5 px-0.5">{g.heading}</div>
