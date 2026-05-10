@@ -11,7 +11,7 @@ export default function Page() {
 
       <div className="mt-8 mb-12 lg:mb-16 not-prose">
         <ImagePlaceholder
-          label="Hero — Politica cookies"
+          label="Hero: Politica cookies"
           hint="Sugestie: ilustrație concept cu cookie + checkbox consimțământ. Stil minimal monocrom navy/gold."
           ratio="21/9"
           variant="navy"
@@ -23,9 +23,9 @@ export default function Page() {
       <p>Fișiere mici stocate în browser care permit recunoașterea unui utilizator la vizite ulterioare și funcționarea normală a site-ului.</p>
       <h2>Tipuri folosite pe acest site</h2>
       <ul>
-        <li><strong>Esențiale</strong> — sesiune și preferințe tehnice. Nu pot fi dezactivate.</li>
-        <li><strong>Analitice (opționale)</strong> — statistici de utilizare anonime. Puteți op-ta să le respingeți din banner-ul de cookies.</li>
-        <li><strong>Publicitare</strong> — NU folosim. Acest site NU are cookies de tracking sau retargeting.</li>
+        <li><strong>Esențiale</strong>: sesiune și preferințe tehnice. Nu pot fi dezactivate.</li>
+        <li><strong>Analitice (opționale)</strong>: statistici de utilizare anonime. Puteți op-ta să le respingeți din banner-ul de cookies.</li>
+        <li><strong>Publicitare</strong>: NU folosim. Acest site NU are cookies de tracking sau retargeting.</li>
       </ul>
       <h2>Cum gestionați</h2>
       <p>Din setarile browserului vă puteți gestiona consimțământul și șterge cookies stocate.</p>
