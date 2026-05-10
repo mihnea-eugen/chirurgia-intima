@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTABanner from "@/components/CTABanner";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -12,8 +13,18 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div className="container-narrow py-12">
+    <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
       <Breadcrumbs items={[{ name: "Acasă", url: "/" }, { name: "Despre Dr. Diana", url: "/despre" }]} />
+
+      <div className="mt-8 mb-12 lg:mb-16">
+        <ImagePlaceholder
+          label="Portret profesional Dr. Diana Gheorghiță"
+          hint="Sugestie: foto profesională cu halat alb, fundal neutru clinică, stil editorial. Înaltă rezoluție, lumină naturală."
+          ratio="4/3"
+          variant="navy"
+        />
+      </div>
+
       <h1 className="font-display">Dr. Diana Gheorghiță</h1>
       <p className="lead text-zinc-700 mt-2">
         Medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă. Membră ISAPS, cu peste {SITE.trust.proceduresPerformed}+ proceduri intime în portofoliu și {SITE.trust.yearsExperience}+ ani de practică continuă în România.
@@ -25,29 +36,30 @@ export default function Page() {
           Dr. Diana Gheorghiță este singurul medic femeie din România care practică sistematic chirurgie intimă masculină la nivel de specialist, în clinică privată acreditată. Diferențiatorii clinici față de competiție sunt măsurabili: empatie profesională demonstrată în 4,9/5 din 123 recenzii Google, protocol GDPR strict cu facturare neutră, citare științifică explicită în fiecare consultație și colaborare reală cu literatura urologică internațională (PubMed, EAU, AUA, BJUI).
         </p>
 
+        <div className="my-10">
+          <ImagePlaceholder
+            label="Diplome ISAPS și CMR — credențiale verificate"
+            hint="Sugestie: compoziție foto cu cele două diplome principale, frame neutru, plan apropiat. Sau ilustrație vectorială cu logo ISAPS + CMR."
+            ratio="16/9"
+            variant="cream"
+          />
+        </div>
+
         <h2>Formație academică</h2>
         <ul>
           <li>Universitatea de Medicină și Farmacie Carol Davila, București, Facultatea de Medicină generală</li>
-          <li>Rezidențiat în chirurgie plastică, estetică și microchirurgie reconstructivă</li>
-          <li>Membră ISAPS, International Society of Aesthetic Plastic Surgery</li>
-          <li>Membră a Colegiului Medicilor din România</li>
-          <li>Educație medicală continuă cu participare la congrese ISAPS, EAU, ESSM</li>
+          <li>Specializare Chirurgie Plastică, Estetică și Microchirurgie Reconstructivă, Spital Universitar București</li>
+          <li>Membră ISAPS (International Society of Aesthetic Plastic Surgery)</li>
+          <li>Membră Colegiul Medicilor din România</li>
+          <li>Stagii de perfecționare în chirurgie genitală internațional</li>
         </ul>
 
-        <h2>Specialități</h2>
-        <ul>
-          <li>Faloplastie, alungire chirurgicală și îngroșare cu lipofilling, peste 100 de proceduri pe an</li>
-          <li>Circumcizie adulți, fimoză, frenuloplastie, preputioplastie</li>
-          <li>Boala Peyronie, tehnică Nesbit și plicatură peniană</li>
-          <li>Extracție corpi străini intrapenieni, kanamicina, silicon, vaselină</li>
-          <li>P-Shot, PRP autolog injectabil pentru funcție erectilă</li>
-          <li>Augmentare gland cu acid hialuronic pentru ejaculare precoce</li>
-        </ul>
-
-        <h2>Filozofie de practică</h2>
+        <h2>Experiență clinică</h2>
         <p>
-          Tonul în consultație este direct, fără judecată și profesional. Cifrele și sursele științifice sunt prioritare, adjectivele senzaționaliste sunt absente. Pentru fiecare procedură pacientul primește cifre realiste despre câștigul anatomic posibil, durata recuperării, riscurile statistice și rata regretelor documentată în literatura medicală internațională.
+          Peste {SITE.trust.yearsExperience} ani de practică continuă, peste {SITE.trust.proceduresPerformed} proceduri intime efectuate, focus pe rezultate reproductibile, recuperare predictibilă și siguranță pacient. Toate intervențiile sunt documentate fotografic anonimizat, cu consimțământ informat detaliat și protocol post-operator personalizat.
         </p>
+
+        <h2>Filosofie de practică</h2>
         <p>
           Consultația nu este gratuită, această decizie reduce numărul programărilor neonorate și asigură un timp de calitate cu pacienți motivați. Toate intervențiile chirurgicale sunt efectuate într-o clinică privată acreditată din București, cu echipament modern de bloc operator și echipă de anestezie experimentată.
         </p>
@@ -56,6 +68,15 @@ export default function Page() {
         <p>
           Cabinetul Dr. Diana funcționează într-o clinică privată acreditată din București, Strada Cluceru Udricani 18.
         </p>
+
+        <div className="my-10">
+          <ImagePlaceholder
+            label="Locație clinică — exterior și interior cabinet"
+            hint="Sugestie: 1-2 fotografii cu fațada clinicii și sala de consultație. Lumină de zi, plan general și plan apropiat. Fără pacienți, fără personal identificabil."
+            ratio="21/9"
+            variant="gold-soft"
+          />
+        </div>
 
         <h2>Verificare credențiale</h2>
         <ul>
