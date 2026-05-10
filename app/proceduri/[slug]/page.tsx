@@ -35,6 +35,7 @@ import RecoveryTimeline from "@/components/RecoveryTimeline";
 import CitationsList from "@/components/CitationsList";
 import CTABanner from "@/components/CTABanner";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 export function generateStaticParams() {
   return getAllProcedureSlugs().map((slug) => ({ slug }));
@@ -91,8 +92,16 @@ export default async function ProcedurePage({ params }: { params: Promise<{ slug
         ]}
       />
 
-      <div className="container-wide pt-12 pb-20 lg:pt-16 lg:pb-28">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
         <Breadcrumbs items={breadcrumbs} />
+        <div className="mt-8 mb-12 lg:mb-16">
+          <ImagePlaceholder
+            label={`Hero — ${p.title}`}
+            hint={`Sugestie: foto cabinet anonimizată sau grafic concept pentru ${p.primaryKeyword}. Fără pacienți, fără informații care identifică persoane.`}
+            ratio="21/9"
+            variant="navy"
+          />
+        </div>
         <div className="grid lg:grid-cols-3 gap-10">
           {/* ARTICLE */}
           <article className="lg:col-span-2 prose-custom">
@@ -138,6 +147,15 @@ export default async function ProcedurePage({ params }: { params: Promise<{ slug
                 </li>
               ))}
             </ol>
+
+            <div className="my-10">
+              <ImagePlaceholder
+                label="Schema tehnică intervenție"
+                hint="Sugestie: ilustrație medicală anatomică (NU foto pacient). Anonimizat 100%, doar diagrama tehnicii chirurgicale."
+                ratio="16/9"
+                variant="cream"
+              />
+            </div>
 
             {p.recovery_timeline.length > 0 && (
               <>
