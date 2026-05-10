@@ -7,7 +7,7 @@ import { Phone, MessageCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Programare consultație | Dr. Diana Gheorghiță",
-  description: "Programare consultație Dr. Diana Gheorghiță — chirurgie intimă masculină. Telefonic, WhatsApp sau formular online.",
+  description: "Programare consultație Dr. Diana Gheorghiță, chirurgie intimă masculină. Telefonic, WhatsApp sau formular online.",
   alternates: { canonical: `${SITE.url}/programare` }
 };
 
@@ -18,7 +18,7 @@ export default function ProgramarePage() {
 
       <div className="mt-8 mb-12 lg:mb-16">
         <ImagePlaceholder
-          label="Hero — Programare consultație"
+          label="Hero: Programare consultație"
           hint="Sugestie: foto editorial cu calendar + telefon pe birou neutru. Sau ilustrație conceptuală cu programare confidențială + 3 canale (telefon/WhatsApp/formular)."
           ratio="21/9"
           variant="navy"
