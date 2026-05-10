@@ -27,7 +27,6 @@ const feminin: ProcedureLink[] = [
 
 const aboutLinks = [
   { href: "/despre", label: "Despre Dr. Diana", meta: "Bio, ISAPS" },
-  { href: "/de-ce-medic-femeie", label: "De ce medic femeie", meta: "Diferențiator clinic" },
   { href: "/discretie", label: "Discreție și GDPR", meta: "Protocol confidențialitate" }
 ];
 
