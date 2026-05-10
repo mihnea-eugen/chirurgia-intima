@@ -3,6 +3,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import FAQ from "@/components/FAQ";
 import CTABanner from "@/components/CTABanner";
 import SchemaGraph from "@/components/SchemaGraph";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { getFAQSchema } from "@/lib/schema";
 
 export const metadata: Metadata = { title: "Întrebări frecvente", description: "Răspunsuri la cele mai frecvente întrebări despre chirurgia intimă masculină: confidențialitate, recuperare, finanțare, anestezie." };
@@ -22,9 +23,19 @@ const faqs = [
 
 export default function Page() {
   return (
-    <div className="container-narrow py-12">
+    <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
       <SchemaGraph items={[getFAQSchema(faqs)]} />
       <Breadcrumbs items={[{name:"Acasă", url:"/"},{name:"Întrebări frecvente", url:"/intrebari-frecvente"}]} />
+
+      <div className="mt-8 mb-12 lg:mb-16">
+        <ImagePlaceholder
+          label="Hero — Întrebări frecvente"
+          hint="Sugestie: ilustrație conceptuală cu semn de întrebare + bula dialog, paletă navy/gold. Sau foto editorial cu pacient + medic în consultație (anonim)."
+          ratio="21/9"
+          variant="navy"
+        />
+      </div>
+
       <h1 className="font-display">Întrebări frecvente</h1>
       <p className="lead text-zinc-700 mt-2">Răspunsuri concise pentru cele mai frecvente întrebări înainte de consultație.</p>
       <div className="mt-8">
