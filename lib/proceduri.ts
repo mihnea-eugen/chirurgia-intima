@@ -528,26 +528,26 @@ export const proceduri: Procedure[] = [
   },
   {
     slug: "p-shot-prp",
-    title: "P-Shot / Priapus Shot — PRP autolog",
-    h1: "P-Shot (Priapus Shot) — PRP autolog pentru penis",
+    title: "P-Shot, plasmă proprie pentru penis",
+    h1: "P-Shot, plasmă proprie regenerativă pentru penis",
     category: "regenerativ",
     procedureType: "NonSurgicalProcedure",
-    metaTitle: "P-Shot București, Priapus Shot cu plasmă proprie | Preț, păreri | Dr. Diana",
-    metaDescription: "P-Shot (Priapus Shot) cu plasmă proprie injectabilă la Dr. Diana Gheorghiță, București. Indicații pentru disfuncție erectilă moderată și regenerare țesut. Preț, păreri pacienți, cifre realiste.",
+    metaTitle: "P-Shot București, plasmă proprie pentru penis | Preț, păreri | Dr. Diana",
+    metaDescription: "P-Shot, plasmă proprie injectabilă la Dr. Diana Gheorghiță, București. Indicații pentru disfuncție erectilă moderată și regenerare țesut. Preț, păreri pacienți, cifre realiste.",
     primaryKeyword: "p-shot priapus shot",
     searchVolume: "200-400/lună",
     intent: "Commercial-investigational",
     bodyLocation: "corp penian",
-    alternateName: ["Priapus Shot", "PRP penis", "platelet-rich plasma penis"],
-    shortDescription: "Injectare PRP autolog în penis pentru funcție erectilă. Adjuvant pentru DE ușoară-moderată.",
-    lead: "P-Shot (Priapus Shot) constă în injectarea de plasmă proprie îmbogățită cu trombocite (PRP) în corpii cavernoși și în gland, pentru stimularea revascularizării și regenerării țesutului. RCT 2021 (Poulios et al, J Sex Med) a demonstrat îmbunătățire IIEF-EF la 6 luni statistic semnificativă, cu mărimea efectului mică. Cleveland Clinic 2024 califică P-Shot ca având cercetare insuficientă pentru recomandare standard.",
+    alternateName: ["P-Shot", "Priapus Shot", "PRP penis", "tratament cu plasmă"],
+    shortDescription: "Injectare plasmă proprie în penis pentru funcție erectilă. Adjuvant pentru DE ușoară-moderată.",
+    lead: "P-Shot (plasmă proprie penis) constă în injectarea de plasmă proprie îmbogățită cu trombocite (PRP) în corpii cavernoși și în gland, pentru stimularea revascularizării și regenerării țesutului. RCT 2021 (Poulios et al, J Sex Med) a demonstrat îmbunătățire IIEF-EF la 6 luni statistic semnificativă, cu mărimea efectului mică. Cleveland Clinic 2024 califică P-Shot ca având cercetare insuficientă pentru recomandare standard.",
     cost: "350-650 EUR / sesiune",
     duration: "30-45 min",
     recovery: "24-48 ore",
     anesthesia: "Topică + bloc dorsal",
     hospitalStay: "Procedură ambulatorie",
     sexualActivity: "Reluare după 24-48 ore",
-    whatIs: "P-Shot (Priapus Shot) este o procedură de medicină regenerativă în care se recoltează 30-60 ml sânge propriu, se centrifughează pentru a obține plasmă îmbogățită cu trombocite (PRP), și se injectează în corpii cavernoși și gland.",
+    whatIs: "P-Shot (plasmă proprie penis) este o procedură de medicină regenerativă în care se recoltează 30-60 ml sânge propriu, se centrifughează pentru a obține plasmă îmbogățită cu trombocite (PRP), și se injectează în corpii cavernoși și gland.",
     whenIndicated: [
       "Disfuncție erectilă ușoară-moderată",
       "Pacient care vrea adjuvant la sildenafil/tadalafil",
@@ -606,7 +606,7 @@ export const proceduri: Procedure[] = [
     ],
     citations: [
       { text: "Poulios E et al. J Sex Med, 2021.", url: "https://pubmed.ncbi.nlm.nih.gov/33906807/", source: "J Sex Med 2021" },
-      { text: "Cleveland Clinic — Priapus Shot.", url: "https://my.clevelandclinic.org/health/treatments/p-shot", source: "Cleveland Clinic" }
+      { text: "Cleveland Clinic, Priapus Shot.", url: "https://my.clevelandclinic.org/health/treatments/p-shot", source: "Cleveland Clinic" }
     ],
     internalLinks: [
       { slug: "alungire-penis", label: "Faloplastie" }
@@ -719,25 +719,25 @@ export const proceduri: Procedure[] = [
   {
     slug: "labioplastie",
     title: "Labioplastie București (reducere labii mici)",
-    h1: "Labioplastie — reducere labii mici, tehnica wedge",
+    h1: "Labioplastie, reducere labii mici prin rezecție în pană",
     category: "feminin-labii",
     procedureType: "SurgicalProcedure",
     metaTitle: "Labioplastie București, reducere labii mici | Preț, recuperare | Dr. Diana",
-    metaDescription: "Labioplastie București cu Dr. Diana Gheorghiță, reducere labii mici prin tehnica wedge. Preț, recuperare 2-3 săptămâni, anestezie locală, externare aceeași zi.",
+    metaDescription: "Labioplastie București cu Dr. Diana Gheorghiță, reducere labii mici prin rezecție în pană. Preț, recuperare 2-3 săptămâni, anestezie locală, externare aceeași zi.",
     primaryKeyword: "labioplastie",
     searchVolume: "880-1.300/lună",
     intent: "Commercial-investigational",
     bodyLocation: "vulvă (labii mici)",
     alternateName: ["reducere labii mici", "nymphoplasty", "labia minora reduction"],
-    shortDescription: "Reducere chirurgicală a labiilor mici prin tehnica wedge sau rezecție marginală liniară, intervenție 60-90 min, recuperare 2-3 săptămâni.",
-    lead: "Labioplastia (reducerea labiilor mici) este una din cele mai cerute proceduri de chirurgie intimă feminină. Studii publicate în Aesthetic Plastic Surgery raportează 91-97% satisfacție post-operatorie. La Dr. Diana folosim predominant tehnica wedge (rezecție centrală în pană) care păstrează marginea naturală pigmentată și terminațiile nervoase, oferind rezultat estetic superior față de rezecție marginală liniară. Intervenția durează 60-90 minute, sub anestezie locală cu sedare, iar pacienta se externează în aceeași zi.",
+    shortDescription: "Reducere chirurgicală a labiilor mici prin rezecție în pană sau rezecție marginală liniară, intervenție 60-90 min, recuperare 2-3 săptămâni.",
+    lead: "Labioplastia (reducerea labiilor mici) este una din cele mai cerute proceduri de chirurgie intimă feminină. Studii publicate în Aesthetic Plastic Surgery raportează 91-97% satisfacție post-operatorie. La Dr. Diana folosim predominant tehnica de rezecție în pană (centrală) care păstrează marginea naturală pigmentată și terminațiile nervoase, oferind rezultat estetic superior față de rezecție marginală liniară. Intervenția durează 60-90 minute, sub anestezie locală cu sedare, iar pacienta se externează în aceeași zi.",
     cost: "1.500-2.800 EUR",
     duration: "60-90 min",
     recovery: "2-3 săptămâni activitate normală",
     anesthesia: "Locală cu sedare",
     hospitalStay: "Externare aceeași zi",
     sexualActivity: "Reluare după 6 săptămâni",
-    whatIs: "Labioplastia este intervenția chirurgicală prin care se reduc dimensiunile labiilor mici (labia minora) atunci când acestea depășesc nivelul labiilor mari sau cauzează disconfort funcțional, estetic ori psihologic. La Dr. Diana se folosește tehnica wedge (rezecție în pană) ca standard, care îndepărtează un segment central al labiei și suturează marginile naturale, păstrând culoarea, textura și sensibilitatea originală. Tehnica rezecție marginală liniară este rezervată cazurilor specifice.",
+    whatIs: "Labioplastia este intervenția chirurgicală prin care se reduc dimensiunile labiilor mici (labia minora) atunci când acestea depășesc nivelul labiilor mari sau cauzează disconfort funcțional, estetic ori psihologic. La Dr. Diana se folosește tehnica de rezecție în pană ca standard, care îndepărtează un segment central al labiei și suturează marginile naturale, păstrând culoarea, textura și sensibilitatea originală. Tehnica rezecție marginală liniară este rezervată cazurilor specifice.",
     whenIndicated: [
       "Hipertrofie labii mici cu disconfort la activități fizice (sport, ciclism)",
       "Disconfort la actul sexual sau iritații recurente",
@@ -753,9 +753,9 @@ export const proceduri: Procedure[] = [
       "Vârstă sub 18 ani fără indicație funcțională clară"
     ],
     procedureSteps: [
-      { title: "Consultația preoperatorie", description: "Examinare clinică, măsurători, fotografii medicale (cu acord GDPR scris), discuție tehnică (wedge vs trim), așteptări realiste, analize, consimțământ informat." },
+      { title: "Consultația preoperatorie", description: "Examinare clinică, măsurători, fotografii medicale (cu acord GDPR scris), discuție tehnică (rezecție în pană vs rezecție marginală liniară), așteptări realiste, analize, consimțământ informat." },
       { title: "Anestezia", description: "Anestezie locală cu lidocaină + adrenalină, completată cu sedare ușoară IV pentru confort maxim. Anestezie generală rezervată cazurilor combinate cu vaginoplastie." },
-      { title: "Marcaj și incizie", description: "Marcare precisă a zonei de rezecție în formă de pană (wedge), păstrând marginea pigmentată naturală." },
+      { title: "Marcaj și incizie", description: "Marcare precisă a zonei de rezecție în formă de pană, păstrând marginea pigmentată naturală." },
       { title: "Rezecție și suturi", description: "Îndepărtare segment central labial, sutură stratificată în două planuri cu fire resorbabile fine (5-0 Vicryl Rapide). Tehnica conservă terminațiile nervoase și vascularizația." },
       { title: "Pansament și externare", description: "Pansament steril minim, gheață local, externare aceeași zi cu ghid scris recuperare." }
     ],
@@ -788,13 +788,13 @@ export const proceduri: Procedure[] = [
       { title: "Infecție", description: "<1% cu antibioterapie profilactică și igienă corectă." }
     ],
     alternatives: [
-      { title: "Rezecție marginală liniară", description: "Alternativă la wedge, dar pierde marginea pigmentată naturală. Indicat cazuri specifice." },
+      { title: "Rezecție marginală liniară", description: "Alternativă la rezecția în pană, dar pierde marginea pigmentată naturală. Indicat cazuri specifice." },
       { title: "Tratament conservator", description: "Pentru cazuri ușoare: lubrifianți, ajustare îmbrăcăminte, evitare iritanți. Nu rezolvă hipertrofia adevărată." },
       { title: "Reducere prin laser", description: "Tehnologie nouă cu rezultate inferioare chirurgiei clasice. Risc cicatrici termice." }
     ],
     faqs: [
-      { q: "Ce diferență e între tehnica wedge și rezecție marginală liniară?", a: "Wedge îndepărtează un segment central în formă de pană, păstrând marginea naturală pigmentată și terminațiile nervoase. Rezecția marginală liniară taie marginea labială liniar, pierzând culoarea și textura naturală. Wedge oferă rezultat estetic superior în 91-97% din cazuri (Sharp 2021), de aceea o folosim ca standard." },
-      { q: "Voi pierde sensibilitatea?", a: "Tehnica wedge păstrează marea majoritate a terminațiilor nervoase. Pierdere senzitivă tranzitorie apare la 10-15% din paciente, dar recuperarea completă se produce în 3-6 luni la majoritatea. Sensibilitate permanent diminuată — sub 2%." },
+      { q: "Ce diferență este între rezecția în pană și rezecția marginală liniară?", a: "Rezecția în pană îndepărtează un segment central în formă de pană, păstrând marginea naturală pigmentată și terminațiile nervoase. Rezecția marginală liniară taie marginea labială liniar, pierzând culoarea și textura naturală. Rezecția în pană oferă rezultat estetic superior în 91-97% din cazuri (Sharp 2021), de aceea o folosim ca standard." },
+      { q: "Voi pierde sensibilitatea?", a: "Rezecția în pană păstrează marea majoritate a terminațiilor nervoase. Pierdere senzitivă tranzitorie apare la 10-15% din paciente, dar recuperarea completă se produce în 3-6 luni la majoritatea. Sensibilitate permanent diminuată — sub 2%." },
       { q: "Când pot relua sexul?", a: "Activitatea sexuală se reia după 6 săptămâni, sub aprobare medicală la control. În primele săptămâni e necesar lubrifiant. Rapoarte sexuale înainte de 6 săptămâni risc dehiscență de sutură." },
       { q: "Cicatricile vor fi vizibile?", a: "Cicatricile sunt în zona internă a labiei, ascunse natural. La 3 luni majoritatea sunt fine albite și invizibile vizual la examinare clinică obișnuită. Folosim fire fine 5-0 resorbabile pentru cicatrici minime." },
       { q: "Procedura este dureroasă?", a: "Sub anestezie locală cu sedare nu există durere intra-operator. Post-op, disconfort moderat zile 1-3, controlat cu paracetamol/ibuprofen. Majoritatea pacientelor descriu disconfortul ca tolerabil." },
@@ -812,7 +812,7 @@ export const proceduri: Procedure[] = [
       { slug: "augmentare-punct-g", label: "Augmentare punctul G" }
     ],
     speakablePassages: [
-      "Labioplastia prin tehnica wedge oferă 91-97% satisfacție post-operatorie. Intervenția durează 60-90 minute sub anestezie locală cu sedare, iar pacienta se externează în aceeași zi.",
+      "Labioplastia prin rezecție în pană oferă 91-97% satisfacție post-operatorie. Intervenția durează 60-90 minute sub anestezie locală cu sedare, iar pacienta se externează în aceeași zi.",
       "Recuperarea la activități normale durează 2-3 săptămâni, iar reluarea activității sexuale este permisă după 6 săptămâni cu aprobare medicală la control."
     ]
   },
