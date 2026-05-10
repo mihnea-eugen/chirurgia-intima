@@ -38,7 +38,7 @@ export default function Page() {
 
         <div className="my-10">
           <ImagePlaceholder
-            label="Diplome ISAPS și CMR — credențiale verificate"
+            label="Diplome ISAPS și CMR, credențiale verificate"
             hint="Sugestie: compoziție foto cu cele două diplome principale, frame neutru, plan apropiat. Sau ilustrație vectorială cu logo ISAPS + CMR."
             ratio="16/9"
             variant="cream"
@@ -71,7 +71,7 @@ export default function Page() {
 
         <div className="my-10">
           <ImagePlaceholder
-            label="Locație clinică — exterior și interior cabinet"
+            label="Locație clinică, exterior și interior cabinet"
             hint="Sugestie: 1-2 fotografii cu fațada clinicii și sala de consultație. Lumină de zi, plan general și plan apropiat. Fără pacienți, fără personal identificabil."
             ratio="21/9"
             variant="gold-soft"
