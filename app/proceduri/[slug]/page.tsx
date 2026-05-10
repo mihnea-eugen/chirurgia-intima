@@ -97,7 +97,7 @@ export default async function ProcedurePage({ params }: { params: Promise<{ slug
           {/* ARTICLE */}
           <article className="lg:col-span-2 prose-custom">
             <div className="mb-2 inline-block bg-zinc-100 text-zinc-700 text-xs px-2 py-1 rounded uppercase tracking-wide">
-              {p.category === "augmentare" ? "Augmentare" : p.category === "preput" ? "Prepuț, igienă" : p.category === "curbura" ? "Curbură, formă" : p.category === "reparator" ? "Reparator" : "Regenerativ"}
+              {p.category === "augmentare" ? "Augmentare" : p.category === "preput" ? "Prepuț, igienă" : p.category === "reparator" ? "Reparator" : p.category === "regenerativ" ? "Regenerativ" : p.category === "feminin-labii" ? "Femei — Labii" : p.category === "feminin-vagin" ? "Femei — Vagin și perineu" : "Femei — Reconstrucție"}
             </div>
             <h1 className="font-display">{p.h1}</h1>
             <p className="lead">{p.lead}</p>
