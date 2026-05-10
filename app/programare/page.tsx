@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { SITE } from "@/lib/site";
 import { proceduri } from "@/lib/proceduri";
 import { Phone, MessageCircle } from "lucide-react";
@@ -12,8 +13,18 @@ export const metadata: Metadata = {
 
 export default function ProgramarePage() {
   return (
-    <div className="container-narrow py-12">
+    <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
       <Breadcrumbs items={[{ name: "Acasă", url: "/" }, { name: "Programare", url: "/programare" }]} />
+
+      <div className="mt-8 mb-12 lg:mb-16">
+        <ImagePlaceholder
+          label="Hero — Programare consultație"
+          hint="Sugestie: foto editorial cu calendar + telefon pe birou neutru. Sau ilustrație conceptuală cu programare confidențială + 3 canale (telefon/WhatsApp/formular)."
+          ratio="21/9"
+          variant="navy"
+        />
+      </div>
+
       <h1 className="font-display">Programare consultație</h1>
       <p className="lead">
         Toate consultațiile sunt confidențiale și se efectuează în clinică privată acreditată din București. Costul consultației este de 250 RON (50 EUR), achitabil la fața locului. Consultația durează 30-45 minute, cu examinare clinică, discuție despre opțiuni și plan terapeutic.
