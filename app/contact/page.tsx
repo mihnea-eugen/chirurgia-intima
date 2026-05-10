@@ -6,7 +6,7 @@ import { Phone, Mail, MessageCircle, MapPin, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact Dr. Diana Gheorghiță | Telefon, WhatsApp, adresă",
-  description: "Contact Dr. Diana Gheorghiță — chirurgie intimă masculină. Telefon, WhatsApp, email, adresă clinică privată acreditată București.",
+  description: "Contact Dr. Diana Gheorghiță, chirurgie intimă masculină. Telefon, WhatsApp, email, adresă clinică privată acreditată București.",
   alternates: { canonical: `${SITE.url}/contact` }
 };
 
@@ -17,7 +17,7 @@ export default function ContactPage() {
 
       <div className="mt-8 mb-12 lg:mb-16">
         <ImagePlaceholder
-          label="Hero — Contact și locație"
+          label="Hero: Contact și locație"
           hint="Sugestie: foto fațadă clinică sau plan recepție cabinet, lumină naturală. Sau ilustrație conceptuală cu telefon + WhatsApp + email + hartă."
           ratio="21/9"
           variant="navy"
