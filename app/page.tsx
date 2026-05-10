@@ -29,7 +29,7 @@ export default function HomePage() {
       <SchemaGraph
         items={[
           getMedicalWebPageSchema({
-            name: "Chirurgie intimă — Dr. Diana Gheorghiță",
+            name: "Chirurgie intimă, Dr. Diana Gheorghiță",
             description: SITE.description,
             url: SITE.url,
             speakable: true
@@ -142,7 +142,7 @@ export default function HomePage() {
                 <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-deep)] font-semibold mb-3">Pentru femei</div>
                 <h3 className="font-display text-3xl mb-4">Chirurgie intimă feminină</h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Labioplastie prin rezecție în pană, vaginoplastie post-naștere, perineorafie, himenoplastie și G-Shot. 5 proceduri pentru sănătate intimă, încredere și plăcere sexuală — cu protocol GDPR strict.
+                  Labioplastie prin rezecție în pană, vaginoplastie post-naștere, perineorafie, himenoplastie și G-Shot. 5 proceduri pentru sănătate intimă, încredere și plăcere sexuală, cu protocol GDPR strict.
                 </p>
               </div>
               <div className="space-y-4">
