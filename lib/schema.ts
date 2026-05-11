@@ -26,7 +26,6 @@ export function getPhysicianSchema() {
     knowsAbout: SITE.physician.knowsAbout,
     sameAs: SITE.physician.sameAs,
     alumniOf: [
-      { "@type": "EducationalOrganization", name: "Universitatea de Medicină și Farmacie Carol Davila București", url: "https://umfcd.ro" },
       { "@type": "Organization", name: "International Society of Aesthetic Plastic Surgery (ISAPS)", url: "https://www.isaps.org/" }
     ],
     memberOf: [
