@@ -69,7 +69,7 @@ export default function HomePage() {
                     Medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă
                   </div>
                   <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-soft)] pt-6 border-t border-white/20">
-                    Membră ISAPS · UMF Carol Davila
+                    Membră ISAPS · 10+ ani experiență
                   </div>
                 </div>
               </div>
