@@ -47,7 +47,6 @@ export default function Page() {
 
         <h2>Formație academică</h2>
         <ul>
-          <li>Universitatea de Medicină și Farmacie Carol Davila, București, Facultatea de Medicină generală</li>
           <li>Specializare Chirurgie Plastică, Estetică și Microchirurgie Reconstructivă, Spital Universitar București</li>
           <li>Membră ISAPS (International Society of Aesthetic Plastic Surgery)</li>
           <li>Membră Colegiul Medicilor din România</li>
