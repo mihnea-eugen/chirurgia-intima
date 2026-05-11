@@ -165,7 +165,7 @@ export default async function ProcedurePage({ params }: { params: Promise<{ slug
             )}
 
             <h2>Riscuri și complicații</h2>
-            <ul className="space-y-3 mt-3 list-none pl-0">
+            <ul className="not-prose space-y-3 mt-3 list-none pl-0">
               {p.risks.map((r, idx) => (
                 <li key={idx} className="bg-zinc-50 border-l-4 border-[var(--color-brand-gold)] p-4 rounded-r">
                   <div className="font-semibold text-[var(--color-brand-navy)] flex items-start gap-2">
