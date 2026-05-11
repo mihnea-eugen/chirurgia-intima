@@ -10,14 +10,13 @@ const masculin = [
   { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling", subtitle: "Grăsime proprie, permanent", icon: Sparkles },
   { slug: "ingrosare-acid-hialuronic", title: "Augmentare acid hialuronic", subtitle: "Reversibil 12-24 luni", icon: FlaskConical },
   { slug: "fimoza", title: "Fimoza la adulți", subtitle: "Tratament conservator + chirurgical", icon: Wrench },
-  { slug: "circumcizie-adulti", title: "Circumcizie adulți", subtitle: "Anestezie locală, externare aceeași zi", icon: Scissors },
+  { slug: "circumcizie", title: "Circumcizie", subtitle: "Anestezie locală, externare aceeași zi", icon: Scissors },
   { slug: "p-shot-prp", title: "P-Shot, plasmă proprie pentru penis", subtitle: "Tratament regenerativ cu plasmă", icon: Activity },
   { slug: "extractie-kanamicina", title: "Extracție corpi străini", subtitle: "Kanamicină, silicon, vaselină", icon: Wrench }
 ];
 
 const feminin = [
   { slug: "labioplastie", title: "Labioplastie", subtitle: "Reducere labii mici prin rezecție în pană", icon: Sparkles },
-  { slug: "vaginoplastie", title: "Vaginoplastie", subtitle: "Rejuvenare vaginală chirurgicală", icon: Activity },
   { slug: "perineorafie", title: "Perineorafie", subtitle: "Refacere perineu post-naștere", icon: Wrench },
   { slug: "himenoplastie", title: "Himenoplastie", subtitle: "Refacere himen, discreție GDPR", icon: Scissors },
   { slug: "augmentare-punct-g", title: "Augmentare punctul G", subtitle: "G-Shot acid hialuronic / lipofilling", icon: FlaskConical }
@@ -142,7 +141,7 @@ export default function HomePage() {
                 <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-deep)] font-semibold mb-3">Pentru femei</div>
                 <h3 className="font-display text-3xl mb-4">Chirurgie intimă feminină</h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Labioplastie prin rezecție în pană, vaginoplastie post-naștere, perineorafie, himenoplastie și G-Shot. 5 proceduri pentru sănătate intimă, încredere și plăcere sexuală, cu protocol GDPR strict.
+                  Labioplastie prin rezecție în pană, perineorafie, himenoplastie și G-Shot. 4 proceduri pentru sănătate intimă, încredere și plăcere sexuală, cu protocol GDPR strict.
                 </p>
               </div>
               <div className="space-y-4">
@@ -246,7 +245,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { age: "B, 34 ani", text: "Am ales-o pentru profesionalism. Faptul că este medic femeie m-a făcut să simt mai puțină jenă în consultație. A explicat clar limitele a ceea ce se poate face.", proc: "Faloplastie + lipofilling combinat" },
-              { age: "F, 38 ani", text: "După două nașteri naturale aveam disconfort fizic și estetic. Vaginoplastia cu perineorafie a refăcut tot. Soțul a observat diferența imediat. Recomand fără rezerve.", proc: "Vaginoplastie + perineorafie" },
+              { age: "F, 38 ani", text: "După două nașteri naturale aveam disconfort fizic și estetic. Perineorafia a refăcut tot. Soțul a observat diferența imediat. Recomand fără rezerve.", proc: "Perineorafie" },
               { age: "B, 28 ani", text: "Făcusem o greșeală cu kanamicina la 22 de ani. Dr. Diana a fost prima care mi-a spus în față că trebuie scoasă, fără să mă judece. Am refăcut lucrurile.", proc: "Extracție kanamicina + lipofilling" }
             ].map((t, idx) => (
               <div key={idx} className="p-10 rounded-xl bg-[var(--color-brand-cream)] border border-zinc-200 flex flex-col">
