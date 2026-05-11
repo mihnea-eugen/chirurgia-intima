@@ -12,14 +12,13 @@ const masculin: ProcedureLink[] = [
   { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling", tag: "Grăsime proprie" },
   { slug: "ingrosare-acid-hialuronic", title: "Augmentare acid hialuronic", tag: "Reversibil" },
   { slug: "fimoza", title: "Fimoza la adulți", tag: "Conservator + chirurgical" },
-  { slug: "circumcizie-adulti", title: "Circumcizie adulți", tag: "Anestezie locală" },
+  { slug: "circumcizie", title: "Circumcizie", tag: "Anestezie locală" },
   { slug: "p-shot-prp", title: "P-Shot, plasmă proprie", tag: "Tratament regenerativ" },
   { slug: "extractie-kanamicina", title: "Extracție corpi străini", tag: "Kanamicină, silicon" }
 ];
 
 const feminin: ProcedureLink[] = [
   { slug: "labioplastie", title: "Labioplastie", tag: "Reducere labii mici" },
-  { slug: "vaginoplastie", title: "Vaginoplastie", tag: "Rejuvenare chirurgicală" },
   { slug: "perineorafie", title: "Perineorafie", tag: "Refacere perineu" },
   { slug: "himenoplastie", title: "Himenoplastie", tag: "Refacere himen, GDPR" },
   { slug: "augmentare-punct-g", title: "Augmentare punctul G", tag: "Acid hialuronic sau grăsime proprie" }

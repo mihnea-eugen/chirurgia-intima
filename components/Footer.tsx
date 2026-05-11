@@ -5,12 +5,11 @@ const footerMasculin = [
   { slug: "alungire-penis", title: "Alungire chirurgicală" },
   { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling" },
   { slug: "fimoza", title: "Fimoza la adulți" },
-  { slug: "circumcizie-adulti", title: "Circumcizie adulți" }
+  { slug: "circumcizie", title: "Circumcizie" }
 ];
 
 const footerFeminin = [
   { slug: "labioplastie", title: "Labioplastie" },
-  { slug: "vaginoplastie", title: "Vaginoplastie" },
   { slug: "perineorafie", title: "Perineorafie" },
   { slug: "augmentare-punct-g", title: "Augmentare punctul G" }
 ];
