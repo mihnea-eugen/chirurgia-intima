@@ -418,7 +418,7 @@ export const proceduri: Procedure[] = [
       { text: "AAP, Circumcision policy statement.", url: "https://publications.aap.org/pediatrics/article/130/3/585/30235/Male-Circumcision", source: "AAP 2012" }
     ],
     internalLinks: [
-      { slug: "circumcizie-adulti", label: "Circumcizie adulți" },
+      { slug: "circumcizie", label: "Circumcizie adulți" },
       { slug: "extractie-kanamicina", label: "Extracție kanamicina" }
     ],
     speakablePassages: [
@@ -427,12 +427,12 @@ export const proceduri: Procedure[] = [
     ]
   },
   {
-    slug: "circumcizie-adulti",
+    slug: "circumcizie",
     title: "Circumcizie adulți",
     h1: "Circumcizie pentru adulți, tehnici, recuperare, beneficii",
     category: "preput",
     procedureType: "SurgicalProcedure",
-    metaTitle: "Circumcizie adulți București, operație fimoză bărbați | Preț, recuperare | Dr. Diana",
+    metaTitle: "Circumcizie București, operație fimoză bărbați | Preț, recuperare | Dr. Diana",
     metaDescription: "Circumcizie adulți și operație fimoză la bărbați în București cu Dr. Diana Gheorghiță. Anestezie locală, externare aceeași zi, recuperare 1-2 săptămâni. Preț, parafimoză, preput inflamat, indicații.",
     primaryKeyword: "circumcizie adulti",
     searchVolume: "1.000-1.400/lună",
@@ -754,7 +754,7 @@ export const proceduri: Procedure[] = [
     ],
     procedureSteps: [
       { title: "Consultația preoperatorie", description: "Examinare clinică, măsurători, fotografii medicale (cu acord GDPR scris), discuție tehnică (rezecție în pană vs rezecție marginală liniară), așteptări realiste, analize, consimțământ informat." },
-      { title: "Anestezia", description: "Anestezie locală cu lidocaină + adrenalină, completată cu sedare ușoară IV pentru confort maxim. Anestezie generală rezervată cazurilor combinate cu vaginoplastie." },
+      { title: "Anestezia", description: "Anestezie locală cu lidocaină + adrenalină, completată cu sedare ușoară IV pentru confort maxim. Anestezie generală opțional pentru pacientele care preferă." },
       { title: "Marcaj și incizie", description: "Marcare precisă a zonei de rezecție în formă de pană, păstrând marginea pigmentată naturală." },
       { title: "Rezecție și suturi", description: "Îndepărtare segment central labial, sutură stratificată în două planuri cu fire resorbabile fine (5-0 Vicryl Rapide). Tehnica conservă terminațiile nervoase și vascularizația." },
       { title: "Pansament și externare", description: "Pansament steril minim, gheață local, externare aceeași zi cu ghid scris recuperare." }
@@ -807,7 +807,6 @@ export const proceduri: Procedure[] = [
       { text: "ISAPS, International Society of Aesthetic Plastic Surgery Global Survey 2023.", url: "https://www.isaps.org/", source: "ISAPS 2023" }
     ],
     internalLinks: [
-      { slug: "vaginoplastie", label: "Vaginoplastie" },
       { slug: "perineorafie", label: "Perineorafie" },
       { slug: "augmentare-punct-g", label: "Augmentare punctul G" }
     ],
@@ -816,109 +815,6 @@ export const proceduri: Procedure[] = [
       "Recuperarea la activități normale durează 2-3 săptămâni, iar reluarea activității sexuale este permisă după 6 săptămâni cu aprobare medicală la control."
     ]
   },
-  {
-    slug: "vaginoplastie",
-    title: "Vaginoplastie București (rejuvenare vaginală chirurgicală)",
-    h1: "Vaginoplastie, rejuvenare vaginală chirurgicală",
-    category: "feminin-vagin",
-    procedureType: "SurgicalProcedure",
-    metaTitle: "Vaginoplastie București, rejuvenare vaginală | Preț, recuperare | Dr. Diana",
-    metaDescription: "Vaginoplastie București cu Dr. Diana Gheorghiță, rejuvenare vaginală chirurgicală post-naștere. Preț, recuperare 4-6 săptămâni, externare aceeași zi.",
-    primaryKeyword: "vaginoplastie",
-    searchVolume: "1.300-1.900/lună (rejuvenare vaginală)",
-    intent: "Commercial-investigational",
-    bodyLocation: "vagin (perete vaginal posterior și anterior)",
-    alternateName: ["rejuvenare vaginală chirurgicală", "vaginal tightening", "colpoperineoplastie"],
-    shortDescription: "Strâmtarea chirurgicală a canalului vaginal post-naștere prin colporafie posterioară, intervenție 90-120 min, recuperare 4-6 săptămâni.",
-    lead: "Vaginoplastia este intervenția chirurgicală care strâmtează canalul vaginal după nașteri vaginale multiple sau traumatice. Studiu publicat în J Sex Med (2016, n=2.500+) raportează 92% satisfacție subiectivă la nivelul activității sexuale post-procedură. La Dr. Diana folosim tehnica colporafiei posterioare cu plicaturare a mușchilor levator ani, oferind atât rezultat estetic, cât și funcțional. Intervenția durează 90-120 minute sub anestezie rahidiană, externarea este în aceeași zi.",
-    cost: "2.800-4.500 EUR",
-    duration: "90-120 min",
-    recovery: "4-6 săptămâni activitate normală",
-    anesthesia: "Rahidiană sau generală",
-    hospitalStay: "Externare aceeași zi (sau 24h)",
-    sexualActivity: "Reluare după 6-8 săptămâni",
-    whatIs: "Vaginoplastia (rejuvenarea vaginală chirurgicală sau colpoperineoplastia) este procedura prin care se strâmtează canalul vaginal slăbit de nașteri vaginale, prin rezecția mucoasei excedentare și plicaturarea mușchilor pelvieni (levator ani). Diferă de procedurile non-chirurgicale (laser, radiofrecvență) prin rezultat permanent și efect funcțional măsurabil. Se combină frecvent cu perineorafia pentru refacerea completă a planșeului pelvian.",
-    whenIndicated: [
-      "Distensie vaginală post-naștere multiplă (>2 nașteri vaginale)",
-      "Nașteri traumatice cu epiziotomie sau rupturi de gradul III-IV",
-      "Senzație de „vagin larg\" raportată de pacientă sau partener",
-      "Disconfort sexual cu pierdere de plăcere",
-      "Combinație cu perineorafie post-rupturi perineale"
-    ],
-    whenNotIndicated: [
-      "Sarcină sau planificare sarcină în următorii 2 ani",
-      "Infecții genitale active sau prolaps uterin major (necesită alt tip de intervenție)",
-      "Așteptări nerealiste, vaginoplastia nu rezolvă probleme de cuplu",
-      "Pacientă cu dispareunie de cauze multiple netratate",
-      "Tulburări de coagulare necontrolate"
-    ],
-    procedureSteps: [
-      { title: "Consultația preoperatorie", description: "Examinare ginecologică completă, măsurători intra-vaginale, evaluare prolaps, discuție tehnici (colporafie posterioară +/- anterioară), analize, consimțământ." },
-      { title: "Anestezia", description: "Anestezie rahidiană în 70% din cazuri, generală scurtă în 30%. Pacienta este conștientă dar fără senzație în zona inferioară." },
-      { title: "Incizie și disecție", description: "Incizie verticală pe peretele vaginal posterior, disecția mucoasei vaginale de mușchii levator ani." },
-      { title: "Plicaturare mușchi", description: "Sutura plicaturată a mușchilor levator ani pentru strâmtarea canalului vaginal." },
-      { title: "Rezecție mucoasă și sutură", description: "Îndepărtare mucoasă excedentară, sutură stratificată cu fire resorbabile (Vicryl 2-0 și 3-0)." },
-      { title: "Pansament și externare", description: "Tampon vaginal compresiv 24h, externare aceeași zi sau dimineața următoare. Antibiotic profilactic." }
-    ],
-    facts: [
-      { label: "Satisfacție subiectivă pacientă", value: "92%", source: "Goodman J Sex Med 2016 (n=2.500+)" },
-      { label: "Satisfacție partener", value: "85-90%", source: "Pardo Aesthetic Plast Surg 2018" },
-      { label: "Durata intervenției", value: "90-120 min" },
-      { label: "Anestezie predominantă", value: "Rahidiană (70% cazuri)" },
-      { label: "Externare", value: "Aceeași zi (cu tampon 24h)" },
-      { label: "Recuperare activitate normală", value: "4-6 săptămâni" },
-      { label: "Reluare activitate sexuală", value: "6-8 săptămâni" },
-      { label: "Rata complicații majore", value: "<3%", source: "Cochrane 2021" },
-      { label: "Combinație cu perineorafie", value: "60% din cazuri" }
-    ],
-    recovery_timeline: [
-      { period: "Zilele 1-3", title: "Disconfort moderat, edem", description: "Tampon compresiv 24h, repaus la pat în primele 48h, paracetamol + antiinflamator, antibiotic 7 zile, igienă cu betadină diluată." },
-      { period: "Ziua 4-10", title: "Reluare activitate ușoară", description: "Mobilizare progresivă, evitare poziție șezut prelungită. Activitate de birou posibilă din ziua 7-10." },
-      { period: "Săpt. 2-3", title: "Control medical", description: "Verificare cicatrizare, dispariție treptată edem. Firele resorbabile dispar progresiv." },
-      { period: "Săpt. 4-6", title: "Activitate fizică ușoară", description: "Reluare gradat sport ușor. Evitare ridicare greutăți >5 kg, ciclism, raporturi sexuale, tampoane." },
-      { period: "Săpt. 6-8", title: "Reluare activitate sexuală", description: "După confirmare medicală la control. Lubrifiant obligatoriu primele rapoarte. Senzitivitate restabilită complet." },
-      { period: "Luna 3-6", title: "Rezultat stabil", description: "Funcționalitate completă, sensibilitate normală, rezultat permanent." }
-    ],
-    risks: [
-      { title: "Edem și sensibilitate", description: "Frecvent în primele 2-3 săptămâni." },
-      { title: "Sângerare", description: "Rar (<5%), de obicei controlabilă cu pansament compresiv." },
-      { title: "Infecție", description: "<2% cu antibioterapie profilactică." },
-      { title: "Dispareunie tranzitorie", description: "10-15%, durere la primele rapoarte. Rezolvare cu lubrifiant și timp." },
-      { title: "Strâmtare excesivă", description: "<3%. Necesită dilatare sau rar revizie." },
-      { title: "Dehiscență de sutură", description: "<2%, apare la efort fizic precoce." },
-      { title: "Recidivă (relaxare)", description: "5-10% pe termen lung dacă pacienta rămâne însărcinată după." }
-    ],
-    alternatives: [
-      { title: "Rejuvenare laser (CO2 fracționat)", description: "Non-chirurgical, dar efect limitat și temporar (12-18 luni). Rezultate inferioare la pacientele cu distensie majoră." },
-      { title: "Radiofrecvență (ThermiVa, Viveve)", description: "Non-chirurgical, sesiuni multiple. Strâmtare modestă, rezultat tranzitoriu." },
-      { title: "Exerciții Kegel intensive", description: "Eficient pentru distensie ușoară. Insuficient pentru distensie post-naștere severă." },
-      { title: "Vaginoplastie + perineorafie combinate", description: "Recomandat când există atât distensie vaginală, cât și perineu rupt, refacere completă." }
-    ],
-    faqs: [
-      { q: "Voi mai putea naște după vaginoplastie?", a: "Tehnic da, dar nașterea vaginală subsecventă va anula complet rezultatul. Recomandăm să nu rămâneți însărcinată cel puțin 2 ani după procedură. Cezariana este alternativa pentru păstrarea rezultatului." },
-      { q: "Durerea la sex va dispărea?", a: "92% din paciente raportează îmbunătățire semnificativă a satisfacției sexuale (Goodman 2016). Strâmtarea canalului recreează senzația pre-naștere și permite contact mai intim. Lubrifiant obligatoriu primele luni." },
-      { q: "Care e diferența între vaginoplastie și labioplastie?", a: "Labioplastia reduce labiile mici (extern), vaginoplastia strâmtează canalul vaginal (intern). Sunt proceduri complet diferite, frecvent combinate când există indicație pentru ambele." },
-      { q: "Procedura este dureroasă?", a: "Sub anestezie rahidiană nu există durere intra-operator. Post-op, disconfort moderat 7-10 zile, controlat cu paracetamol + antiinflamator. Pacientele descriu durerea ca moderată, comparabilă cu post-cezariană dar mai scurtă." },
-      { q: "Pot face vaginoplastie + perineorafie + labioplastie în aceeași intervenție?", a: "Da, combinația „mommy makeover intim\" este frecventă. Durată totală 2-3 ore sub aceeași anestezie. Recuperarea este similară cu vaginoplastia singură." },
-      { q: "Cât durează rezultatul?", a: "Permanent, dacă nu mai aveți nașteri vaginale ulterioare. La pacientele care rămân însărcinate și nasc vaginal, distensia revine în 70-80% cazuri." }
-    ],
-    citations: [
-      { text: "Goodman MP et al. A large multicenter outcome study of female genital plastic surgery (n=2.500+). J Sex Med, 2016.", url: "https://pubmed.ncbi.nlm.nih.gov/27986235/", source: "J Sex Med 2016" },
-      { text: "Pardo JS et al. Colpoperineoplasty in patients with sensation of a wide vagina. Aesthet Plast Surg, 2018.", url: "https://pubmed.ncbi.nlm.nih.gov/29572716/", source: "Aesthetic Plast Surg 2018" },
-      { text: "Cochrane review on female genital cosmetic surgery outcomes, 2021.", url: "https://www.cochranelibrary.com/", source: "Cochrane 2021" },
-      { text: "ISAPS Global Survey on Aesthetic Procedures 2023.", url: "https://www.isaps.org/", source: "ISAPS 2023" }
-    ],
-    internalLinks: [
-      { slug: "perineorafie", label: "Perineorafie" },
-      { slug: "labioplastie", label: "Labioplastie" },
-      { slug: "augmentare-punct-g", label: "Augmentare punctul G" }
-    ],
-    speakablePassages: [
-      "Vaginoplastia oferă 92% satisfacție subiectivă la nivelul activității sexuale, conform studiului Goodman din J Sex Med 2016. Intervenția durează 90-120 minute sub anestezie rahidiană.",
-      "Recuperarea durează 4-6 săptămâni, iar reluarea activității sexuale este permisă după 6-8 săptămâni cu aprobare medicală."
-    ]
-  },
-  {
     slug: "perineorafie",
     title: "Perineorafie București (refacere perineu post-naștere)",
     h1: "Perineorafie, refacere perineu post-naștere",
@@ -932,7 +828,7 @@ export const proceduri: Procedure[] = [
     bodyLocation: "perineu (între vagin și anus)",
     alternateName: ["refacere perineu", "perineoplastie", "reparare perineu"],
     shortDescription: "Refacere chirurgicală a perineului rupt sau slăbit post-naștere prin sutură mușchi perineali, intervenție 60-90 min, recuperare 4-6 săptămâni.",
-    lead: "Perineorafia este intervenția prin care se refac mușchii perineali (transverși și bulbocavernoși) rupți la naștere sau slăbiți de nașteri repetate. Ruptura perineală gradul III-IV apare la 3-9% din nașterile vaginale (RCOG 2015), iar repararea inițială insuficientă lasă defecte funcționale și estetice. Refacerea secundară prin perineorafie restaurează atât distanța ano-vulvară, cât și forța musculară a planșeului pelvian. Intervenția durează 60-90 min, frecvent combinată cu vaginoplastie.",
+    lead: "Perineorafia este intervenția prin care se refac mușchii perineali (transverși și bulbocavernoși) rupți la naștere sau slăbiți de nașteri repetate. Ruptura perineală gradul III-IV apare la 3-9% din nașterile vaginale (RCOG 2015), iar repararea inițială insuficientă lasă defecte funcționale și estetice. Refacerea secundară prin perineorafie restaurează atât distanța ano-vulvară, cât și forța musculară a planșeului pelvian. Intervenția durează 60-90 min, sub anestezie rahidiană.",
     cost: "1.800-3.000 EUR",
     duration: "60-90 min",
     recovery: "4-6 săptămâni activitate normală",
@@ -945,7 +841,7 @@ export const proceduri: Procedure[] = [
       "Perineu „turtit\" cu distanță ano-vulvară redusă (<2,5 cm)",
       "Senzație de „vagin deschis\" cu hipotonus muscular",
       "Disconfort sexual din cauza distensiei perineale",
-      "Combinație cu vaginoplastie (60% din cazuri)"
+      "Distensie vaginală post-naștere"
     ],
     whenNotIndicated: [
       "Sarcină în curs sau planificată în următorii 2 ani",
@@ -971,7 +867,6 @@ export const proceduri: Procedure[] = [
       { label: "Recuperare activitate normală", value: "4-6 săptămâni" },
       { label: "Reluare activitate sexuală", value: "6-8 săptămâni" },
       { label: "Rata complicații majore", value: "<3%", source: "Cochrane 2021" },
-      { label: "Combinație cu vaginoplastie", value: "60% cazuri" }
     ],
     recovery_timeline: [
       { period: "Zilele 1-3", title: "Disconfort moderat, edem", description: "Repaus, gheață local 15 min/oră, paracetamol + antiinflamator, antibiotic profilactic 7 zile, igienă cu betadină diluată." },
@@ -985,7 +880,7 @@ export const proceduri: Procedure[] = [
       { title: "Edem și disconfort", description: "Frecvent 2-3 săptămâni." },
       { title: "Hematom", description: "Rar (<3%)." },
       { title: "Infecție", description: "<2% cu antibioterapie profilactică." },
-      { title: "Dispareunie tranzitorie", description: "15-20%, mai accentuată decât la vaginoplastie izolată. Rezolvare 3-6 luni." },
+      { title: "Dispareunie tranzitorie", description: "15-20%. Rezolvare 3-6 luni." },
       { title: "Dehiscență", description: "<3%, mai frecventă dacă pacienta nu respectă restricțiile." },
       { title: "Cicatrice hipertrofică", description: "<5%, mai vizibilă decât la labioplastie din cauza tensiunii." },
       { title: "Constipație post-op", description: "Frecvent prima săptămână. Laxativ ușor profilactic recomandat." }
@@ -993,13 +888,11 @@ export const proceduri: Procedure[] = [
     alternatives: [
       { title: "Exerciții Kegel intensive", description: "Eficient pentru hipotonie ușoară fără ruptură anatomică. Insuficient pentru defecte musculare." },
       { title: "Biofeedback + electrostimulare", description: "Non-chirurgical, util ca preparare pre-op sau în cazuri ușoare." },
-      { title: "Perineorafie + vaginoplastie combinate", description: "Recomandat când există atât perineu rupt, cât și distensie vaginală. Refacere completă într-o singură anestezie." }
     ],
     faqs: [
       { q: "De ce nu a vindecat bine la naștere?", a: "Repararea inițială la naștere se face frecvent rapid și sub presiunea evenimentului. Capetele musculare retractate pot să nu fie identificate corect, lăsând defecte anatomice. Plus, vindecarea pe perineu inflamat și cu lochii este suboptimală. Perineorafia secundară permite reconstrucție anatomică precisă." },
       { q: "Voi mai putea naște vaginal după?", a: "Tehnic posibil, dar nașterea vaginală subsecventă risc-mare să rupă din nou perineul reparat. Recomandăm cezariana pentru păstrarea rezultatului dacă rămâneți însărcinată." },
       { q: "Procedura este dureroasă?", a: "Sub anestezie rahidiană fără durere intra-op. Post-op, disconfort moderat 7-10 zile (perineul este o zonă sensibilă). Pernă inelară și paracetamol controlează disconfortul." },
-      { q: "Pot combina cu vaginoplastie?", a: "Da, combinația este frecventă (60% din cazuri). Sub aceeași anestezie rahidiană, durată totală 2-3 ore. Recuperare similară cu perineorafia singură." },
       { q: "Când văd rezultatul final?", a: "Edem scade vizibil în 3-4 săptămâni. Cicatrici se albesc complet la 3-6 luni. Funcționalitate sexuală restabilită în 6-8 săptămâni cu lubrifiant inițial." },
       { q: "Ce se întâmplă dacă revin sarcină după?", a: "Sarcina și nașterea vaginală vor anula rezultatul. Recomandăm contracepție eficientă și planificare familială clară. Cezariana este alternativa dacă doriți copii." }
     ],
@@ -1010,7 +903,6 @@ export const proceduri: Procedure[] = [
       { text: "Goodman MP et al. J Sex Med 2016.", url: "https://pubmed.ncbi.nlm.nih.gov/27986235/", source: "J Sex Med 2016" }
     ],
     internalLinks: [
-      { slug: "vaginoplastie", label: "Vaginoplastie" },
       { slug: "labioplastie", label: "Labioplastie" }
     ],
     speakablePassages: [
@@ -1104,7 +996,6 @@ export const proceduri: Procedure[] = [
     ],
     internalLinks: [
       { slug: "labioplastie", label: "Labioplastie" },
-      { slug: "vaginoplastie", label: "Vaginoplastie" }
     ],
     speakablePassages: [
       "Himenoplastia se efectuează sub anestezie locală cu sedare, durată 30-45 minute, externare aceeași zi. Protocol GDPR strict cu factură neutră fără referință la diagnostic.",
@@ -1194,7 +1085,7 @@ export const proceduri: Procedure[] = [
       { q: "Procedura e dureroasă?", a: "Sub anestezie topică + bloc anterior nu există durere semnificativă. Pacientele descriu maxim o presiune ușoară. Disconfort post-op minimal." },
       { q: "Voi simți ceva diferit la sex?", a: "G-Shot amplifică senzația existentă, nu o creează. Dacă aveți deja activitate sexuală cu plăcere, veți percepe senzație mai intensă în zona Gräfenberg. Dacă există probleme de cuplu sau medicale necunoscute, G-Shot nu rezolvă acele probleme." },
       { q: "Cât rezistă efectul?", a: "acid hialuronic: 6-12 luni cu variabilitate individuală. Lipofilling: permanent după 6 luni stabilizare (30-50% grăsime se resoarbe inițial, restul rămâne)." },
-      { q: "Pot combina cu labioplastie sau vaginoplastie?", a: "Da, frecvent combinat. Sub aceeași anestezie, durată totală 90-150 min." }
+      { q: "Pot combina cu labioplastie?", a: "Da, frecvent combinat. Sub aceeași anestezie, durată totală 90-150 min." }
     ],
     citations: [
       { text: "Matlock DL et al. Augmentation of the G-spot: clinical study (n=87). J Sex Med, 2002.", url: "https://pubmed.ncbi.nlm.nih.gov/", source: "J Sex Med 2002" },
@@ -1204,7 +1095,6 @@ export const proceduri: Procedure[] = [
     ],
     internalLinks: [
       { slug: "labioplastie", label: "Labioplastie" },
-      { slug: "vaginoplastie", label: "Vaginoplastie" },
       { slug: "perineorafie", label: "Perineorafie" }
     ],
     speakablePassages: [
