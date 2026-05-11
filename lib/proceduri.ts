@@ -815,6 +815,7 @@ export const proceduri: Procedure[] = [
       "Recuperarea la activități normale durează 2-3 săptămâni, iar reluarea activității sexuale este permisă după 6 săptămâni cu aprobare medicală la control."
     ]
   },
+  {
     slug: "perineorafie",
     title: "Perineorafie București (refacere perineu post-naștere)",
     h1: "Perineorafie, refacere perineu post-naștere",
