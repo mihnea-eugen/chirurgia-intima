@@ -9,7 +9,7 @@ import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Proceduri intime, bărbați și femei | Dr. Diana Gheorghiță",
-  description: "12 proceduri de chirurgie intimă: 7 pentru bărbați (faloplastie, lipofilling, fimoză, circumcizie, P-Shot, extracție corpi străini) și 5 pentru femei (labioplastie, vaginoplastie, perineorafie, himenoplastie, G-Shot).",
+  description: "11 proceduri de chirurgie intimă: 7 pentru bărbați (faloplastie, lipofilling, fimoză, circumcizie, P-Shot, extracție corpi străini) și 4 pentru femei (labioplastie, perineorafie, himenoplastie, G-Shot).",
   alternates: { canonical: `${SITE.url}/proceduri` }
 };
 
@@ -22,7 +22,6 @@ const iconMap: Record<string, typeof Activity> = {
   "p-shot-prp": Activity,
   "extractie-kanamicina": Wrench,
   "labioplastie": Sparkles,
-  "vaginoplastie": Activity,
   "perineorafie": Wrench,
   "himenoplastie": Scissors,
   "augmentare-punct-g": FlaskConical
@@ -114,7 +113,7 @@ export default function ProceduriIndexPage() {
           </div>
           <h2 className="font-display text-3xl sm:text-4xl mb-4">Chirurgie intimă feminină</h2>
           <p className="text-zinc-600 leading-relaxed mb-12 max-w-2xl">
-            Labioplastie wedge, vaginoplastie post-naștere, perineorafie, himenoplastie și G-Shot. {feminin.length} proceduri sub protocol GDPR strict.
+            Labioplastie wedge, perineorafie, himenoplastie și G-Shot. {feminin.length} proceduri sub protocol GDPR strict.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {feminin.map(p => {
