@@ -28,7 +28,7 @@ export default function HomePage() {
       <SchemaGraph
         items={[
           getMedicalWebPageSchema({
-            name: "Chirurgie intimă, Dr. Diana Gheorghiță",
+            name: "Genitoplastie, Dr. Diana Gheorghiță",
             description: SITE.description,
             url: SITE.url,
             speakable: true
@@ -43,12 +43,12 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             <div className="lg:col-span-7">
               <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-tight mb-8">
-                Chirurgie intimă pentru bărbați și femei.
+                Genitoplastie pentru bărbați și femei.
                 <br />
-                <span className="text-[var(--color-brand-gold-deep)]">Cu profesionalism și discreție absolută.</span>
+                <span className="text-[var(--color-brand-gold-deep)]">Specialista în genitoplastie din România.</span>
               </h1>
               <p className="text-lg text-zinc-700 leading-relaxed mb-10 max-w-2xl">
-                Dr. Diana Gheorghiță, medic chirurg plastic specializat în chirurgia intimă masculină și feminină. Membră ISAPS, peste 1.000 de proceduri intime, peste 10 ani de practică în clinică privată acreditată din București.
+                Dr. Diana Gheorghiță, medic chirurg plastic specializat în genitoplastie masculină și feminină. Membră ISAPS, peste 1.000 de proceduri de genitoplastie, peste 10 ani de practică în clinică privată acreditată din București.
               </p>
               <div className="flex flex-wrap gap-4 items-center">
                 <Link href="/programare" className="btn btn-primary">
@@ -65,7 +65,7 @@ export default function HomePage() {
                   <Award className="w-14 h-14 mx-auto mb-6 text-[var(--color-brand-gold)]" />
                   <div className="font-display text-3xl sm:text-4xl font-medium mb-4 leading-tight">Dr. Diana Gheorghiță</div>
                   <div className="text-base text-white/80 leading-relaxed mb-6">
-                    Medic specialist chirurgie plastică, estetică și microchirurgie reconstructivă
+                    Specialista în genitoplastie, chirurgie plastică și estetică
                   </div>
                   <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-soft)] pt-6 border-t border-white/20">
                     Membră ISAPS · 10+ ani experiență
@@ -82,7 +82,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {[
-              { icon: Award, label: "Proceduri intime", value: `${SITE.trust.proceduresPerformed}+` },
+              { icon: Award, label: "Proceduri genitoplastie", value: `${SITE.trust.proceduresPerformed}+` },
               { icon: GraduationCap, label: "Ani de experiență", value: `${SITE.trust.yearsExperience}+` },
               { icon: ShieldCheck, label: "Membră", value: "ISAPS" },
               { icon: Users, label: "Recenzii Google", value: `${SITE.trust.rating}/5` }
@@ -112,7 +112,7 @@ export default function HomePage() {
             <div>
               <div className="mb-8 pb-6 border-b border-zinc-300">
                 <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-deep)] font-semibold mb-3">Pentru bărbați</div>
-                <h3 className="font-display text-3xl mb-4">Chirurgie intimă masculină</h3>
+                <h3 className="font-display text-3xl mb-4">Genitoplastie masculină</h3>
                 <p className="text-zinc-700 leading-relaxed">
                   Faloplastie, circumcizie, fimoză, P-Shot (plasmă proprie) și extracție corpi străini intrapenieni. 7 proceduri sub semnătura unui chirurg-femeie singular în România pe această nișă.
                 </p>
@@ -139,7 +139,7 @@ export default function HomePage() {
             <div>
               <div className="mb-8 pb-6 border-b border-zinc-300">
                 <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-deep)] font-semibold mb-3">Pentru femei</div>
-                <h3 className="font-display text-3xl mb-4">Chirurgie intimă feminină</h3>
+                <h3 className="font-display text-3xl mb-4">Genitoplastie feminină</h3>
                 <p className="text-zinc-700 leading-relaxed">
                   Labioplastie prin rezecție în pană, perineorafie, himenoplastie și G-Shot. 4 proceduri pentru sănătate intimă, încredere și plăcere sexuală, cu protocol GDPR strict.
                 </p>

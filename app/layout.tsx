@@ -37,12 +37,11 @@ export const metadata: Metadata = {
   authors: [{ name: SITE.physician.name, url: `${SITE.url}/despre` }],
   generator: "Next.js",
   keywords: [
-    "chirurgie intimă masculină",
+    "genitoplastie", "genitoplastie masculină", "genitoplastie feminină",
     "faloplastie București",
     "alungire penis chirurgicală",
     "îngroșare penis",
     "circumcizie adulți",
-    "boala Peyronie",
     "extracție kanamicina",
     "Dr. Diana Gheorghiță"
   ],

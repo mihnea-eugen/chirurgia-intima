@@ -6,6 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const today = new Date();
   const staticPages: MetadataRoute.Sitemap = [
     { url: SITE.url, lastModified: today, changeFrequency: "weekly", priority: 1.0 },
+    { url: `${SITE.url}/genitoplastie`, lastModified: today, changeFrequency: "weekly", priority: 0.98 },
     { url: `${SITE.url}/proceduri`, lastModified: today, changeFrequency: "weekly", priority: 0.95 },
     { url: `${SITE.url}/despre`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE.url}/discretie`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
