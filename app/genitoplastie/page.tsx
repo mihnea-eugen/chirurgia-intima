@@ -121,20 +121,20 @@ export default function GenitoplastiePage() {
             Faloplastie, lipofilling, augmentare cu acid hialuronic, circumcizie, fimoză, P-Shot și extracție corpi străini intrapenieni.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {masculin.map((p) => (
+            {masculin.map((p) => { const Icon = p.icon; return (
               <Link
                 key={p.slug}
                 href={`/proceduri/${p.slug}`}
                 className="group rounded-xl bg-white border border-zinc-200 p-5 no-underline hover:border-[var(--color-brand-gold)] transition-colors"
               >
-                <p.icon className="w-8 h-8 text-[var(--color-brand-gold)] mb-3" />
+                <Icon className="w-8 h-8 text-[var(--color-brand-gold)] mb-3" />
                 <div className="font-semibold text-[var(--color-brand-navy)] mb-1">{p.title}</div>
                 <div className="text-sm text-zinc-600 mb-3">{p.subtitle}</div>
                 <div className="inline-flex items-center gap-1 text-xs text-zinc-500 group-hover:text-[var(--color-brand-gold-deep)]">
                   Vezi detalii <ArrowRight className="w-3 h-3" />
                 </div>
               </Link>
-            ))}
+            )})}
           </div>
         </div>
 
@@ -148,20 +148,20 @@ export default function GenitoplastiePage() {
             Labioplastie wedge, perineorafie post-naștere, himenoplastie și G-Shot. Protocol GDPR strict pentru toate procedurile.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {feminin.map((p) => (
+            {feminin.map((p) => { const Icon = p.icon; return (
               <Link
                 key={p.slug}
                 href={`/proceduri/${p.slug}`}
                 className="group rounded-xl bg-white border border-zinc-200 p-5 no-underline hover:border-[var(--color-brand-gold)] transition-colors"
               >
-                <p.icon className="w-8 h-8 text-[var(--color-brand-gold)] mb-3" />
+                <Icon className="w-8 h-8 text-[var(--color-brand-gold)] mb-3" />
                 <div className="font-semibold text-[var(--color-brand-navy)] mb-1">{p.title}</div>
                 <div className="text-sm text-zinc-600 mb-3">{p.subtitle}</div>
                 <div className="inline-flex items-center gap-1 text-xs text-zinc-500 group-hover:text-[var(--color-brand-gold-deep)]">
                   Vezi detalii <ArrowRight className="w-3 h-3" />
                 </div>
               </Link>
-            ))}
+            )})}
           </div>
         </div>
 
