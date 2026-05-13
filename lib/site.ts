@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Chirurgie intimă, Dr. Diana Gheorghiță",
-  shortName: "Chirurgie intimă",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://chirurgia-intima.com",
+  name: "Genitoplastie, Dr. Diana Gheorghiță",
+  shortName: "Genitoplastie",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://genitoplastie.ro",
   description:
-    "Site dedicat chirurgiei intime masculine și feminine sub semnătura Dr. Diana Gheorghiță. Medic specialist femeie în chirurgia intimă pentru ambele sexe (faloplastie, circumcizie, fimoză, P-Shot, labioplastie, perineorafie, himenoplastie). Membră ISAPS, peste 10 ani experiență, clinică privată acreditată din București.",
+    "Specialista în genitoplastie pentru bărbați și femei, Dr. Diana Gheorghiță. Faloplastie, circumcizie, fimoză, P-Shot, labioplastie, perineorafie, himenoplastie. Membră ISAPS, peste 10 ani experiență, clinică privată acreditată din București.",
   phone: "+40775345931",
   whatsapp: "+40775345931",
-  email: "contact@chirurgia-intima.com",
+  email: "contact@genitoplastie.ro",
   locale: "ro_RO",
   ogImage: "/og-default.jpg",
   twitter: "@drdianagheorghita",
@@ -23,7 +23,7 @@ export const SITE = {
   physician: {
     name: "Dr. Diana Gheorghiță",
     legalName: "Diana Gheorghiță",
-    jobTitle: "Medic specialist Chirurgie Plastică, Estetică și Microchirurgie Reconstructivă",
+    jobTitle: "Medic specialist genitoplastie, Chirurgie Plastică, Estetică și Microchirurgie Reconstructivă",
     image: "/images/dr-diana-portrait.jpg",
     sameAs: [
       "https://drdiana.ro/gheorghita/",
@@ -33,11 +33,14 @@ export const SITE = {
       "https://www.tiktok.com/@dr.diana.gheorghita"
     ],
     knowsAbout: [
+      "Genitoplastie",
+      "Genitoplastie masculină",
+      "Genitoplastie feminină",
       "Faloplastie",
       "Alungire penis chirurgicală",
       "Îngroșare penis cu lipofilling",
       "Augmentare penis cu acid hialuronic",
-      "Circumcizie adulți",
+      "Circumcizie",
       "Fimoză",
       "Frenuloplastie",
       "P-Shot, plasmă proprie penis",
