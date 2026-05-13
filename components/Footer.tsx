@@ -21,9 +21,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
           <div>
             <div className="font-display text-xl mb-3 leading-tight">Dr. Diana Gheorghiță</div>
-            <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-soft)] mb-4">Chirurgie intimă</div>
+            <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-soft)] mb-4">Genitoplastie</div>
             <p className="text-sm text-white/75 leading-relaxed">
-              Medic-femeie specializat sistematic în chirurgia intimă masculină și feminină. Membră ISAPS, peste {SITE.trust.proceduresPerformed}+ proceduri intime.
+              Medic-femeie specializat în genitoplastie masculină și feminină. Membră ISAPS, peste {SITE.trust.proceduresPerformed}+ proceduri de genitoplastie.
             </p>
             <div className="mt-6 flex flex-col gap-2 text-sm">
               <a href="https://www.isaps.org/" target="_blank" rel="noopener noreferrer" className="text-white/85 hover:text-[var(--color-brand-gold)] transition-colors">Verifică ISAPS</a>

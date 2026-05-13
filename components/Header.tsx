@@ -47,10 +47,10 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-zinc-200">
       <TrustBar />
       <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between gap-6 py-4 lg:py-5">
-        <Link href="/" className="shrink-0 no-underline" aria-label="Dr. Diana Gheorghiță, chirurgie intimă, mergi la pagina principală">
+        <Link href="/" className="shrink-0 no-underline" aria-label="Dr. Diana Gheorghiță, specialista în genitoplastie, mergi la pagina principală">
           <img
             src="/logo-drdiana.png"
-            alt="Dr. Diana Gheorghiță, chirurgie intimă"
+            alt="Dr. Diana Gheorghiță, specialista în genitoplastie"
             width={240}
             height={57}
             className="h-9 sm:h-12 w-auto block"
