@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Phone, MessageCircle, ArrowRight, ShieldCheck, Award, Activity, Scissors, Sparkles, Wrench, FlaskConical, ClipboardCheck } from "lucide-react";
-import { SITE } from "@/lib/site";
-import { getMedicalWebPageSchema, getBreadcrumbSchema } from "@/lib/schema";
-import SchemaGraph from "@/components/SchemaGraph";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
-import CTABanner from "@/components/CTABanner";
+import { SITE } from "../../lib/site";
+import { getMedicalWebPageSchema, getBreadcrumbSchema } from "../../lib/schema";
+import SchemaGraph from "../../components/SchemaGraph";
+import ImagePlaceholder from "../../components/ImagePlaceholder";
+import CTABanner from "../../components/CTABanner";
 
 export const metadata: Metadata = {
   title: "Genitoplastie București, Dr. Diana Gheorghiță | M+F, ISAPS",
