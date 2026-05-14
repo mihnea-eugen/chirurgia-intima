@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Genitoplastie București, Dr. Diana Gheorghiță | M+F",
-  description: "Genitoplastie pentru bărbați și femei în București, Dr. Diana Gheorghiță. Faloplastie, circumcizie, fimoză, labioplastie, perineorafie, himenoplastie. Membră ISAPS."
+  description: "Genitoplastie pentru bărbați și femei în București, Dr. Diana Gheorghiță. Faloplastie, circumcizie, fimoză, labioplastie, himenoplastie. Membră ISAPS."
 };
 
 export default function GenitoplastiePage() {
@@ -14,7 +14,7 @@ export default function GenitoplastiePage() {
         Genitoplastie pentru bărbați și femei
       </h1>
       <p className="text-lg text-zinc-700 leading-relaxed mb-6 max-w-3xl">
-        Genitoplastia înseamnă chirurgia organelor genitale, atât pentru bărbați (faloplastie, circumcizie, fimoză, P-Shot, extracție corpi străini), cât și pentru femei (labioplastie, perineorafie, himenoplastie, G-Shot).
+        Genitoplastia înseamnă chirurgia organelor genitale, atât pentru bărbați (faloplastie, circumcizie, fimoză, P-Shot, extracție corpi străini), cât și pentru femei (labioplastie, himenoplastie, G-Shot).
       </p>
       <p className="text-lg text-zinc-700 leading-relaxed mb-8 max-w-3xl">
         Dr. Diana Gheorghiță, medic chirurg plastic specializat în genitoplastie pentru ambele sexe, peste 10 ani experiență, clinică privată acreditată din București.
