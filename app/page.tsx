@@ -6,9 +6,9 @@ import { SITE } from "@/lib/site";
 import { getMedicalWebPageSchema, getBreadcrumbSchema } from "@/lib/schema";
 
 const masculin = [
-  { slug: "alungire-penis", title: "Alungire chirurgicală", subtitle: "Faloplastie 2-5 cm", icon: Activity },
-  { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling", subtitle: "Grăsime proprie, permanent", icon: Sparkles },
-  { slug: "ingrosare-acid-hialuronic", title: "Augmentare acid hialuronic", subtitle: "Reversibil 12-24 luni", icon: FlaskConical },
+  { slug: "faloplastie", title: "Alungire chirurgicală", subtitle: "Faloplastie 2-5 cm", icon: Activity },
+  { slug: "ingrosare-penis-lipofilling", title: "Îngroșare cu lipofilling", subtitle: "Grăsime proprie, permanent", icon: Sparkles },
+  { slug: "marire-penis-acid-hialuronic", title: "Augmentare acid hialuronic", subtitle: "Reversibil 12-24 luni", icon: FlaskConical },
   { slug: "fimoza", title: "Fimoza la adulți", subtitle: "Tratament conservator + chirurgical", icon: Wrench },
   { slug: "circumcizie", title: "Circumcizie", subtitle: "Anestezie locală, externare aceeași zi", icon: Scissors },
   { slug: "p-shot-prp", title: "P-Shot, plasmă proprie pentru penis", subtitle: "Tratament regenerativ cu plasmă", icon: Activity },
