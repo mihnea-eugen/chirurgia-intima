@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 };
 
 const iconMap: Record<string, typeof Activity> = {
-  "alungire-penis": Activity,
-  "ingrosare-lipofilling": Sparkles,
-  "ingrosare-acid-hialuronic": FlaskConical,
+  "faloplastie": Activity,
+  "ingrosare-penis-lipofilling": Sparkles,
+  "marire-penis-acid-hialuronic": FlaskConical,
   "fimoza": Wrench,
   "circumcizie-adulti": Scissors,
   "p-shot-prp": Activity,
