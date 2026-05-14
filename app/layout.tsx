@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Inter_Tight, Cormorant_Garamond } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -11,6 +12,8 @@ import {
 } from "@/lib/schema";
 import { SITE } from "@/lib/site";
 import "./globals.css";
+
+const GA_ID = "G-793GEPJ7LD";
 
 const interTight = Inter_Tight({
   subsets: ["latin", "latin-ext"],
@@ -84,6 +87,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SchemaGraph items={graphItems} />
       </head>
       <body>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}');
+          `}
+        </Script>
         <Header />
         <main className="min-h-[60vh]">{children}</main>
         <Footer />
