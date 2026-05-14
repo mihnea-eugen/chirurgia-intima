@@ -11,13 +11,13 @@ export const SITE = {
   ogImage: "/og-default.jpg",
   twitter: "@drdianagheorghita",
   clinic: {
-    name: "Clinică privată acreditată",
-    streetAddress: "Strada Cluceru Udricani 18",
+    name: "Clinica Pogany",
+    streetAddress: "Strada Mugur Mugurel 4",
     addressLocality: "București",
     addressRegion: "București",
-    postalCode: "030881",
+    postalCode: "013193",
     addressCountry: "RO",
-    geo: { lat: 44.43, lng: 26.11 },
+    geo: { lat: 44.4783, lng: 26.0808 },
     telephone: "+40775345931"
   },
   physician: {
