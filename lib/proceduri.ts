@@ -40,7 +40,7 @@ export type Procedure = {
 
 export const proceduri: Procedure[] = [
   {
-    slug: "alungire-penis",
+    slug: "faloplastie",
     title: "Alungire penis chirurgicală (faloplastie dorsală)",
     h1: "Alungire chirurgicală a penisului, faloplastie dorsală",
     category: "augmentare",
@@ -132,8 +132,8 @@ export const proceduri: Procedure[] = [
       { text: "ISAPS, International Society of Aesthetic Plastic Surgery.", url: "https://www.isaps.org/", source: "ISAPS" }
     ],
     internalLinks: [
-      { slug: "ingrosare-lipofilling", label: "Îngroșare cu lipofilling" },
-      { slug: "ingrosare-acid-hialuronic", label: "Augmentare cu acid hialuronic" }
+      { slug: "ingrosare-penis-lipofilling", label: "Îngroșare cu lipofilling" },
+      { slug: "marire-penis-acid-hialuronic", label: "Augmentare cu acid hialuronic" }
     ],
     speakablePassages: [
       "Faloplastia dorsală oferă un câștig vizual de 2-5 cm flasc și 1-3 cm în erecție. Recuperarea la activitate normală durează 7-10 zile, iar reluarea activității sexuale este permisă după 4-6 săptămâni.",
@@ -141,7 +141,7 @@ export const proceduri: Procedure[] = [
     ]
   },
   {
-    slug: "ingrosare-lipofilling",
+    slug: "ingrosare-penis-lipofilling",
     title: "Îngroșare penis cu grăsime proprie (lipofilling)",
     h1: "Îngroșare penis cu grăsime proprie, lipofilling",
     category: "augmentare",
@@ -227,8 +227,8 @@ export const proceduri: Procedure[] = [
       { text: "Yang DY et al. PRS 2020.", url: "https://pubmed.ncbi.nlm.nih.gov/33136942/", source: "PRS 2020" }
     ],
     internalLinks: [
-      { slug: "alungire-penis", label: "Alungire penis" },
-      { slug: "ingrosare-acid-hialuronic", label: "Augmentare cu acid hialuronic" },
+      { slug: "faloplastie", label: "Alungire penis" },
+      { slug: "marire-penis-acid-hialuronic", label: "Augmentare cu acid hialuronic" },
       { slug: "extractie-kanamicina", label: "Extracție kanamicina" }
     ],
     speakablePassages: [
@@ -237,7 +237,7 @@ export const proceduri: Procedure[] = [
     ]
   },
   {
-    slug: "ingrosare-acid-hialuronic",
+    slug: "marire-penis-acid-hialuronic",
     title: "Augmentare penis cu acid hialuronic",
     h1: "Augmentare penis cu acid hialuronic, non-chirurgical",
     category: "augmentare",
@@ -320,8 +320,8 @@ export const proceduri: Procedure[] = [
       { text: "AUA News August 2024.", url: "https://auanews.net/issues/articles/2024/august-extra-2024/office-and-surgical-technologies-the-evolving-landscape-of-penile-girth-enhancement", source: "AUA News 2024" }
     ],
     internalLinks: [
-      { slug: "ingrosare-lipofilling", label: "Lipofilling" },
-      { slug: "alungire-penis", label: "Alungire penis" },
+      { slug: "ingrosare-penis-lipofilling", label: "Lipofilling" },
+      { slug: "faloplastie", label: "Alungire penis" },
       { slug: "extractie-kanamicina", label: "Extracție kanamicina" }
     ],
     speakablePassages: [
@@ -518,7 +518,7 @@ export const proceduri: Procedure[] = [
       { text: "Mayo Clinic, Circumcision.", url: "https://www.mayoclinic.org/tests-procedures/circumcision/about/pac-20393550", source: "Mayo Clinic" }
     ],
     internalLinks: [
-      { slug: "alungire-penis", label: "Alungire penis" },
+      { slug: "faloplastie", label: "Alungire penis" },
       { slug: "extractie-kanamicina", label: "Extracție kanamicina" }
     ],
     speakablePassages: [
@@ -609,7 +609,7 @@ export const proceduri: Procedure[] = [
       { text: "Cleveland Clinic, Priapus Shot.", url: "https://my.clevelandclinic.org/health/treatments/p-shot", source: "Cleveland Clinic" }
     ],
     internalLinks: [
-      { slug: "alungire-penis", label: "Faloplastie" }
+      { slug: "faloplastie", label: "Faloplastie" }
     ],
     speakablePassages: [
       "P-Shot este injectarea de plasmă proprie îmbogățită cu trombocite în penis. RCT 2021 a demonstrat îmbunătățire moderată a funcției erectile.",
@@ -708,8 +708,8 @@ export const proceduri: Procedure[] = [
       { text: "EAU, Penile foreign body management.", url: "https://uroweb.org/guidelines/sexual-and-reproductive-health/", source: "EAU" }
     ],
     internalLinks: [
-      { slug: "alungire-penis", label: "Faloplastie ulterioară" },
-      { slug: "ingrosare-lipofilling", label: "Lipofilling după extracție" }
+      { slug: "faloplastie", label: "Faloplastie ulterioară" },
+      { slug: "ingrosare-penis-lipofilling", label: "Lipofilling după extracție" }
     ],
     speakablePassages: [
       "Kanamicina, silicon, vaselină și parafina injectate în penis nu pot fi îndepărtate decât prin excizie chirurgicală. 100% pacienți autoinjectați dezvoltă complicații; peste 70% necesită extracție.",
