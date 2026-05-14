@@ -906,8 +906,109 @@ export const proceduri: Procedure[] = [
       "G-Shot-ul amplifică senzația în zona Gräfenberg prin injectare de acid hialuronic sau grăsime proprie. Studiul Matlock 2002 raportează 87% îmbunătățire subiectivă.",
       "Procedura durează 30 minute sub anestezie locală topică, recuperarea este în 24 ore, iar reluarea activității sexuale este permisă după 5-7 zile."
     ]
+  },
+  {
+    slug: "labioplastie",
+    title: "Labioplastie București (reducere labii mici)",
+    h1: "Labioplastie, reducere labii mici, rezultate naturale",
+    category: "feminin-labii",
+    procedureType: "SurgicalProcedure",
+    metaTitle: "Labioplastie București, reducere labii mici | Preț, recuperare | Dr. Diana",
+    metaDescription: "Labioplastie București cu Dr. Diana Gheorghiță, reducere labii mici prin tehnica trim sau wedge. Preț 1.500 EUR, anestezie locală, recuperare 4-6 săptămâni, factură discretă.",
+    primaryKeyword: "labioplastie",
+    searchVolume: "590-880/lună",
+    intent: "Commercial-investigational",
+    bodyLocation: "vulvă (labii mici)",
+    alternateName: ["reducere labii mici", "nymphoplastie", "labia minora reduction"],
+    shortDescription: "Reducere a labiilor mici prin tehnica trim (margine liniară) sau wedge (excizie în V), intervenție 60-90 min sub anestezie locală cu sedare, recuperare 4-6 săptămâni.",
+    lead: "Labioplastia este intervenția chirurgicală prin care se reduc labiile mici (labia minora) care depășesc labiile mari sau care produc disconfort funcțional, estetic sau sexual. Studiu publicat în Journal of Sexual Medicine (2018, n=131) raportează 95% satisfacție post-op pe rezultat estetic și 92% pe confort funcțional. Tehnicile principale sunt trim (margine liniară) și wedge (excizie în V central). Intervenția durează 60-90 minute sub anestezie locală cu sedare, externare aceeași zi, recuperare 4-6 săptămâni.",
+    cost: "1.500 EUR",
+    duration: "60-90 min",
+    recovery: "4-6 săptămâni activitate sexuală",
+    anesthesia: "Locală cu sedare ușoară",
+    hospitalStay: "Externare aceeași zi",
+    sexualActivity: "Reluare după 4-6 săptămâni",
+    whatIs: "Labioplastia este intervenția chirurgicală prin care se reduce dimensiunea labiilor mici (labia minora) atunci când acestea depășesc labiile mari, produc disconfort la mers sau în timpul activității sexuale, sau când pacienta dorește un aspect estetic mai armonios. Tehnica trim presupune o excizie liniară de-a lungul marginii libere a labiei, iar tehnica wedge presupune o excizie în V din porțiunea centrală cu păstrarea marginii naturale pigmentate.",
+    whenIndicated: [
+      "Hipertrofie labii mici (peste 4 cm de la baza la marginea liberă)",
+      "Disconfort funcțional: iritație la mers, sport, ciclism, îmbrăcăminte strâmtă",
+      "Disconfort sexual: tracțiune, durere la contact",
+      "Asimetrie semnificativă între labiile stângă și dreaptă",
+      "Indicație estetică, dorință de aspect armonios"
+    ],
+    whenNotIndicated: [
+      "Pacientă minoră (sub 18 ani)",
+      "Sarcină în curs sau alăptare",
+      "Infecții genitale active",
+      "Tulburări de coagulare necontrolate",
+      "Așteptări nerealiste despre simetria perfectă post-op",
+      "Tulburare dismorfică corporală netratată"
+    ],
+    procedureSteps: [
+      { title: "Consultația preoperatorie", description: "Examinare clinică în cameră privată, măsurarea labiilor, discuție despre tehnică (trim vs wedge), evaluare asimetrie, fotografii pre-op, consimțământ informat scris." },
+      { title: "Anestezia", description: "Anestezie locală cu lidocaină și adrenalină, completată cu sedare ușoară intravenoasă pentru confort. Anestezie generală rezervată cazurilor combinate." },
+      { title: "Marcaj și incizie", description: "Marcaj precis cu pacienta în poziție ginecologică. Tehnica trim: excizie liniară de-a lungul marginii libere. Tehnica wedge: excizie în V central cu păstrarea marginii pigmentate naturale." },
+      { title: "Sutura", description: "Sutură strat cu strat cu fire resorbabile fine (Vicryl Rapide 5-0 și 6-0). Tehnica permite vindecare cu cicatrice fină, ascunsă în pliuri naturale." },
+      { title: "Pansament și externare", description: "Pansament steril, ghid scris recuperare, externare aceeași zi. Plată cash sau card, factură discretă." }
+    ],
+    facts: [
+      { label: "Câștig estetic", value: "Reducere până la 50% din lungime" },
+      { label: "Durata intervenției", value: "60-90 min" },
+      { label: "Externare", value: "Aceeași zi" },
+      { label: "Recuperare activitate normală", value: "7-10 zile" },
+      { label: "Reluare activitate sexuală", value: "4-6 săptămâni" },
+      { label: "Tehnica trim", value: "Excizie liniară marginală" },
+      { label: "Tehnica wedge", value: "Excizie în V cu păstrare margine" },
+      { label: "Satisfacție estetică", value: "95%", source: "J Sex Med 2018 (n=131)" },
+      { label: "Satisfacție funcțională", value: "92%", source: "J Sex Med 2018 (n=131)" },
+      { label: "Rata complicații majore", value: "<2%", source: "Goodman 2016" }
+    ],
+    recovery_timeline: [
+      { period: "Zilele 1-3", title: "Disconfort moderat, edem", description: "Repaus la domiciliu, comprese reci 15 min/oră, paracetamol/ibuprofen, igienă cu apă sterilă, evitare poziție șezut prelungită." },
+      { period: "Ziua 4-7", title: "Reluare activități sedentare", description: "Activitate de birou posibilă, plimbări scurte, lenjerie largă din bumbac, evitare efort fizic." },
+      { period: "Săpt. 2", title: "Vindecare avansată", description: "Edem se reduce semnificativ, fire resorbabile încep să cedeze, control medical recomandat." },
+      { period: "Săpt. 3-4", title: "Activitate fizică ușoară", description: "Reluare gradat sport ușor (mers, yoga), evitare ciclism, înot și activitate sexuală." },
+      { period: "Săpt. 4-6", title: "Reluare activitate sexuală", description: "După acordul medicului, reluare cu prudență. Vindecare completă a țesuturilor." },
+      { period: "Lună 3-6", title: "Rezultat final stabil", description: "Cicatricile devin albe și aproape invizibile. Aspect natural, fără urme vizibile externe." }
+    ],
+    risks: [
+      { title: "Edem și echimoze", description: "Frecvente (90%), se resorb în 2-3 săptămâni. Comprese reci reduc intensitatea." },
+      { title: "Sângerare minoră", description: "Rar (3-5%), în primele 24h. Controlată cu pansament compresiv." },
+      { title: "Infecție", description: "<2% cu protocol antibiotic profilactic și igienă riguroasă." },
+      { title: "Dehiscență suturi", description: "Rar (<3%), de obicei prin efort fizic prematur sau activitate sexuală precoce." },
+      { title: "Asimetrie reziduală", description: "Posibilă (5-10%), de obicei minimă. Corectabilă printr-o revizie minoră dacă deranjează." },
+      { title: "Hipersensibilitate temporară", description: "10-15% pacienți, se rezolvă în 3-6 luni." },
+      { title: "Cicatrice hipertrofică", description: "Rar (<3%), tratabilă cu siliconi topici sau corticoizi locali." }
+    ],
+    alternatives: [
+      { title: "Labioplastie cu laser", description: "Tehnică alternativă cu vindecare puțin mai rapidă, dar costuri mai mari. La Dr. Diana folosim bisturiu clasic pentru control precis al inciziei." },
+      { title: "Reducere parțială (trim conservator)", description: "Pentru paciente cu hipertrofie ușoară care doresc rezultat minim invaziv." },
+      { title: "Labioplastie combinată", description: "Combinabilă cu reducere prepuț clitoris (clitoral hood reduction) pentru rezultat armonios complet." }
+    ],
+    faqs: [
+      { q: "Cât costă labioplastia la Dr. Diana?", a: "Prețul este 1.500 EUR și include intervenția, anestezia locală cu sedare, externarea aceeași zi, kitul post-op și controalele post-procedurale la 7 zile, 1 lună și 3 luni. Plata se face cash sau card, factură emisă discret." },
+      { q: "Este procedura dureroasă?", a: "Sub anestezie locală cu sedare nu există durere intra-op. Post-op, disconfortul este moderat în primele 3-5 zile, controlat eficient cu paracetamol și ibuprofen. Compresele reci reduc semnificativ inconfortul." },
+      { q: "Va arăta natural rezultatul?", a: "Da. Folosim tehnica wedge în majoritatea cazurilor pentru a păstra marginea pigmentată naturală a labiei. Cicatricile sunt fine, ascunse în pliurile naturale și devin aproape invizibile la 3-6 luni." },
+      { q: "Va afecta sensibilitatea sexuală?", a: "Nu, dacă tehnica este executată corect. Studiile arată că majoritatea pacientelor raportează creștere a confortului sexual post-op datorită eliminării tracțiunii. Sensibilitatea clitoridiană nu este afectată." },
+      { q: "Cât durează recuperarea completă?", a: "Activitatea normală sedentară se reia în 7-10 zile. Activitatea sportivă în 3-4 săptămâni. Activitatea sexuală în 4-6 săptămâni. Rezultatul final stabil este la 3-6 luni." },
+      { q: "Care e diferența între tehnica trim și wedge?", a: "Trim presupune excizie liniară de-a lungul marginii libere a labiei. Wedge presupune excizie în V central cu păstrarea marginii naturale pigmentate. Wedge oferă rezultat mai natural, trim este mai simplu tehnic. La consultație decidem împreună care se potrivește anatomiei dvs." },
+      { q: "Pot face procedura discret?", a: "Da. Externare aceeași zi, fără semne externe vizibile. Activitate normală în 7-10 zile. Factură discretă, plată cash sau card. Comunicăm doar la telefonul indicat." }
+    ],
+    citations: [
+      { text: "Goodman MP et al. Female genital cosmetic surgery: a critical analysis. J Sex Med, 2016.", url: "https://pubmed.ncbi.nlm.nih.gov/27986235/", source: "J Sex Med 2016" },
+      { text: "Sharp G et al. Patient satisfaction after labiaplasty (n=131). J Sex Med, 2018.", url: "https://pubmed.ncbi.nlm.nih.gov/29550459/", source: "J Sex Med 2018" },
+      { text: "ACOG Committee Opinion 795: Elective female genital cosmetic surgery, 2020.", url: "https://www.acog.org/", source: "ACOG 2020" },
+      { text: "ISAPS Global Survey 2023.", url: "https://www.isaps.org/", source: "ISAPS 2023" }
+    ],
+    internalLinks: [
+      { slug: "himenoplastie", label: "Himenoplastie" },
+      { slug: "augmentare-punct-g", label: "Augmentare punctul G" },
+    ],
+    speakablePassages: [
+      "Labioplastia se efectuează sub anestezie locală cu sedare, durată 60-90 minute, externare aceeași zi. Prețul la Dr. Diana este 1.500 EUR.",
+      "Tehnicile principale sunt trim (excizie liniară marginală) și wedge (excizie în V cu păstrarea marginii naturale). Recuperarea este 4-6 săptămâni pentru reluarea activității sexuale."
+    ]
   }
-
 ];
 
 export const getProcedureBySlug = (slug: string): Procedure | undefined =>
