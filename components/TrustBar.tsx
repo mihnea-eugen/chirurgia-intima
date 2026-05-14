@@ -1,4 +1,4 @@
-import { Star, Award, MapPin, ShieldCheck } from "lucide-react";
+import { Star, Award, ShieldCheck } from "lucide-react";
 import { SITE } from "@/lib/site";
 
 export default function TrustBar() {
@@ -17,10 +17,6 @@ export default function TrustBar() {
         <span className="inline-flex items-center gap-2">
           <ShieldCheck className="w-4 h-4 text-[var(--color-brand-gold)]" />
           <span className="opacity-90"><span className="tabular-nums font-medium">{SITE.trust.yearsExperience}+</span> ani experiență</span>
-        </span>
-        <span className="inline-flex items-center gap-2">
-          <MapPin className="w-4 h-4 text-[var(--color-brand-gold)]" />
-          <span className="opacity-90">Clinica Pogany, București</span>
         </span>
       </div>
     </div>

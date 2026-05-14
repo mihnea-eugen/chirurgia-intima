@@ -10,7 +10,6 @@ const footerMasculin = [
 
 const footerFeminin = [
   { slug: "labioplastie", title: "Labioplastie" },
-  { slug: "perineorafie", title: "Perineorafie" },
   { slug: "augmentare-punct-g", title: "Augmentare punctul G" }
 ];
 

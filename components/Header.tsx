@@ -19,7 +19,6 @@ const masculin: ProcedureLink[] = [
 
 const feminin: ProcedureLink[] = [
   { slug: "labioplastie", title: "Labioplastie", tag: "Reducere labii mici" },
-  { slug: "perineorafie", title: "Perineorafie", tag: "Refacere perineu" },
   { slug: "himenoplastie", title: "Himenoplastie", tag: "Refacere himen, GDPR" },
   { slug: "augmentare-punct-g", title: "Augmentare punctul G", tag: "Acid hialuronic sau grăsime proprie" }
 ];
