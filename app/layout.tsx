@@ -86,7 +86,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ro" className={`${interTight.variable} ${cormorant.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/logo-drdiana.png" />
+        <link rel="apple-touch-icon" href="/logo-drdiana.png" />
         <SchemaGraph items={graphItems} />
       </head>
       <body>
