@@ -61,7 +61,7 @@ section { isolation: isolate; }
 p { margin-bottom: 1rem; }
 
 /* Default body link styling — only for prose content, NOT for nav/header/footer */
-.prose-custom a, p a {
+.prose-custom a:not(.btn):not(.btn-primary):not(.btn-gold):not(.btn-outline), p a:not(.btn):not(.btn-primary):not(.btn-gold):not(.btn-outline) {
   color: var(--color-brand-navy);
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -193,3 +193,11 @@ header a:hover, footer a:hover, nav a:hover { text-decoration: none; }
 @media print {
   header, footer, .no-print { display: none !important; }
 }
+
+/* Prevent prose-custom from styling buttons */
+.prose-custom a.btn, .prose-custom a.btn-primary, .prose-custom a.btn-gold, .prose-custom a.btn-outline,
+p a.btn, p a.btn-primary, p a.btn-gold, p a.btn-outline {
+  text-decoration: none !important;
+}
+.btn-primary { color: white !important; }
+.btn-gold { color: white !important; }
