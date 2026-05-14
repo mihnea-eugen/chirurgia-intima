@@ -54,7 +54,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["faloplastie dorsală", "ligamentoliză", "secționare ligament suspensor"],
     shortDescription: "Câștig vizual 2-5 cm prin secționarea ligamentului suspensor, intervenție de 60-90 minute, recuperare 4-6 săptămâni.",
     lead: "Studiu sistematic publicat în Aesthetic Plastic Surgery (2020, n=1.200+ pacienți) raportează 78% satisfacție pe lungime după faloplastie dorsală. Tehnica oferă câștig vizual de 2-5 cm prin secționarea ligamentului suspensor; penisul nu este alungit fizic, ci expus din pubis prin eliberarea segmentului intracorporal. Recuperarea la activitate normală durează 7-10 zile, iar reluarea activității sexuale este permisă după 4-6 săptămâni.",
-    cost: "2.800-4.500 EUR",
+    cost: "3.200 EUR",
     duration: "60-90 min",
     recovery: "7-10 zile activitate normală",
     anesthesia: "Locală cu sedare sau rahidiană",
@@ -155,7 +155,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["augmentare cu grăsime proprie", "fat grafting penis", "lipotransfer"],
     shortDescription: "Câștig de 1-3 cm circumferință cu grăsime proprie, permanent după stabilizarea la 6 luni. Recuperare 5-7 zile.",
     lead: "Lipofillingul penian transferă 30-80 ml de grăsime proprie procesată Coleman către corpul penian, oferind 1-3 cm câștig de circumferință permanent după resorbția stabilizată la 6 luni. Procedura durează 2 ore, externarea este în aceeași zi, iar grăsimea proprie elimină complet riscul de respingere imunologică.",
-    cost: "3.000-4.000 EUR",
+    cost: "La consultație",
     duration: "2 ore",
     recovery: "5-7 zile activitate normală",
     anesthesia: "Locală cu sedare sau generală scurtă",
@@ -251,7 +251,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["filler penian", "augmentare cu acid hialuronic", "Hyacorp penis"],
     shortDescription: "Câștig 1-3 cm circumferință cu acid hialuronic reticulat, reversibil, recuperare 24-48 ore, durata 12-24 luni.",
     lead: "Augmentarea cu acid hialuronic reticulat de înaltă densitate (Hyacorp MLF1/MLF2, Genefill, Princess Volume) oferă 1-3 cm câștig de circumferință în 30-45 minute, fără chirurgie. RCT 2021 publicat în Journal of Sexual Medicine raportează augmentare medie 22,74 mm cu complicații minore sub 1,5%. Procedura este 100% reversibilă cu hialuronidază.",
-    cost: "600-1.500 EUR / sesiune",
+    cost: "La consultație",
     duration: "30-45 min",
     recovery: "24-48 ore",
     anesthesia: "Topică + bloc dorsal",
@@ -344,7 +344,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["preput strâns", "fimoză cicatricială", "BXO", "lichen scleros"],
     shortDescription: "Imposibilitatea retragerii prepuțului peste gland. Fiziologică la sugari, patologică la adulți. Tratament: conservator (unguente cu corticosteroizi) sau chirurgical (circumcizie, preputioplastie).",
     lead: "Fimoza este imposibilitatea sau dificultatea de a retrage prepuțul peste glandul penisului. La sugari și copii mici sub 5 ani este fiziologică (normală) și se rezolvă spontan în 90% din cazuri până la pubertate. La adulți și adolescenți după pubertate este patologică, fiind cauzată cel mai frecvent de balanită recurentă, lichen scleros (BXO) sau cicatrice post-decalotare forțată. Tratamentul depinde de cauză și severitate: conservator cu unguente cu corticosteroizi (mometazonă, betametazonă) timp de 4-8 săptămâni, eficient în 60-70% cazuri fără lichen scleros, sau chirurgical (circumcizie completă pentru lichen scleros și fimoză strânsă, preputioplastie pentru fimoză moderată cu prepuț estetic conservat). Dr. Diana Gheorghiță oferă consultație individualizată cu plan terapeutic adaptat cauzei.",
-    cost: "Consultație 350 RON, tratament chirurgical 1.500-2.500 EUR",
+    cost: "La consultație",
     duration: "30-60 min (chirurgical)",
     recovery: "5-7 zile (chirurgical), conservator fără recuperare",
     anesthesia: "Locală sau regională",
@@ -441,7 +441,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["tăiere prepuț", "circumcision"],
     shortDescription: "Excizie chirurgicală a prepuțului. Anestezie locală, durata 30-60 min, externare aceeași zi.",
     lead: "Circumcizia la adulți este excizia chirurgicală completă a prepuțului, indicată cel mai frecvent pentru fimoză cicatricială (lichen scleros), balanită recurentă sau preferință personală/religioasă. OMS validează reducerea riscului de transmitere HIV cu 50-60% (Auvert PLoS Med 2005). Procedura durează 30-60 minute sub anestezie locală în 80% din cazuri, cu externare aceeași zi.",
-    cost: "1.500-2.500 EUR",
+    cost: "La consultație",
     duration: "30-60 min",
     recovery: "5-7 zile activitate normală",
     anesthesia: "Locală (80% cazuri) sau regională",
@@ -541,7 +541,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["P-Shot", "Priapus Shot", "PRP penis", "tratament cu plasmă"],
     shortDescription: "Injectare plasmă proprie în penis pentru funcție erectilă. Adjuvant pentru DE ușoară-moderată.",
     lead: "P-Shot (plasmă proprie penis) constă în injectarea de plasmă proprie îmbogățită cu trombocite (PRP) în corpii cavernoși și în gland, pentru stimularea revascularizării și regenerării țesutului. RCT 2021 (Poulios et al, J Sex Med) a demonstrat îmbunătățire IIEF-EF la 6 luni statistic semnificativă, cu mărimea efectului mică. Cleveland Clinic 2024 califică P-Shot ca având cercetare insuficientă pentru recomandare standard.",
-    cost: "350-650 EUR / sesiune",
+    cost: "La consultație",
     duration: "30-45 min",
     recovery: "24-48 ore",
     anesthesia: "Topică + bloc dorsal",
@@ -631,7 +631,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["extracție silicon penis", "îndepărtare vaselină penis", "extracție corpi străini"],
     shortDescription: "Excizie chirurgicală a kanamicinei, siliconului, vaselinei sau parafinei injectate. Confidențialitate absolută.",
     lead: "Estimăm 5.000-15.000 cazuri active de autoinjectare cu kanamicina, silicon, vaselină sau parafină în România. Studiu românesc 2018-2022 (Beedasy A) raportează 100% pacienți autoinjectați dezvoltă complicații serioase, iar peste 70% necesită extracție chirurgicală. Kanamicina nu poate fi aspirată, trebuie excizată chirurgical. Procedura durează 1-3 ore, spitalizare 1-2 nopți, reabilitare totală 6-12 luni.",
-    cost: "1.800-3.500 EUR",
+    cost: "1.500 EUR",
     duration: "1-3 ore",
     recovery: "14-21 zile activitate normală",
     anesthesia: "Generală sau rahidiană",
@@ -717,201 +717,6 @@ export const proceduri: Procedure[] = [
     ]
   },
   {
-    slug: "labioplastie",
-    title: "Labioplastie București (reducere labii mici)",
-    h1: "Labioplastie, reducere labii mici prin rezecție în pană",
-    category: "feminin-labii",
-    procedureType: "SurgicalProcedure",
-    metaTitle: "Labioplastie București, reducere labii mici | Preț, recuperare | Dr. Diana",
-    metaDescription: "Labioplastie București cu Dr. Diana Gheorghiță, reducere labii mici prin rezecție în pană. Preț, recuperare 2-3 săptămâni, anestezie locală, externare aceeași zi.",
-    primaryKeyword: "labioplastie",
-    searchVolume: "880-1.300/lună",
-    intent: "Commercial-investigational",
-    bodyLocation: "vulvă (labii mici)",
-    alternateName: ["reducere labii mici", "nymphoplasty", "labia minora reduction"],
-    shortDescription: "Reducere chirurgicală a labiilor mici prin rezecție în pană sau rezecție marginală liniară, intervenție 60-90 min, recuperare 2-3 săptămâni.",
-    lead: "Labioplastia (reducerea labiilor mici) este una din cele mai cerute proceduri de chirurgie intimă feminină. Studii publicate în Aesthetic Plastic Surgery raportează 91-97% satisfacție post-operatorie. La Dr. Diana folosim predominant tehnica de rezecție în pană (centrală) care păstrează marginea naturală pigmentată și terminațiile nervoase, oferind rezultat estetic superior față de rezecție marginală liniară. Intervenția durează 60-90 minute, sub anestezie locală cu sedare, iar pacienta se externează în aceeași zi.",
-    cost: "1.500-2.800 EUR",
-    duration: "60-90 min",
-    recovery: "2-3 săptămâni activitate normală",
-    anesthesia: "Locală cu sedare",
-    hospitalStay: "Externare aceeași zi",
-    sexualActivity: "Reluare după 6 săptămâni",
-    whatIs: "Labioplastia este intervenția chirurgicală prin care se reduc dimensiunile labiilor mici (labia minora) atunci când acestea depășesc nivelul labiilor mari sau cauzează disconfort funcțional, estetic ori psihologic. La Dr. Diana se folosește tehnica de rezecție în pană ca standard, care îndepărtează un segment central al labiei și suturează marginile naturale, păstrând culoarea, textura și sensibilitatea originală. Tehnica rezecție marginală liniară este rezervată cazurilor specifice.",
-    whenIndicated: [
-      "Hipertrofie labii mici cu disconfort la activități fizice (sport, ciclism)",
-      "Disconfort la actul sexual sau iritații recurente",
-      "Probleme de igienă din cauza dimensiunii",
-      "Disconfort estetic ce afectează viața sexuală sau intimitatea",
-      "Asimetrie marcată a labiilor mici"
-    ],
-    whenNotIndicated: [
-      "Sarcină sau alăptare în curs",
-      "Infecții genitale active (necesită tratament prealabil)",
-      "Tulburări de coagulare necontrolate",
-      "Așteptări nerealiste, pacientă cu dismorfofobie corporală netratată",
-      "Vârstă sub 18 ani fără indicație funcțională clară"
-    ],
-    procedureSteps: [
-      { title: "Consultația preoperatorie", description: "Examinare clinică, măsurători, fotografii medicale (cu acord GDPR scris), discuție tehnică (rezecție în pană vs rezecție marginală liniară), așteptări realiste, analize, consimțământ informat." },
-      { title: "Anestezia", description: "Anestezie locală cu lidocaină + adrenalină, completată cu sedare ușoară IV pentru confort maxim. Anestezie generală opțional pentru pacientele care preferă." },
-      { title: "Marcaj și incizie", description: "Marcare precisă a zonei de rezecție în formă de pană, păstrând marginea pigmentată naturală." },
-      { title: "Rezecție și suturi", description: "Îndepărtare segment central labial, sutură stratificată în două planuri cu fire resorbabile fine (5-0 Vicryl Rapide). Tehnica conservă terminațiile nervoase și vascularizația." },
-      { title: "Pansament și externare", description: "Pansament steril minim, gheață local, externare aceeași zi cu ghid scris recuperare." }
-    ],
-    facts: [
-      { label: "Satisfacție post-operatorie", value: "91-97%", source: "Sharp G et al. Aesthet Plast Surg 2021" },
-      { label: "Durata intervenției", value: "60-90 min" },
-      { label: "Anestezie", value: "Locală cu sedare (90% cazuri)" },
-      { label: "Externare", value: "Aceeași zi" },
-      { label: "Recuperare activitate normală", value: "2-3 săptămâni" },
-      { label: "Reluare activitate sexuală", value: "6 săptămâni" },
-      { label: "Rata complicații majore", value: "<2%", source: "Cochrane review 2021" },
-      { label: "Tehnica preferată Dr. Diana", value: "Wedge (rezecție în pană)" },
-      { label: "Fire de sutură", value: "Resorbabile (Vicryl Rapide 5-0)" }
-    ],
-    recovery_timeline: [
-      { period: "Zilele 1-3", title: "Edem moderat, disconfort", description: "Repaus, gheață local 15 min/oră, paracetamol/ibuprofen, igienă cu apă sterilă, evitare poziție șezut prelungită." },
-      { period: "Ziua 4-7", title: "Reluare activități sedentare", description: "Activitate de birou posibilă cu pernă moale. Evitare bicicletă, sport, raporturi sexuale, tampoane." },
-      { period: "Săpt. 2", title: "Vindecare incizie", description: "Firele resorbabile dispar progresiv. Edemul scade vizibil. Control medical la 14 zile." },
-      { period: "Săpt. 3-4", title: "Activitate fizică ușoară", description: "Reluare gradat sport ușor (mers rapid, înot după ce inciziile sunt complet vindecate). Evitare frecare." },
-      { period: "Săpt. 6", title: "Reluare activitate sexuală", description: "După confirmare medicală, reluare cu prudență. Lubrifiant recomandat." },
-      { period: "Luna 3", title: "Rezultat stabil", description: "Edem complet rezolvat, cicatrici fine albite, sensibilitate restabilită complet." }
-    ],
-    risks: [
-      { title: "Edem și sensibilitate", description: "Frecvent (toate cazurile), durează 2-4 săptămâni." },
-      { title: "Hematom", description: "Rar (<3%). Pansament compresiv reduce riscul." },
-      { title: "Dehiscență de sutură", description: "<2%. Apare la efort fizic precoce sau infecție." },
-      { title: "Cicatrici hipertrofice", description: "<5%. Mai frecvente la pacientele cu predispoziție genetică." },
-      { title: "Pierdere senzitivă tranzitorie", description: "10-15%, recuperare completă în 3-6 luni la majoritatea." },
-      { title: "Asimetrie reziduală", description: "<3% necesită touch-up. Asimetrie minoră acceptabilă estetic." },
-      { title: "Infecție", description: "<1% cu antibioterapie profilactică și igienă corectă." }
-    ],
-    alternatives: [
-      { title: "Rezecție marginală liniară", description: "Alternativă la rezecția în pană, dar pierde marginea pigmentată naturală. Indicat cazuri specifice." },
-      { title: "Tratament conservator", description: "Pentru cazuri ușoare: lubrifianți, ajustare îmbrăcăminte, evitare iritanți. Nu rezolvă hipertrofia adevărată." },
-      { title: "Reducere prin laser", description: "Tehnologie nouă cu rezultate inferioare chirurgiei clasice. Risc cicatrici termice." }
-    ],
-    faqs: [
-      { q: "Ce diferență este între rezecția în pană și rezecția marginală liniară?", a: "Rezecția în pană îndepărtează un segment central în formă de pană, păstrând marginea naturală pigmentată și terminațiile nervoase. Rezecția marginală liniară taie marginea labială liniar, pierzând culoarea și textura naturală. Rezecția în pană oferă rezultat estetic superior în 91-97% din cazuri (Sharp 2021), de aceea o folosim ca standard." },
-      { q: "Voi pierde sensibilitatea?", a: "Rezecția în pană păstrează marea majoritate a terminațiilor nervoase. Pierdere senzitivă tranzitorie apare la 10-15% din paciente, dar recuperarea completă se produce în 3-6 luni la majoritatea. Sensibilitate permanent diminuată, sub 2%." },
-      { q: "Când pot relua sexul?", a: "Activitatea sexuală se reia după 6 săptămâni, sub aprobare medicală la control. În primele săptămâni e necesar lubrifiant. Rapoarte sexuale înainte de 6 săptămâni risc dehiscență de sutură." },
-      { q: "Cicatricile vor fi vizibile?", a: "Cicatricile sunt în zona internă a labiei, ascunse natural. La 3 luni majoritatea sunt fine albite și invizibile vizual la examinare clinică obișnuită. Folosim fire fine 5-0 resorbabile pentru cicatrici minime." },
-      { q: "Procedura este dureroasă?", a: "Sub anestezie locală cu sedare nu există durere intra-operator. Post-op, disconfort moderat zile 1-3, controlat cu paracetamol/ibuprofen. Majoritatea pacientelor descriu disconfortul ca tolerabil." },
-      { q: "Pot face și augmentare punct G în aceeași intervenție?", a: "Da. Combinația labioplastie + G-Shot acid hialuronic este frecvent solicitată. Sub aceeași sedare, durată totală 90-120 min." }
-    ],
-    citations: [
-      { text: "Sharp G et al. Patient-reported outcomes after labiaplasty: systematic review (n=4.738). Aesthetic Plastic Surgery, 2021.", url: "https://pubmed.ncbi.nlm.nih.gov/33409688/", source: "Aesthetic Plast Surg 2021" },
-      { text: "Goodman MP et al. Labiaplasty: indications, surgical techniques, complications. J Sex Med, 2016.", url: "https://pubmed.ncbi.nlm.nih.gov/27986235/", source: "J Sex Med 2016" },
-      { text: "Cochrane review on female genital cosmetic surgery, 2021.", url: "https://www.cochranelibrary.com/", source: "Cochrane 2021" },
-      { text: "ISAPS, International Society of Aesthetic Plastic Surgery Global Survey 2023.", url: "https://www.isaps.org/", source: "ISAPS 2023" }
-    ],
-    internalLinks: [
-      { slug: "perineorafie", label: "Perineorafie" },
-      { slug: "augmentare-punct-g", label: "Augmentare punctul G" }
-    ],
-    speakablePassages: [
-      "Labioplastia prin rezecție în pană oferă 91-97% satisfacție post-operatorie. Intervenția durează 60-90 minute sub anestezie locală cu sedare, iar pacienta se externează în aceeași zi.",
-      "Recuperarea la activități normale durează 2-3 săptămâni, iar reluarea activității sexuale este permisă după 6 săptămâni cu aprobare medicală la control."
-    ]
-  },
-  {
-    slug: "perineorafie",
-    title: "Perineorafie București (refacere perineu post-naștere)",
-    h1: "Perineorafie, refacere perineu post-naștere",
-    category: "feminin-vagin",
-    procedureType: "SurgicalProcedure",
-    metaTitle: "Perineorafie București, refacere perineu | Preț, recuperare | Dr. Diana",
-    metaDescription: "Perineorafie București cu Dr. Diana Gheorghiță, refacere perineu rupt post-naștere. Preț, recuperare 4-6 săptămâni, anestezie rahidiană sau generală.",
-    primaryKeyword: "perineorafie",
-    searchVolume: "390-590/lună",
-    intent: "Commercial-investigational",
-    bodyLocation: "perineu (între vagin și anus)",
-    alternateName: ["refacere perineu", "perineoplastie", "reparare perineu"],
-    shortDescription: "Refacere chirurgicală a perineului rupt sau slăbit post-naștere prin sutură mușchi perineali, intervenție 60-90 min, recuperare 4-6 săptămâni.",
-    lead: "Perineorafia este intervenția prin care se refac mușchii perineali (transverși și bulbocavernoși) rupți la naștere sau slăbiți de nașteri repetate. Ruptura perineală gradul III-IV apare la 3-9% din nașterile vaginale (RCOG 2015), iar repararea inițială insuficientă lasă defecte funcționale și estetice. Refacerea secundară prin perineorafie restaurează atât distanța ano-vulvară, cât și forța musculară a planșeului pelvian. Intervenția durează 60-90 min, sub anestezie rahidiană.",
-    cost: "1.800-3.000 EUR",
-    duration: "60-90 min",
-    recovery: "4-6 săptămâni activitate normală",
-    anesthesia: "Rahidiană sau generală scurtă",
-    hospitalStay: "Externare aceeași zi sau 24h",
-    sexualActivity: "Reluare după 6-8 săptămâni",
-    whatIs: "Perineorafia (perineoplastia) este intervenția chirurgicală prin care se refac mușchii perineali rupți la naștere sau slăbiți, restabilind anatomia normală a perineului și planșeului pelvian. Tehnica include identificarea capetelor musculare retractate (transvers superficial, bulbocavernos, levator ani), sutura plicaturată a acestora și refacere mucoasă vaginală. Diferă de simpla refacere de mucoasă (care lasă defectul muscular intact) prin reconstrucție anatomică completă.",
-    whenIndicated: [
-      "Ruptură perineală gradul III-IV reparată insuficient la naștere",
-      "Perineu „turtit\" cu distanță ano-vulvară redusă (<2,5 cm)",
-      "Senzație de „vagin deschis\" cu hipotonus muscular",
-      "Disconfort sexual din cauza distensiei perineale",
-      "Distensie vaginală post-naștere"
-    ],
-    whenNotIndicated: [
-      "Sarcină în curs sau planificată în următorii 2 ani",
-      "Infecții perineale active",
-      "Tulburări de coagulare necontrolate",
-      "Așteptări nerealiste",
-      "Fistulă recto-vaginală (necesită reparare specializată separată)"
-    ],
-    procedureSteps: [
-      { title: "Consultația preoperatorie", description: "Examinare clinică, măsurători distanță ano-vulvară, evaluare tonus muscular, ecografie endoanal opțională, consimțământ." },
-      { title: "Anestezia", description: "Rahidiană în majoritatea cazurilor, generală scurtă alternativ. Anestezie locală insuficientă pentru această intervenție." },
-      { title: "Incizie și disecție", description: "Incizie în formă de Y sau verticală pe perineu, disecția cu identificare capete musculare retractate." },
-      { title: "Sutură mușchi", description: "Plicaturare și sutură mușchi transverși superficiali și bulbocavernoși cu Vicryl 2-0, refacere planșeu muscular." },
-      { title: "Refacere mucoasă", description: "Sutură mucoasa vaginală + tegument perineal cu Vicryl Rapide 4-0, fire fine pentru cicatrici minime." },
-      { title: "Pansament", description: "Pansament steril, gheață local 24h, externare aceeași zi sau dimineața următoare." }
-    ],
-    facts: [
-      { label: "Satisfacție post-procedură", value: "88-93%", source: "Marsh F BJOG 2011" },
-      { label: "Distanță ano-vulvară restabilită", value: ">3 cm" },
-      { label: "Durata intervenției", value: "60-90 min" },
-      { label: "Anestezie", value: "Rahidiană (80% cazuri)" },
-      { label: "Externare", value: "Aceeași zi (90% cazuri)" },
-      { label: "Recuperare activitate normală", value: "4-6 săptămâni" },
-      { label: "Reluare activitate sexuală", value: "6-8 săptămâni" },
-      { label: "Rata complicații majore", value: "<3%", source: "Cochrane 2021" },
-    ],
-    recovery_timeline: [
-      { period: "Zilele 1-3", title: "Disconfort moderat, edem", description: "Repaus, gheață local 15 min/oră, paracetamol + antiinflamator, antibiotic profilactic 7 zile, igienă cu betadină diluată." },
-      { period: "Ziua 4-10", title: "Reluare activitate ușoară", description: "Mobilizare progresivă, evitare poziție șezut prelungită. Pernă inelară pentru confort. Activitate sedentară posibilă din ziua 7-10." },
-      { period: "Săpt. 2-3", title: "Control medical", description: "Verificare cicatrizare. Edemul scade vizibil. Firele resorbabile dispar progresiv." },
-      { period: "Săpt. 4-6", title: "Activitate fizică ușoară", description: "Reluare gradat sport ușor. Evitare ridicare greutăți >5 kg, ciclism, raporturi sexuale, tampoane." },
-      { period: "Săpt. 6-8", title: "Reluare activitate sexuală", description: "După confirmare medicală. Lubrifiant obligatoriu. Disconfort tranzitoriu primele rapoarte." },
-      { period: "Luna 3", title: "Rezultat stabil", description: "Funcționalitate completă, distanța ano-vulvară restabilită, sensibilitate normală, cicatrici fine." }
-    ],
-    risks: [
-      { title: "Edem și disconfort", description: "Frecvent 2-3 săptămâni." },
-      { title: "Hematom", description: "Rar (<3%)." },
-      { title: "Infecție", description: "<2% cu antibioterapie profilactică." },
-      { title: "Dispareunie tranzitorie", description: "15-20%. Rezolvare 3-6 luni." },
-      { title: "Dehiscență", description: "<3%, mai frecventă dacă pacienta nu respectă restricțiile." },
-      { title: "Cicatrice hipertrofică", description: "<5%, mai vizibilă decât la labioplastie din cauza tensiunii." },
-      { title: "Constipație post-op", description: "Frecvent prima săptămână. Laxativ ușor profilactic recomandat." }
-    ],
-    alternatives: [
-      { title: "Exerciții Kegel intensive", description: "Eficient pentru hipotonie ușoară fără ruptură anatomică. Insuficient pentru defecte musculare." },
-      { title: "Biofeedback + electrostimulare", description: "Non-chirurgical, util ca preparare pre-op sau în cazuri ușoare." },
-    ],
-    faqs: [
-      { q: "De ce nu a vindecat bine la naștere?", a: "Repararea inițială la naștere se face frecvent rapid și sub presiunea evenimentului. Capetele musculare retractate pot să nu fie identificate corect, lăsând defecte anatomice. Plus, vindecarea pe perineu inflamat și cu lochii este suboptimală. Perineorafia secundară permite reconstrucție anatomică precisă." },
-      { q: "Voi mai putea naște vaginal după?", a: "Tehnic posibil, dar nașterea vaginală subsecventă risc-mare să rupă din nou perineul reparat. Recomandăm cezariana pentru păstrarea rezultatului dacă rămâneți însărcinată." },
-      { q: "Procedura este dureroasă?", a: "Sub anestezie rahidiană fără durere intra-op. Post-op, disconfort moderat 7-10 zile (perineul este o zonă sensibilă). Pernă inelară și paracetamol controlează disconfortul." },
-      { q: "Când văd rezultatul final?", a: "Edem scade vizibil în 3-4 săptămâni. Cicatrici se albesc complet la 3-6 luni. Funcționalitate sexuală restabilită în 6-8 săptămâni cu lubrifiant inițial." },
-      { q: "Ce se întâmplă dacă revin sarcină după?", a: "Sarcina și nașterea vaginală vor anula rezultatul. Recomandăm contracepție eficientă și planificare familială clară. Cezariana este alternativa dacă doriți copii." }
-    ],
-    citations: [
-      { text: "Marsh F et al. Reconstructive perineal surgery: outcomes (n=180). BJOG, 2011.", url: "https://obgyn.onlinelibrary.wiley.com/", source: "BJOG 2011" },
-      { text: "RCOG Green-top Guideline 29, Management of Third- and Fourth-Degree Perineal Tears, 2015.", url: "https://www.rcog.org.uk/", source: "RCOG 2015" },
-      { text: "Cochrane review on perineal repair techniques, 2021.", url: "https://www.cochranelibrary.com/", source: "Cochrane 2021" },
-      { text: "Goodman MP et al. J Sex Med 2016.", url: "https://pubmed.ncbi.nlm.nih.gov/27986235/", source: "J Sex Med 2016" }
-    ],
-    internalLinks: [
-      { slug: "labioplastie", label: "Labioplastie" }
-    ],
-    speakablePassages: [
-      "Perineorafia restabilește distanța ano-vulvară și forța musculară a planșeului pelvian după nașterea vaginală cu rupturi. 88-93% satisfacție post-procedură conform Marsh BJOG 2011.",
-      "Intervenția durează 60-90 minute sub anestezie rahidiană, recuperarea durează 4-6 săptămâni, iar reluarea activității sexuale este permisă după 6-8 săptămâni."
-    ]
-  },
-  {
     slug: "himenoplastie",
     title: "Himenoplastie București (refacere himen)",
     h1: "Himenoplastie, refacere himen, discreție absolută",
@@ -926,7 +731,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["refacere himen", "hymenorrhaphy", "hymen reconstruction"],
     shortDescription: "Refacere chirurgicală a himenului sub anestezie locală, intervenție 30-45 min, recuperare 1-2 săptămâni, protocol GDPR strict cu factură neutră.",
     lead: "Himenoplastia este o procedură discretă prin care se reface himenul prin sutura marginilor reziduale sau, în cazuri specifice, prin lambou de mucoasă vaginală. La Dr. Diana folosim protocol GDPR strict, factură neutră („Cabinet Medical Diana Gheorghiță, fără referință la diagnostic\"), discreție absolută la consultație și recuperare. Intervenția durează 30-45 minute sub anestezie locală, externare aceeași zi.",
-    cost: "1.500-2.500 EUR",
+    cost: "La consultație",
     duration: "30-45 min",
     recovery: "1-2 săptămâni activitate normală",
     anesthesia: "Locală cu sedare ușoară",
@@ -1018,7 +823,7 @@ export const proceduri: Procedure[] = [
     alternateName: ["G-Shot", "augmentare punct G", "G-spot amplification"],
     shortDescription: "Augmentare punctul G prin injectare de acid hialuronic sau lipofilling, procedură 30 min, fără chirurgie, durată 6-12 luni acid hialuronic / permanent lipo.",
     lead: "G-Shot-ul este o procedură non-chirurgicală prin care se injectează 1-3 ml de acid hialuronic retictat sau grăsime proprie (lipofilling) în peretele anterior al vaginului, în zona Gräfenberg, pentru a amplifica senzația în timpul actului sexual. Studii publicate raportează 87% îmbunătățire subiectivă a plăcerii sexuale (Matlock 2002, n=87). Procedura durează 30 minute sub anestezie locală topică, recuperarea este în 24h. La Dr. Diana folosim acid hialuronic Hyacorp MLF1 sau lipofilling pentru rezultat permanent.",
-    cost: "600-1.500 EUR",
+    cost: "La consultație",
     duration: "30 min",
     recovery: "24 ore",
     anesthesia: "Topică (cremă) + bloc anterior",
@@ -1096,7 +901,6 @@ export const proceduri: Procedure[] = [
     ],
     internalLinks: [
       { slug: "labioplastie", label: "Labioplastie" },
-      { slug: "perineorafie", label: "Perineorafie" }
     ],
     speakablePassages: [
       "G-Shot-ul amplifică senzația în zona Gräfenberg prin injectare de acid hialuronic sau grăsime proprie. Studiul Matlock 2002 raportează 87% îmbunătățire subiectivă.",
