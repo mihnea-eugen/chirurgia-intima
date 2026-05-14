@@ -43,9 +43,9 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             <div className="lg:col-span-7">
               <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-tight mb-8">
-                Genitoplastie pentru bărbați și femei.
+                Genitoplastie pentru bărbați și femei
                 <br />
-                <span className="text-[var(--color-brand-gold-deep)]">Specialista în genitoplastie din România.</span>
+                <span className="text-[var(--color-brand-gold-deep)]">cu discreție, profesionalism și rezultate naturale</span>
               </h1>
               <p className="text-lg text-zinc-700 leading-relaxed mb-10 max-w-2xl">
                 Dr. Diana Gheorghiță, medic chirurg plastic specializat în genitoplastie masculină și feminină. Membră ISAPS, peste 1.000 de proceduri de genitoplastie, peste 10 ani de practică în clinică privată acreditată din București.
@@ -65,10 +65,10 @@ export default function HomePage() {
                   <Award className="w-14 h-14 mx-auto mb-6 text-[var(--color-brand-gold)]" />
                   <div className="font-display text-3xl sm:text-4xl font-medium mb-4 leading-tight">Dr. Diana Gheorghiță</div>
                   <div className="text-base text-white/80 leading-relaxed mb-6">
-                    Specialista în genitoplastie, chirurgie plastică și estetică
+                    Medic Specialist Chirurgie Plastică, Estetică și Microchirurgie Reconstructivă
                   </div>
                   <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-soft)] pt-6 border-t border-white/20">
-                    Membră ISAPS · 10+ ani experiență
+                    Membră ISAPS · 4.9★ din 140 recenzii
                   </div>
                 </div>
               </div>
