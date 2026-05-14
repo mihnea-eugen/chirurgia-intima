@@ -6,6 +6,13 @@ const CLINIC_ID = `${SITE.url}/#clinic`;
 const ORG_ID = `${SITE.url}/#organization`;
 const WEBSITE_ID = `${SITE.url}/#website`;
 
+function parsePriceEUR(cost: string): number | null {
+  // "3.200 EUR" → 3200, "1.500 EUR" → 1500, "La consultație" → null
+  const m = cost.match(/(\d{1,3}(?:[.,]\d{3})?)\s*EUR/);
+  if (!m) return null;
+  return parseInt(m[1].replace(/[.,]/g, ""), 10);
+}
+
 export function getPhysicianSchema() {
   return {
     "@type": ["Physician", "Person"],
@@ -22,6 +29,7 @@ export function getPhysicianSchema() {
     url: `${SITE.url}/despre`,
     telephone: SITE.phone,
     email: SITE.email,
+    gender: "Female",
     medicalSpecialty: ["PlasticSurgery", "Reconstructive Microsurgery", "Aesthetic Surgery"],
     knowsAbout: SITE.physician.knowsAbout,
     sameAs: SITE.physician.sameAs,
@@ -84,6 +92,7 @@ export function getOrganizationSchema() {
     name: SITE.name,
     url: SITE.url,
     logo: { "@type": "ImageObject", url: `${SITE.url}/logo.png`, width: 600, height: 60 },
+    sameAs: SITE.physician.sameAs,
     contactPoint: {
       "@type": "ContactPoint",
       telephone: SITE.phone,
@@ -104,17 +113,13 @@ export function getWebSiteSchema() {
     name: SITE.name,
     description: SITE.description,
     inLanguage: "ro-RO",
-    publisher: { "@id": ORG_ID },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: { "@type": "EntryPoint", urlTemplate: `${SITE.url}/cauta?q={search_term_string}` },
-      "query-input": "required name=search_term_string"
-    }
+    publisher: { "@id": ORG_ID }
   };
 }
 
 export function getProcedureSchema(procedure: Procedure) {
-  return {
+  const priceEUR = parsePriceEUR(procedure.cost);
+  const schema: any = {
     "@type": "MedicalProcedure",
     "@id": `${SITE.url}/proceduri/${procedure.slug}#procedure`,
     name: procedure.title,
@@ -133,6 +138,18 @@ export function getProcedureSchema(procedure: Procedure) {
     study: procedure.citations.map((c) => ({ "@type": "MedicalStudy", name: c.source, url: c.url })),
     url: `${SITE.url}/proceduri/${procedure.slug}`
   };
+  // Add offer with price only if we have a real EUR amount
+  if (priceEUR) {
+    schema.offers = {
+      "@type": "Offer",
+      price: priceEUR,
+      priceCurrency: "EUR",
+      availability: "https://schema.org/InStock",
+      seller: { "@id": PHYSICIAN_ID },
+      url: `${SITE.url}/proceduri/${procedure.slug}`
+    };
+  }
+  return schema;
 }
 
 export function getFAQSchema(faqs: { q: string; a: string }[]) {
