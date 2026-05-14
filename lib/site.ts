@@ -61,7 +61,7 @@ export const SITE = {
   },
   trust: {
     rating: 4.9,
-    reviewCount: 123,
+    reviewCount: 140,
     yearsExperience: 10,
     proceduresPerformed: 1000
   }
