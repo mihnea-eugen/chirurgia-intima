@@ -1,153 +1,263 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { proceduri } from "@/lib/proceduri";
-import Breadcrumbs from "@/components/Breadcrumbs";
-import CTABanner from "@/components/CTABanner";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
-import { ArrowRight, Activity, Sparkles, FlaskConical, Wrench, Scissors } from "lucide-react";
+import { notFound } from "next/navigation";
+import {
+  Clock,
+  ShieldAlert,
+  Hospital,
+  Banknote,
+  Stethoscope,
+  HeartPulse,
+  CheckCircle2,
+  AlertTriangle,
+  Phone,
+  ClipboardCheck,
+  MessageCircle,
+  ArrowRight,
+  GraduationCap
+} from "lucide-react";
+import {
+  getProcedureBySlug,
+  getAllProcedureSlugs,
+  proceduri
+} from "@/lib/proceduri";
 import { SITE } from "@/lib/site";
+import {
+  getProcedureSchema,
+  getFAQSchema,
+  getBreadcrumbSchema,
+  getMedicalWebPageSchema
+} from "@/lib/schema";
+import SchemaGraph from "@/components/SchemaGraph";
+import StatGrid from "@/components/StatGrid";
+import FAQ from "@/components/FAQ";
+import RecoveryTimeline from "@/components/RecoveryTimeline";
+import CitationsList from "@/components/CitationsList";
+import CTABanner from "@/components/CTABanner";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import ImagePlaceholder from "@/components/ImagePlaceholder";
 
-export const metadata: Metadata = {
-  title: "Proceduri intime, bărbați și femei | Dr. Diana Gheorghiță",
-  description: "11 proceduri de chirurgie intimă: 7 pentru bărbați (faloplastie, lipofilling, fimoză, circumcizie, P-Shot, extracție corpi străini) și 4 pentru femei (labioplastie, perineorafie, himenoplastie, G-Shot).",
-  alternates: { canonical: `${SITE.url}/proceduri` }
-};
+export function generateStaticParams() {
+  return getAllProcedureSlugs().map((slug) => ({ slug }));
+}
 
-const iconMap: Record<string, typeof Activity> = {
-  "faloplastie": Activity,
-  "ingrosare-penis-lipofilling": Sparkles,
-  "marire-penis-acid-hialuronic": FlaskConical,
-  "fimoza": Wrench,
-  "circumcizie-adulti": Scissors,
-  "p-shot-prp": Activity,
-  "extractie-kanamicina": Wrench,
-  "labioplastie": Sparkles,
-  "perineorafie": Wrench,
-  "himenoplastie": Scissors,
-  "augmentare-punct-g": FlaskConical
-};
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const proc = getProcedureBySlug(slug);
+  if (!proc) return { title: "Procedură" };
+  return {
+    title: proc.metaTitle,
+    description: proc.metaDescription,
+    alternates: { canonical: `${SITE.url}/proceduri/${proc.slug}` },
+    openGraph: {
+      title: proc.metaTitle,
+      description: proc.metaDescription,
+      url: `${SITE.url}/proceduri/${proc.slug}`,
+      type: "article"
+    }
+  };
+}
 
-export default function ProceduriIndexPage() {
-  const masculin = proceduri.filter(p => ["augmentare", "preput", "reparator", "regenerativ"].includes(p.category));
-  const feminin = proceduri.filter(p => p.category.startsWith("feminin"));
+export default async function ProcedurePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const proc = getProcedureBySlug(slug);
+  if (!proc) {
+    notFound();
+  }
+  // After notFound() throws, TS should narrow proc — assert non-null defensively
+  const p = proc!;
 
   const breadcrumbs = [
     { name: "Acasă", url: "/" },
-    { name: "Proceduri", url: "/proceduri" }
+    { name: "Proceduri", url: "/proceduri" },
+    { name: p.title, url: `/proceduri/${p.slug}` }
   ];
+  const breadcrumbsAbs = breadcrumbs.map((b) => ({ ...b, url: b.url.startsWith("/") ? `${SITE.url}${b.url}` : b.url }));
+
+  const otherProcs = proceduri.filter((x) => x.slug !== p.slug).slice(0, 3);
 
   return (
     <>
-      {/* HERO */}
-      <section className="border-b border-zinc-200 bg-gradient-to-b from-white via-zinc-50 to-white">
-        <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
-          <Breadcrumbs items={breadcrumbs} />
-          <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center mt-8">
-            <div className="lg:col-span-7">
-              <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6">
-                Proceduri intime
-                <br />
-                <span className="text-[var(--color-brand-gold-deep)]">12 intervenții, 1 chirurg-femeie</span>
-              </h1>
-              <p className="text-lg text-zinc-700 leading-relaxed max-w-2xl">
-                7 proceduri pentru bărbați și 5 pentru femei, sub semnătura unui medic-femeie specializat sistematic în chirurgia intimă. Fiecare procedură are propria pagină cu cifre verificate, surse științifice și ghid recuperare săptămânal.
-              </p>
+      <SchemaGraph
+        items={[
+          getMedicalWebPageSchema({
+            name: p.metaTitle,
+            description: p.metaDescription,
+            url: `${SITE.url}/proceduri/${p.slug}`,
+            speakable: true
+          }),
+          getProcedureSchema(p),
+          getFAQSchema(p.faqs),
+          getBreadcrumbSchema(breadcrumbsAbs)
+        ]}
+      />
+
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
+        <Breadcrumbs items={breadcrumbs} />
+        <div className="mt-8 mb-12 lg:mb-16">
+          <ImagePlaceholder
+            label={`Hero: ${p.title}`}
+            hint={`Sugestie: foto cabinet anonimizată sau grafic concept pentru ${p.primaryKeyword}. Fără pacienți, fără informații care identifică persoane.`}
+            ratio="21/9"
+            variant="navy"
+          />
+        </div>
+        <div className="grid lg:grid-cols-3 gap-10">
+          {/* ARTICLE */}
+          <article className="lg:col-span-2 prose-custom">
+            <div className="mb-2 inline-block bg-zinc-100 text-zinc-700 text-xs px-2 py-1 rounded uppercase tracking-wide">
+              {p.category === "augmentare" ? "Augmentare" : p.category === "preput" ? "Prepuț, igienă" : p.category === "reparator" ? "Reparator" : p.category === "regenerativ" ? "Regenerativ" : p.category === "feminin-labii" ? "Femei: Labii" : p.category === "feminin-vagin" ? "Femei: Vagin și perineu" : "Femei: Reconstrucție"}
             </div>
-            <div className="lg:col-span-5">
+            <h1 className="font-display">{p.h1}</h1>
+            <p className="lead">{p.lead}</p>
+
+            <h2>Despre procedură</h2>
+            <p>{p.whatIs}</p>
+
+            {p.whenIndicated.length > 0 && (
+              <>
+                <h3>Când este indicată</h3>
+                <ul>
+                  {p.whenIndicated.map((it, idx) => (
+                    <li key={idx}>{it}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+
+            {p.whenNotIndicated.length > 0 && (
+              <>
+                <h3>Când NU este indicată</h3>
+                <ul>
+                  {p.whenNotIndicated.map((it, idx) => (
+                    <li key={idx}>{it}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+
+            <h2>Cifre cheie</h2>
+            <StatGrid facts={p.facts} />
+
+            <h2>Procedura pas cu pas</h2>
+            <ol className="list-decimal pl-5 space-y-3 mt-3">
+              {p.procedureSteps.map((s, idx) => (
+                <li key={idx}>
+                  <strong>{s.title}.</strong> {s.description}
+                </li>
+              ))}
+            </ol>
+
+            <div className="my-10">
               <ImagePlaceholder
-                label="Hero pagina Proceduri"
-                hint="Sugestie: foto cabinet medical curat, instrument chirurgical inox, fără pacient. Sau: grafic abstract cu 12 cercuri simbolizând cele 12 proceduri."
-                ratio="4/3"
-                variant="navy"
+                label="Schema tehnică intervenție"
+                hint="Sugestie: ilustrație medicală anatomică (NU foto pacient). Anonimizat 100%, doar diagrama tehnicii chirurgicale."
+                ratio="16/9"
+                variant="cream"
               />
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* MASCULIN */}
-      <section className="border-b border-zinc-200 bg-white">
-        <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-20 sm:py-24">
-          <div className="flex items-center gap-3 mb-8">
-            <div className="w-12 h-px bg-[var(--color-brand-gold)]" />
-            <div className="text-xs uppercase tracking-widest font-semibold text-[var(--color-brand-gold-deep)]">Pentru bărbați</div>
-          </div>
-          <h2 className="font-display text-3xl sm:text-4xl mb-4">Chirurgie intimă masculină</h2>
-          <p className="text-zinc-600 leading-relaxed mb-12 max-w-2xl">
-            Faloplastie, circumcizie, fimoză, P-Shot și extracție corpi străini intrapenieni. {masculin.length} proceduri pillar.
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {masculin.map(p => {
-              const Icon = iconMap[p.slug] || Activity;
-              return (
-                <Link key={p.slug} href={`/proceduri/${p.slug}`} className="group rounded-xl bg-white border border-zinc-200 hover:border-[var(--color-brand-gold)] hover:shadow-lg transition-all overflow-hidden no-underline flex flex-col">
-                  <ImagePlaceholder
-                    label={p.title}
-                    ratio="16/9"
-                    variant="cream"
-                    className="border-0 rounded-none"
-                  />
-                  <div className="p-6 flex-1 flex flex-col">
-                    <div className="flex items-start gap-3 mb-3">
-                      <Icon className="w-5 h-5 text-[var(--color-brand-gold)] mt-0.5 flex-shrink-0" />
-                      <div className="font-display text-lg text-[var(--color-brand-navy)] leading-tight font-medium">{p.title}</div>
-                    </div>
-                    <p className="text-sm text-zinc-600 leading-relaxed mb-4 flex-1">{p.shortDescription}</p>
-                    <div className="text-xs font-semibold text-[var(--color-brand-gold-deep)] inline-flex items-center gap-1 mt-auto group-hover:gap-2 transition-all">
-                      Vezi detalii <ArrowRight className="w-3.5 h-3.5" />
-                    </div>
+            {p.recovery_timeline.length > 0 && (
+              <>
+                <h2>Recuperare săptămânal</h2>
+                <RecoveryTimeline steps={p.recovery_timeline} />
+              </>
+            )}
+
+            <h2>Riscuri și complicații</h2>
+            <ul className="not-prose space-y-3 mt-3 list-none pl-0">
+              {p.risks.map((r, idx) => (
+                <li key={idx} className="bg-zinc-50 border-l-4 border-[var(--color-brand-gold)] p-4 rounded-r">
+                  <div className="font-semibold text-[var(--color-brand-navy)] flex items-start gap-2">
+                    <AlertTriangle className="w-4 h-4 mt-1 flex-shrink-0 text-[var(--color-brand-gold)]" />
+                    {r.title}
+                  </div>
+                  <p className="text-zinc-700 mt-1">{r.description}</p>
+                </li>
+              ))}
+            </ul>
+
+            <h2>Comparație cu alternative</h2>
+            <div className="grid sm:grid-cols-2 gap-3 mt-3">
+              {p.alternatives.map((a, idx) => (
+                <div key={idx} className="border border-zinc-200 p-4 rounded-lg bg-white">
+                  <div className="font-semibold text-[var(--color-brand-navy)] flex items-start gap-2 mb-1">
+                    <CheckCircle2 className="w-4 h-4 mt-0.5 flex-shrink-0 text-[var(--color-brand-gold)]" />
+                    {a.title}
+                  </div>
+                  <p className="text-sm text-zinc-700">{a.description}</p>
+                </div>
+              ))}
+            </div>
+
+            <h2 id="faq">Întrebări frecvente</h2>
+            <FAQ items={p.faqs} />
+
+            <h2>Surse științifice citate</h2>
+            <CitationsList citations={p.citations} />
+
+            <CTABanner />
+
+            <h2>Alte proceduri</h2>
+            <div className="grid sm:grid-cols-3 gap-3 mt-3">
+              {otherProcs.map((p) => (
+                <Link key={p.slug} href={`/proceduri/${p.slug}`} className="border border-zinc-200 rounded-lg p-3 no-underline hover:border-[var(--color-brand-gold)] transition-colors">
+                  <div className="text-xs uppercase text-zinc-500 mb-1 tracking-wide">Procedură</div>
+                  <div className="font-semibold text-[var(--color-brand-navy)]">{p.title}</div>
+                  <div className="inline-flex items-center gap-1 text-xs text-zinc-500 mt-1">
+                    Vezi detalii <ArrowRight className="w-3 h-3" />
                   </div>
                 </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+              ))}
+            </div>
+          </article>
 
-      {/* FEMININ */}
-      <section className="border-b border-zinc-200 bg-zinc-50">
-        <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-20 sm:py-24">
-          <div className="flex items-center gap-3 mb-8">
-            <div className="w-12 h-px bg-[var(--color-brand-gold)]" />
-            <div className="text-xs uppercase tracking-widest font-semibold text-[var(--color-brand-gold-deep)]">Pentru femei</div>
-          </div>
-          <h2 className="font-display text-3xl sm:text-4xl mb-4">Chirurgie intimă feminină</h2>
-          <p className="text-zinc-600 leading-relaxed mb-12 max-w-2xl">
-            Labioplastie wedge, perineorafie, himenoplastie și G-Shot. {feminin.length} proceduri sub protocol GDPR strict.
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {feminin.map(p => {
-              const Icon = iconMap[p.slug] || Sparkles;
-              return (
-                <Link key={p.slug} href={`/proceduri/${p.slug}`} className="group rounded-xl bg-white border border-zinc-200 hover:border-[var(--color-brand-gold)] hover:shadow-lg transition-all overflow-hidden no-underline flex flex-col">
-                  <ImagePlaceholder
-                    label={p.title}
-                    ratio="16/9"
-                    variant="gold-soft"
-                    className="border-0 rounded-none"
-                  />
-                  <div className="p-6 flex-1 flex flex-col">
-                    <div className="flex items-start gap-3 mb-3">
-                      <Icon className="w-5 h-5 text-[var(--color-brand-gold)] mt-0.5 flex-shrink-0" />
-                      <div className="font-display text-lg text-[var(--color-brand-navy)] leading-tight font-medium">{p.title}</div>
-                    </div>
-                    <p className="text-sm text-zinc-600 leading-relaxed mb-4 flex-1">{p.shortDescription}</p>
-                    <div className="text-xs font-semibold text-[var(--color-brand-gold-deep)] inline-flex items-center gap-1 mt-auto group-hover:gap-2 transition-all">
-                      Vezi detalii <ArrowRight className="w-3.5 h-3.5" />
-                    </div>
-                  </div>
+          {/* SIDEBAR */}
+          <aside className="lg:col-span-1">
+            <div className="sticky top-32 space-y-4">
+              <div className="bg-[var(--color-brand-navy)] text-white p-5 rounded-xl">
+                <div className="text-xs uppercase tracking-wide opacity-80 mb-1">Cost estimat</div>
+                <div className="text-3xl font-display font-semibold mb-3">{p.cost}</div>
+                <div className="text-xs opacity-80 italic mb-4">Finanțare TBI Bank disponibilă, până la 36 luni.</div>
+                <Link href="/programare" className="btn btn-gold w-full justify-center">
+                  <ClipboardCheck className="w-4 h-4" /> Programare consultație
                 </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+                <a href={`tel:${SITE.phone}`} className="mt-2 btn w-full justify-center bg-white text-[var(--color-brand-navy)]">
+                  <Phone className="w-4 h-4" /> {SITE.phone}
+                </a>
+                <a href={`https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}`} target="_blank" rel="noopener noreferrer" className="mt-2 btn w-full justify-center bg-white/15 text-white border border-white/30 hover:bg-white/25">
+                  <MessageCircle className="w-4 h-4" /> WhatsApp
+                </a>
+              </div>
 
-      <section className="bg-white">
-        <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20">
-          <CTABanner />
+              <div className="bg-white border border-zinc-200 rounded-xl p-5">
+                <h4 className="text-sm uppercase tracking-wide text-zinc-500 mb-3 font-semibold">Detalii procedură</h4>
+                <ul className="space-y-3 text-sm">
+                  <li className="flex items-start gap-2"><Clock className="w-4 h-4 mt-0.5 text-[var(--color-brand-gold)]" /><span><strong>Durată:</strong> {p.duration}</span></li>
+                  <li className="flex items-start gap-2"><HeartPulse className="w-4 h-4 mt-0.5 text-[var(--color-brand-gold)]" /><span><strong>Recuperare:</strong> {p.recovery}</span></li>
+                  <li className="flex items-start gap-2"><Stethoscope className="w-4 h-4 mt-0.5 text-[var(--color-brand-gold)]" /><span><strong>Anestezie:</strong> {p.anesthesia}</span></li>
+                  <li className="flex items-start gap-2"><Hospital className="w-4 h-4 mt-0.5 text-[var(--color-brand-gold)]" /><span><strong>Spitalizare:</strong> {p.hospitalStay}</span></li>
+                  <li className="flex items-start gap-2"><HeartPulse className="w-4 h-4 mt-0.5 text-[var(--color-brand-gold)]" /><span><strong>Activitate sexuală:</strong> {p.sexualActivity}</span></li>
+                  <li className="flex items-start gap-2"><ShieldAlert className="w-4 h-4 mt-0.5 text-[var(--color-brand-gold)]" /><span><strong>Tip:</strong> {p.procedureType === "SurgicalProcedure" ? "Chirurgicală" : p.procedureType === "NonSurgicalProcedure" ? "Non-chirurgicală" : "Terapeutică"}</span></li>
+                </ul>
+              </div>
+
+              <div className="bg-[var(--color-brand-cream)] rounded-xl p-5 border border-zinc-200">
+                <div className="flex items-start gap-3">
+                  <GraduationCap className="w-6 h-6 text-[var(--color-brand-gold)] flex-shrink-0 mt-0.5" />
+                  <div>
+                    <div className="font-display font-semibold text-[var(--color-brand-navy)] mb-1">Dr. Diana Gheorghiță</div>
+                    <p className="text-sm text-zinc-700">
+                      Medic specialist Chirurgie Plastică, Estetică și Microchirurgie Reconstructivă. Membră ISAPS. Peste {SITE.trust.proceduresPerformed} proceduri intime.
+                    </p>
+                    <Link href="/despre" className="text-sm text-[var(--color-brand-navy)] underline mt-2 inline-block">Despre Dr. Diana</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
         </div>
-      </section>
+      </div>
     </>
   );
 }
