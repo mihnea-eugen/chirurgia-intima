@@ -8,9 +8,9 @@ import { SITE } from "@/lib/site";
 type ProcedureLink = { slug: string; title: string; tag: string };
 
 const masculin: ProcedureLink[] = [
-  { slug: "alungire-penis", title: "Alungire chirurgicală", tag: "Faloplastie 2-5 cm" },
-  { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling", tag: "Grăsime proprie" },
-  { slug: "ingrosare-acid-hialuronic", title: "Augmentare acid hialuronic", tag: "Reversibil" },
+  { slug: "faloplastie", title: "Alungire chirurgicală", tag: "Faloplastie 2-5 cm" },
+  { slug: "ingrosare-penis-lipofilling", title: "Îngroșare cu lipofilling", tag: "Grăsime proprie" },
+  { slug: "marire-penis-acid-hialuronic", title: "Augmentare acid hialuronic", tag: "Reversibil" },
   { slug: "fimoza", title: "Fimoza la adulți", tag: "Conservator + chirurgical" },
   { slug: "circumcizie", title: "Circumcizie", tag: "Anestezie locală" },
   { slug: "p-shot-prp", title: "P-Shot, plasmă proprie", tag: "Tratament regenerativ" },

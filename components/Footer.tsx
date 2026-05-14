@@ -2,8 +2,8 @@ import Link from "next/link";
 import { SITE } from "@/lib/site";
 
 const footerMasculin = [
-  { slug: "alungire-penis", title: "Alungire chirurgicală" },
-  { slug: "ingrosare-lipofilling", title: "Îngroșare cu lipofilling" },
+  { slug: "faloplastie", title: "Alungire chirurgicală" },
+  { slug: "ingrosare-penis-lipofilling", title: "Îngroșare cu lipofilling" },
   { slug: "fimoza", title: "Fimoza la adulți" },
   { slug: "circumcizie", title: "Circumcizie" }
 ];
