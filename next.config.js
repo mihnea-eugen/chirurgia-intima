@@ -19,7 +19,22 @@ const nextConfig = {
       },
       {
         source: '/proceduri/vaginoplastie',
-        destination: '/genitoplastie',
+        destination: '/proceduri',
+        permanent: true
+      },
+      {
+        source: '/proceduri/alungire-penis',
+        destination: '/proceduri/faloplastie',
+        permanent: true
+      },
+      {
+        source: '/proceduri/ingrosare-lipofilling',
+        destination: '/proceduri/ingrosare-penis-lipofilling',
+        permanent: true
+      },
+      {
+        source: '/proceduri/ingrosare-acid-hialuronic',
+        destination: '/proceduri/marire-penis-acid-hialuronic',
         permanent: true
       },
       {
