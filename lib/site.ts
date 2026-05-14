@@ -3,12 +3,12 @@ export const SITE = {
   shortName: "Genitoplastie",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://genitoplastie.ro",
   description:
-    "Specialista în genitoplastie pentru bărbați și femei, Dr. Diana Gheorghiță. Faloplastie, circumcizie, fimoză, P-Shot, labioplastie, perineorafie, himenoplastie. Membră ISAPS, peste 10 ani experiență, clinică privată acreditată din București.",
+    "Specialist în genitoplastie pentru femei și bărbați, Dr. Diana Gheorghiță. Labioplastie, himenoplastie, augmentare punctul G, faloplastie, circumcizie, fimoză, P-Shot. Membră ISAPS, peste 10 ani experiență, clinică privată acreditată din București.",
   phone: "+40775345931",
   whatsapp: "+40775345931",
   email: "contact@genitoplastie.ro",
   locale: "ro_RO",
-  ogImage: "/og-default.jpg",
+  ogImage: "/logo-drdiana.png",
   twitter: "@drdianagheorghita",
   clinic: {
     name: "Clinica Pogany",

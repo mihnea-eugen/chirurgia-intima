@@ -91,7 +91,7 @@ export function getOrganizationSchema() {
     "@id": ORG_ID,
     name: SITE.name,
     url: SITE.url,
-    logo: { "@type": "ImageObject", url: `${SITE.url}/logo.png`, width: 600, height: 60 },
+    logo: { "@type": "ImageObject", url: `${SITE.url}/logo-drdiana.png`, width: 1024, height: 244 },
     sameAs: SITE.physician.sameAs,
     contactPoint: {
       "@type": "ContactPoint",
