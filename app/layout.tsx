@@ -64,6 +64,9 @@ export const metadata: Metadata = {
     description: SITE.description,
     site: SITE.twitter
   },
+  verification: {
+    google: "zZK3pYvkJsIcSDWYyCVu7znw4TxkG5wpEO1XeNaNhZc"
+  },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } }
 };
 
