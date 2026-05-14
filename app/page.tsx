@@ -17,7 +17,6 @@ const masculin = [
 
 const feminin = [
   { slug: "labioplastie", title: "Labioplastie", subtitle: "Reducere labii mici prin rezecție în pană", icon: Sparkles },
-  { slug: "perineorafie", title: "Perineorafie", subtitle: "Refacere perineu post-naștere", icon: Wrench },
   { slug: "himenoplastie", title: "Himenoplastie", subtitle: "Refacere himen, discreție GDPR", icon: Scissors },
   { slug: "augmentare-punct-g", title: "Augmentare punctul G", subtitle: "G-Shot acid hialuronic / lipofilling", icon: FlaskConical }
 ];
@@ -141,7 +140,7 @@ export default function HomePage() {
                 <div className="text-xs uppercase tracking-widest text-[var(--color-brand-gold-deep)] font-semibold mb-3">Pentru femei</div>
                 <h3 className="font-display text-3xl mb-4">Genitoplastie feminină</h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Labioplastie prin rezecție în pană, perineorafie, himenoplastie și G-Shot. 4 proceduri pentru sănătate intimă, încredere și plăcere sexuală, cu protocol GDPR strict.
+                  Labioplastie prin rezecție în pană, himenoplastie și G-Shot. 3 proceduri pentru sănătate intimă, încredere și plăcere sexuală, cu protocol GDPR strict.
                 </p>
               </div>
               <div className="space-y-4">
@@ -245,7 +244,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { age: "B, 34 ani", text: "Am ales-o pentru profesionalism. Faptul că este medic femeie m-a făcut să simt mai puțină jenă în consultație. A explicat clar limitele a ceea ce se poate face.", proc: "Faloplastie + lipofilling combinat" },
-              { age: "F, 38 ani", text: "După două nașteri naturale aveam disconfort fizic și estetic. Perineorafia a refăcut tot. Soțul a observat diferența imediat. Recomand fără rezerve.", proc: "Perineorafie" },
+              { age: "F, 32 ani", text: "Am ales labioplastia după ce ani de zile am avut disconfort fizic. Rezultatul e exact ce mi-am dorit, natural și discret. Dr. Diana a fost atentă la fiecare detaliu.", proc: "Labioplastie" },
               { age: "B, 28 ani", text: "Făcusem o greșeală cu kanamicina la 22 de ani. Dr. Diana a fost prima care mi-a spus în față că trebuie scoasă, fără să mă judece. Am refăcut lucrurile.", proc: "Extracție kanamicina + lipofilling" }
             ].map((t, idx) => (
               <div key={idx} className="p-10 rounded-xl bg-[var(--color-brand-cream)] border border-zinc-200 flex flex-col">
