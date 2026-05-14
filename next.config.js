@@ -6,7 +6,8 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       { protocol: 'https', hostname: 'drdiana.ro' },
-      { protocol: 'https', hostname: 'chirurgia-intima.com' }
+      { protocol: 'https', hostname: 'chirurgia-intima.com' },
+      { protocol: 'https', hostname: 'genitoplastie.ro' }
     ]
   },
   async redirects() {
@@ -18,7 +19,12 @@ const nextConfig = {
       },
       {
         source: '/proceduri/vaginoplastie',
-        destination: '/proceduri',
+        destination: '/genitoplastie',
+        permanent: true
+      },
+      {
+        source: '/chirurgie-intima',
+        destination: '/genitoplastie',
         permanent: true
       }
     ]
