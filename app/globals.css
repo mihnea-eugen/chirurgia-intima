@@ -1,26 +1,29 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-navy: #0F2E4F;
-  --color-brand-navy-dark: #081B30;
-  --color-brand-navy-soft: #1E3A5F;
-  --color-brand-gold: #B89968;
-  --color-brand-gold-soft: #D4B98A;
-  --color-brand-gold-deep: #8E7344;
-  --color-brand-burgundy: #6B2C39;
-  --color-brand-cream: #F8F5EE;
-  --color-brand-sand: #EAE2D0;
-  --color-brand-charcoal: #1C1C1C;
-  --color-brand-gray: #6B6B6B;
-  --color-brand-gray-light: #F2EFE9;
+  /* Palette champagne + terracotta — warm premium, M+F balance */
+  --color-brand-navy: #2A3142;          /* softer warm navy, headlines */
+  --color-brand-navy-dark: #1A1F2D;     /* hover dark */
+  --color-brand-navy-soft: #3D4456;     /* secondary text */
+  --color-brand-gold: #C77D55;          /* TERRACOTTA — primary accent, CTA */
+  --color-brand-gold-soft: #E0A082;     /* hover light */
+  --color-brand-gold-deep: #A05A38;     /* hover dark, deep terracotta */
+  --color-brand-bronze: #B89968;        /* bronze — secondary accent, trust badges */
+  --color-brand-bronze-soft: #D4B98A;   /* soft bronze for borders/dividers */
+  --color-brand-burgundy: #7A2D3A;      /* wine accent rar folosit */
+  --color-brand-cream: #FAF5ED;         /* warm cream background */
+  --color-brand-sand: #F0E5D0;          /* light sand surface */
+  --color-brand-charcoal: #2A2620;      /* warm charcoal text */
+  --color-brand-gray: #6B6862;          /* warm gray */
+  --color-brand-gray-light: #F2EBE0;    /* light warm gray */
 
   --font-sans: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Cormorant Garamond", "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #1C1C1C;
+  --background: #FFFFFF;          /* main content surface ramane alb pentru contrast */
+  --foreground: #2A2620;          /* warm charcoal */
 }
 
 * { box-sizing: border-box; }
